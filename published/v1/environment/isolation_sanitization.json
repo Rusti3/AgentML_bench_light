@@ -1,0 +1,590 @@
+{
+  "policy": "No bundled labelled dataset tables in agent runtime; only issued task data",
+  "removed_assets": [
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
+      "bytes": 13634,
+      "sha256": "5e72868826a7a4329a950e5a9efa393594807833fb7f27e5cd001a8afb9cd081"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/README.txt",
+      "bytes": 128,
+      "sha256": "001cf5f5504a7c67b0758dfd4089c6f5071c827d4c4d85776d3e4f87b4c2cb66"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv",
+      "bytes": 67924,
+      "sha256": "ef6f3bf1a64d5c6c5de702ef154c3fae78fe9df83882ab6bb9c6638bec3cdf47"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/axes_grid/bivariate_normal.npy",
+      "bytes": 1880,
+      "sha256": "0e9599f6e74087aa2ca58aa77846b6ec3e8491180e445c07a2c69c65756ef7c5"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv",
+      "bytes": 132,
+      "sha256": "034494ddbb8e506853f8d23fe8b43aa7bd1f152214de22c5760cefceb291e921"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/eeg.dat",
+      "bytes": 25600,
+      "sha256": "28656316df0004acfba7a5d98ab35f7314933a918636ec80f09604ad128b4417"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/embedding_in_wx3.xrc",
+      "bytes": 2186,
+      "sha256": "714a95c39bc31cd499a1a3b827479b6547f94ab24fdfaefbe5a6eced1f417258"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/goog.npz",
+      "bytes": 22845,
+      "sha256": "400917cf30e6b664f7b0da93d7c745860d3aa9008da8b7f160d2dd12e6a318b1"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
+      "bytes": 61306,
+      "sha256": "a8ca6d734765703b09728ab47fe59f473d93ae3967fc24c7c0288c3c7adb7130"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/jacksboro_fault_dem.npz",
+      "bytes": 174061,
+      "sha256": "d493f50a33e82a4420494c54d1fca1539d177bdc27ab190bc5fe6e92f62fb637"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
+      "bytes": 22279,
+      "sha256": "0d7371e055decaac47cb6e809af3442e9c1ecd02f1c1e2d063d1cfee4b4a21d7"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/membrane.dat",
+      "bytes": 48000,
+      "sha256": "ab795b429201a5bb575c6370d5e17090dfcfc317431aa9382f8e881366f43357"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/msft.csv",
+      "bytes": 3211,
+      "sha256": "180aca6f43b70e029946c29d25fea55f7acc49ff8f09e908881a0b35d805ecc9"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/s1045.ima.gz",
+      "bytes": 33229,
+      "sha256": "32b424d64f62b7e71cb24d29fd53938ad5664d608055a67ab2b2af4369f8b89e"
+    },
+    {
+      "path": "lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/topobathy.npz",
+      "bytes": 45224,
+      "sha256": "0244e03291702df45024dcb5cacbc4f3d4cb30d72dfa7fd371c4ac61c42b4fbf"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/carshare.csv.gz",
+      "bytes": 6215,
+      "sha256": "a0bbf2c15a87142158e5975719a8ea197ce27bd08430df7c903a3e225aba5cd0"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/election.csv.gz",
+      "bytes": 1656,
+      "sha256": "54bf047516fde7930c3fbc6b11b1dabae29b838507b56772f0e41a349abb82be"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/election.geojson.gz",
+      "bytes": 31857,
+      "sha256": "3c67ef7244a8d39d254a8659a569437f6ab214e78e25dc34b198b8b4a455f6fc"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/experiment.csv.gz",
+      "bytes": 3154,
+      "sha256": "ff3ffab64fa8078e9162ab8fd10b70c2c1f17f5d5adba36467f0826768d00f91"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/gapminder.csv.gz",
+      "bytes": 34016,
+      "sha256": "fa7af7b739ac5a4cdf47e32a085ce74e351bbf5d2ae33890a298b1904afd0dfd"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/iris.csv.gz",
+      "bytes": 875,
+      "sha256": "3b92fa7bbdbf9720fba1c021a6dc0fb7eac0827094bb4045e70c9960582eaab5"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/medals.csv.gz",
+      "bytes": 110,
+      "sha256": "71b233248152a78b51612463628682e0d46855b6be6c1838ed8b091bbaf12dd9"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/stocks.csv.gz",
+      "bytes": 5895,
+      "sha256": "8bb4cd39dc16c3408c311383344d359690930a10f480e522895d3983a30d789a"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/tips.csv.gz",
+      "bytes": 1740,
+      "sha256": "cba42a1384173aafc7b8574f063d48189800f9e4fdc6d9ae0b8f0a2be106fa2a"
+    },
+    {
+      "path": "lib/python3.12/site-packages/plotly/package_data/datasets/wind.csv.gz",
+      "bytes": 424,
+      "sha256": "9fbad0081d48606f87ff940b23c8f0a31d5530c364f6c87acb631004a43fbabf"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/boston_house_prices.csv",
+      "bytes": 34742,
+      "sha256": "d98212636026544fc9b9c0f372e5f819872e6fa6fa757ab025efdda22180f2d6"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/breast_cancer.csv",
+      "bytes": 119913,
+      "sha256": "fed3eb72d0575ef6192293f5093c6e801b1476b577d0386bf4455504522172ed"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/diabetes_data_raw.csv.gz",
+      "bytes": 7105,
+      "sha256": "a3e94cc7cea00f8a84fa5f6345203913a68efa42df18f87ddf9bead721bfd503"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/diabetes_target.csv.gz",
+      "bytes": 1050,
+      "sha256": "8e53f65eb811df43c206f3534bb3af0e5fed213bc37ed6ba36310157d6023803"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/digits.csv.gz",
+      "bytes": 57523,
+      "sha256": "09f66e6debdee2cd2b5ae59e0d6abbb73fc2b0e0185d2e1957e9ebb51e23aa22"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/iris.csv",
+      "bytes": 2734,
+      "sha256": "f13ffa8fdd56fd8e6c8d16d4081a3fbd3114bcd0aae4256c43205169cd9d1449"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/linnerud_exercise.csv",
+      "bytes": 212,
+      "sha256": "cb8d8c24937643fa2459682efb86c5e667bcd6dd93109eef81964d9e9f11bf8c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/linnerud_physiological.csv",
+      "bytes": 219,
+      "sha256": "2bf7e05c1cd7d0adf0eca1e456941f624bed0a4fc96694d60d0ff7853ec5fcf7"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/data/wine_data.csv",
+      "bytes": 11157,
+      "sha256": "10e8a802908b34f86e5da8ce962f3c806694bc98450a18f61851af59f324bede"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1/api-v1-jd-1.json.gz",
+      "bytes": 1786,
+      "sha256": "862e08520a2433a495a3bd3ae9fd9e6c7c540a9c632db29bb8252784cbdad779"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1/api-v1-jdf-1.json.gz",
+      "bytes": 889,
+      "sha256": "a966dad58cf5fbc914a374ad5556c0414f5ed962237ed55a379fe96e308d00de"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1/api-v1-jdq-1.json.gz",
+      "bytes": 145,
+      "sha256": "84a8726d2c3f8bbca79d54d8b191158744b1993146f8f083b111a8ea78536057"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1/data-v1-dl-1.arff.gz",
+      "bytes": 1841,
+      "sha256": "cfe8945b949770b0da42daf58ce67d1c5fee25cf7b4fd145161837c2abc09429"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1119/api-v1-jd-1119.json.gz",
+      "bytes": 711,
+      "sha256": "c41e5fbb3e59cd4de881ed7c8f88f9b03a750d537ba63581cafde6aafd77adc1"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1119/api-v1-jdf-1119.json.gz",
+      "bytes": 1108,
+      "sha256": "82f899edc59cb41fdd671b256a228e5e06dfc5e24c92712e75005b251b000865"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1119/api-v1-jdl-dn-adult-census-l-2-dv-1.json.gz",
+      "bytes": 364,
+      "sha256": "4a5dc36ca9758313978b2a9d79cce763c6f84d5d95f15ac557b3d7482f22ee21"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1119/api-v1-jdl-dn-adult-census-l-2-s-act-.json.gz",
+      "bytes": 363,
+      "sha256": "6ec0955788914fa81f698e97a4d1aff773d7a125ed6e769c6271a0b48fc4011d"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1119/api-v1-jdq-1119.json.gz",
+      "bytes": 1549,
+      "sha256": "ef7cbcb58c2edcfea45c058b751faf7783e710462a924e9aacad8d47a7e9f94b"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1119/data-v1-dl-54002.arff.gz",
+      "bytes": 1190,
+      "sha256": "6931af256195fcdd2e47dd8b0f9edf16fbf03b198e77b70e3dfd9877cdf09515"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1590/api-v1-jd-1590.json.gz",
+      "bytes": 1544,
+      "sha256": "9b105adfedc6b6b82f4695ca9bfe232393034cdf79803523f397a6dc5bf824d1"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1590/api-v1-jdf-1590.json.gz",
+      "bytes": 1032,
+      "sha256": "046f5e60564693f0f3b8e382725c8012c3e058647139c24685cec984e40fcd00"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1590/api-v1-jdq-1590.json.gz",
+      "bytes": 1507,
+      "sha256": "44b9b0d290a1e339695a431438f84080071c5635161c3977dd17f4c27b00a34a"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_1590/data-v1-dl-1595261.arff.gz",
+      "bytes": 1152,
+      "sha256": "ee1dcdf58f2f1072f7dd1b43388969c51bc6cfe776e3e9465ae6a756e5ddb10a"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_2/api-v1-jd-2.json.gz",
+      "bytes": 1363,
+      "sha256": "a672d435b97a6033dfd1d2a5c823d237ad1865101bd5e403cd99b5be0ba4e03b"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_2/api-v1-jdf-2.json.gz",
+      "bytes": 866,
+      "sha256": "c1b8387a7d08014a1c09807ae458ca7666ab8a3c579cbfb189e09c6d7de892a6"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_2/api-v1-jdl-dn-anneal-l-2-dv-1.json.gz",
+      "bytes": 309,
+      "sha256": "e900b190795224ff48e46a1c02b10020d4c986ba142880c02c86f0b472ded3c9"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_2/api-v1-jdl-dn-anneal-l-2-s-act-.json.gz",
+      "bytes": 346,
+      "sha256": "ff6225cb98260ca4ebec015a1a2754f2a7b0dbfb4d0f17dcf6727542154e2a10"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_2/api-v1-jdq-2.json.gz",
+      "bytes": 1501,
+      "sha256": "c46f6c5f221d877de604b906403b20cbdf674f1225bcdbb3e15bd1882a69a471"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_2/data-v1-dl-1666876.arff.gz",
+      "bytes": 1841,
+      "sha256": "cfe8945b949770b0da42daf58ce67d1c5fee25cf7b4fd145161837c2abc09429"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jd-292.json.gz",
+      "bytes": 551,
+      "sha256": "1e6a38d79d8f9e53a2ce11b68b4153062d4e96ec0b368d02b2e64f1b33c51693"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jd-40981.json.gz",
+      "bytes": 553,
+      "sha256": "c26dcbe30cfb39161f305b2b3d43a9b50adc8b368d0749568c47106cbdb20897"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jdf-292.json.gz",
+      "bytes": 306,
+      "sha256": "255c16f33ed2967fe100cd8011a7e69f789603724b1ec2ecf91dfeb72067c190"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jdf-40981.json.gz",
+      "bytes": 306,
+      "sha256": "255c16f33ed2967fe100cd8011a7e69f789603724b1ec2ecf91dfeb72067c190"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jdl-dn-australian-l-2-dv-1-s-dact.json.gz",
+      "bytes": 327,
+      "sha256": "8ef6025425fdfc5f736555ea385252af5bcbf62383615db82489366d4f96a0a7"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jdl-dn-australian-l-2-dv-1.json.gz",
+      "bytes": 99,
+      "sha256": "9da09e9a6031d060ec416f639a6bf34989e6c88ce641d10621eb906ba1d8c293"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/api-v1-jdl-dn-australian-l-2-s-act-.json.gz",
+      "bytes": 319,
+      "sha256": "35890d08165c804526b48aad462d7ccc09e808bd7975ba604bd612b9608797ac"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_292/data-v1-dl-49822.arff.gz",
+      "bytes": 2532,
+      "sha256": "b7ee24adabd4aaed6419b43fe9d3f86d55fcf4bee0f1698ae21d86c2701314e3"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_3/api-v1-jd-3.json.gz",
+      "bytes": 2473,
+      "sha256": "066a216679b197cc51946e17ee9a2e28215425991b0ceb7f10988c14f7f3f869"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_3/api-v1-jdf-3.json.gz",
+      "bytes": 535,
+      "sha256": "ec4f2d6bc4df3882b08bba01571e0792a56f79e0a922d984897773acd284b426"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_3/api-v1-jdq-3.json.gz",
+      "bytes": 1407,
+      "sha256": "09ef19cfad25c5de487ddbaef3c4d068ca3063777730a288dfd6f5096a0c6f46"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_3/data-v1-dl-3.arff.gz",
+      "bytes": 19485,
+      "sha256": "c63fdf8861761f1ca70509f7d2d169a7cc053988c7b7c09c09a6db6124e208be"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40589/api-v1-jd-40589.json.gz",
+      "bytes": 598,
+      "sha256": "59d1aa6b02d2358c16fa9e4fbeff523a3bd10ebd38c7c371911fa8335e7bdcbf"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40589/api-v1-jdf-40589.json.gz",
+      "bytes": 856,
+      "sha256": "826bab057a3929f41189bc51afa0a1752695e63ccf20e128ca6129e9e3321fc2"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40589/api-v1-jdl-dn-emotions-l-2-dv-3.json.gz",
+      "bytes": 315,
+      "sha256": "19e6b2a2a8fec5403c146642a4dc2e077d66a3a1ac87e8239bd1dd31c928ab9c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40589/api-v1-jdl-dn-emotions-l-2-s-act-.json.gz",
+      "bytes": 318,
+      "sha256": "4da63a60163340b6e18922abfe7f1f2a7a7da23da63c269324985d61ffaa6075"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40589/api-v1-jdq-40589.json.gz",
+      "bytes": 913,
+      "sha256": "d0f7973193eb35d19e99d1d8bca3c7f3a8b8d0410508af34ad571aee8ec5ab05"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40589/data-v1-dl-4644182.arff.gz",
+      "bytes": 4344,
+      "sha256": "2c4226550827ceff3509c67179c473e14385cee206536362e57c5e0dfc7751bf"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/api-v1-jd-40675.json.gz",
+      "bytes": 323,
+      "sha256": "a787772d60fbfcc21a0e96fd81906f03542e0b942d19dcc95dae47498953a4fd"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/api-v1-jdf-40675.json.gz",
+      "bytes": 307,
+      "sha256": "d48d9679789d6baf7d0d3c346e3576d7589b663c3640942f9c1dba76e355faaa"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/api-v1-jdl-dn-glass2-l-2-dv-1-s-dact.json.gz",
+      "bytes": 317,
+      "sha256": "21ed1ecc5d874956e951a9361f251afb2165adda92798c89ca5e2f97ae80dd8f"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/api-v1-jdl-dn-glass2-l-2-dv-1.json.gz",
+      "bytes": 85,
+      "sha256": "ad0a4a5477605380f8819ce840dbb928a3d084267c512f6cb50d5be2f7c76bc2"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/api-v1-jdl-dn-glass2-l-2-s-act-.json.gz",
+      "bytes": 88,
+      "sha256": "141ba630e039ea44bbaef92a288e2d964fc3aa2ef805a9723b4aac738a26a627"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/api-v1-jdq-40675.json.gz",
+      "bytes": 886,
+      "sha256": "88fcdc3a6fed5697f36dc262f69bfffb814767ce336ff28a21def3aac937b08c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40675/data-v1-dl-4965250.arff.gz",
+      "bytes": 3000,
+      "sha256": "543d0887312f43d9f65a7e1d08be78a2436369f632d7382b4134cebb525a48a3"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40945/api-v1-jd-40945.json.gz",
+      "bytes": 437,
+      "sha256": "02882c6b02c4e068ef2b16f37f33ae3d5e9dd17ca29d01662c6924e16427eb5d"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40945/api-v1-jdf-40945.json.gz",
+      "bytes": 320,
+      "sha256": "95f0938dfdf1b87d0ffc4d526f2c91e097ef7689480b693970126d908f291030"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40945/api-v1-jdq-40945.json.gz",
+      "bytes": 1042,
+      "sha256": "9c7e5a46554ab6a8121832dc0cd9f7a60f5034cef1a5a7d61346bbd912516b54"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40945/data-v1-dl-16826755.arff.gz",
+      "bytes": 32243,
+      "sha256": "516e961f519876e5f89b339a0364a08dd64160ac3a4d76d5ec62955bfd6d6ce5"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40966/api-v1-jd-40966.json.gz",
+      "bytes": 1660,
+      "sha256": "36c63c3ac8c9db59910acbf4c772cd53040ccd0eac0b0452611dd7ad8da50474"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40966/api-v1-jdf-40966.json.gz",
+      "bytes": 3690,
+      "sha256": "8adac8e2f8cbcbfa9677acdd4927a961430465d2c99401832160be455cfaced8"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40966/api-v1-jdl-dn-miceprotein-l-2-dv-4.json.gz",
+      "bytes": 325,
+      "sha256": "f0c203b4627175cebbf527d81917a499911af915f6f2f46ee7248428a948d603"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40966/api-v1-jdl-dn-miceprotein-l-2-s-act-.json.gz",
+      "bytes": 328,
+      "sha256": "301396b4a42c814b1a15038ddfcbcf5c8590501231747d0dc2a500b84b2fd0df"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40966/api-v1-jdq-40966.json.gz",
+      "bytes": 934,
+      "sha256": "3dee83987fffa8ec20e23b3cabc00d42beb7a469af6bd803909998c1687fa634"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_40966/data-v1-dl-17928620.arff.gz",
+      "bytes": 6471,
+      "sha256": "1c5fd93ffec7deb63a940fd698534dd7ebb7db349fc183930041cbf17e60e2cc"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42074/api-v1-jd-42074.json.gz",
+      "bytes": 584,
+      "sha256": "f443b3add7375ca92ece9296b8449a0780305d3b5210c84994bdeab36271d62a"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42074/api-v1-jdf-42074.json.gz",
+      "bytes": 272,
+      "sha256": "38b74e7f02a61ff55bcfac4d87103d5bffc43febb0c019d9aaa162f8f7693068"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42074/api-v1-jdq-42074.json.gz",
+      "bytes": 722,
+      "sha256": "8742a74bd5bc120acd9186c8a8737cb420ed9b009fade00b24e7ce5217797f2c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42074/data-v1-dl-21552912.arff.gz",
+      "bytes": 2326,
+      "sha256": "f623e777c0a36ae6c82fae10a7c2088cb383298ea244595bf8dc95449c9be4c4"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42585/api-v1-jd-42585.json.gz",
+      "bytes": 1492,
+      "sha256": "7ccbf138e0663895f9cf511136bc6395c153f6238af2eacb6a367e86e15d1a71"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42585/api-v1-jdf-42585.json.gz",
+      "bytes": 312,
+      "sha256": "0985045a454c8186b4e690ebefb6cea1ef7c13292c98d50abda470a0ff3ad425"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42585/api-v1-jdq-42585.json.gz",
+      "bytes": 348,
+      "sha256": "3736e7feb7ad30c68675c2c4e48a9fb262e80308c9083b100ddd0339da1fc282"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_42585/data-v1-dl-21854866.arff.gz",
+      "bytes": 4519,
+      "sha256": "c8d00c6690576a9ec39e1cb77054e13296be0fdebab0fb35a64a0e8627b6e6f3"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_561/api-v1-jd-561.json.gz",
+      "bytes": 1798,
+      "sha256": "a1d38fdd601b67bb9c6d16152f53ddf166a0cfcfef4fa86438e899bfe449226c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_561/api-v1-jdf-561.json.gz",
+      "bytes": 425,
+      "sha256": "407424fb79cc30b8e9ff90900b3bf29244ac7f3797f278b5be602843f959b4ee"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_561/api-v1-jdl-dn-cpu-l-2-dv-1.json.gz",
+      "bytes": 301,
+      "sha256": "0703b0ae20b9ff75087dc601640ee58f1c2ad6768858ea21a245151da9ba8e4c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_561/api-v1-jdl-dn-cpu-l-2-s-act-.json.gz",
+      "bytes": 347,
+      "sha256": "70d4596ad879547863109da8675c2b789d07df66b526d7ebcbce9616c4c9b94c"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_561/api-v1-jdq-561.json.gz",
+      "bytes": 1074,
+      "sha256": "8743b2d93d2c62a82fb47e1fbc002b97e25adcfb5bf1fcb26b58ad0bed15bd48"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_561/data-v1-dl-52739.arff.gz",
+      "bytes": 3303,
+      "sha256": "e96142b5e00dfec2617b0c22d7192b340ae2c28ec3ffc3a894c5be746b970a59"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_61/api-v1-jd-61.json.gz",
+      "bytes": 898,
+      "sha256": "a5c7e79aa41ef580838fb9fc1906280f076c47be1741fddd5004ddb500eb57fe"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_61/api-v1-jdf-61.json.gz",
+      "bytes": 268,
+      "sha256": "33cbd6ae945ba04969370ab35604e9363c87256393493382b5118a89d59386d6"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_61/api-v1-jdl-dn-iris-l-2-dv-1.json.gz",
+      "bytes": 293,
+      "sha256": "0bce20aae7fd903796d96d5b3a3677b7058fbc5f3fe0996ee9d491e4ee23d132"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_61/api-v1-jdl-dn-iris-l-2-s-act-.json.gz",
+      "bytes": 330,
+      "sha256": "a9f4b9317997df63ed8d2bb073a3906344c0e0be017fd384eaec36ced8b94bae"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_61/api-v1-jdq-61.json.gz",
+      "bytes": 1121,
+      "sha256": "424cd47c12a51c7bb8d8169fac80fb5601f152bd78468b241d4b115bf7d22f20"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_61/data-v1-dl-61.arff.gz",
+      "bytes": 2342,
+      "sha256": "afe4736924606638984e573235191025d419c545d31dc8874c96b72f5ec5db73"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_62/api-v1-jd-62.json.gz",
+      "bytes": 656,
+      "sha256": "7ef3551ad47d48023c5a1f1cf077047a9a4b95544bb91d4a86097f8b574f8d07"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_62/api-v1-jdf-62.json.gz",
+      "bytes": 817,
+      "sha256": "489b177126cb7f335cb220709233b946d3a0ad71d38bba6d48b79187146e585a"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_62/api-v1-jdq-62.json.gz",
+      "bytes": 805,
+      "sha256": "278a52a52d569f07d14c6a7877b104762c77daac429fb1fd9817a0378d6ec634"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/openml/id_62/data-v1-dl-52352.arff.gz",
+      "bytes": 1625,
+      "sha256": "fb5830c82112f62a400c82ac1f1b5eb61c29c0a7cc72ba56d2aeff0fae8a60f9"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/svmlight_classification.txt",
+      "bytes": 254,
+      "sha256": "eaef102b43de1cec6fc7b7ce61d3ec2594e025f4ba483e7c5963d8818cf80775"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/svmlight_invalid.txt",
+      "bytes": 54,
+      "sha256": "b9e0af74f7a47626291fc1401ff016f4c1e2c8c77d4ae961ae427c1509b7a25f"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/svmlight_invalid_order.txt",
+      "bytes": 23,
+      "sha256": "c5234a54d70ced3b96913c936674124d372805d111c542a8336cb3fe01426870"
+    },
+    {
+      "path": "lib/python3.12/site-packages/sklearn/datasets/tests/data/svmlight_multilabel.txt",
+      "bytes": 105,
+      "sha256": "3efb35a7f9d014a2ce7e32c911736325e39a755a95ba543f0065648fb26ce6f0"
+    }
+  ]
+}

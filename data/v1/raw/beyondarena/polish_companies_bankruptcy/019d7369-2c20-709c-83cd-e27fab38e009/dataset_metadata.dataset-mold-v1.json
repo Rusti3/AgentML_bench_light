@@ -1,0 +1,18 @@
+{
+  "unique_name": "polish_companies_bankruptcy",
+  "dataset_year": "2010",
+  "domain_str": "finance",
+  "dataset_source": "UCI",
+  "original_dataset_source_download_link": "https://doi.org/10.24432/C5F600",
+  "download_description": "\nWe download the data from the UCI repository and uzip it to a predefined folder.\n\nmkdir -p local-data-warehouse/polish_companies_bankruptcy/ && wget -P local-data-warehouse/polish_companies_bankruptcy/ https://archive.ics.uci.edu/static/public/365/polish+companies+bankruptcy+data.zip && unzip local-data-warehouse/polish_companies_bankruptcy/polish+companies+bankruptcy+data.zip -d local-data-warehouse/polish_companies_bankruptcy/ && rm local-data-warehouse/polish_companies_bankruptcy/polish+companies+bankruptcy+data.zip\n",
+  "academic_reference_bibtex": "@article{zikeba2016ensemble,\n  title={Ensemble boosted trees with synthetic features generation in application to bankruptcy prediction},\n  author={Zi{\\k{e}}ba, Maciej and Tomczak, Sebastian K and Tomczak, Jakub M},\n  journal={Expert systems with applications},\n  volume={58},\n  pages={93--101},\n  year={2016},\n  publisher={Elsevier}\n}\n",
+  "academic_reference_bibtex_key": "zikeba2016ensemble",
+  "license": "CC BY 4.0",
+  "data_tags": [
+    "IID"
+  ],
+  "curation_comments": "\n- We only use data from year 5 (5year.arff), because it is the newest data and the target is bankruptcy status after only 1 year.\n- We created semantically meaningful feature names.\n- We removed duplicates.\n- Anomaly: the data contains a lot of features created by feature engineering.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

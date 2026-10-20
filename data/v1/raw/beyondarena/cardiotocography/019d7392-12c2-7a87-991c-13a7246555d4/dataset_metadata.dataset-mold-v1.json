@@ -1,0 +1,19 @@
+{
+  "unique_name": "cardiotocography",
+  "dataset_year": "2010",
+  "domain_str": "medical & healthcare",
+  "dataset_source": "UCI",
+  "original_dataset_source_download_link": "10.24432/C51S4N",
+  "download_description": "\nwget https://archive.ics.uci.edu/static/public/193/cardiotocography.zip && unzip cardiotocography.zip && rm cardiotocography.zip && mkdir -p local-data-warehouse/cardiotocography && mv CTG.xls local-data-warehouse/cardiotocography\n",
+  "academic_reference_bibtex": "@misc{campos2010cardiotocography,\n  author       = {Campos, D. and Bernardes, J.},\n  title        = {{Cardiotocography}},\n  year         = {2000},\n  howpublished = {UCI Machine Learning Repository},\n  note         = {{DOI}: https://doi.org/10.24432/C51S4N}\n}\n",
+  "academic_reference_bibtex_key": "campos2010cardiotocography",
+  "license": "CC BY 4.0",
+  "data_tags": [
+    "Non-IID",
+    "Grouped"
+  ],
+  "curation_comments": "\nWe use the data from UCI and the 3 class problem of predicting NSP as it is more medical relevant.\n\n- We transform the file names into patient IDs to indicate the sub-group of samples recorded from the same patient.\n- The raw data has dates and the start and end index of the recording. We drop these as they are not relevant for the predictive task and would not be available for test samples.\n- We drop all other columns that represent the label.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

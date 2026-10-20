@@ -1,0 +1,234 @@
+{
+  "audit_version": 1,
+  "task_id": "openml_361251",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "tau1",
+      "tau2",
+      "tau3",
+      "tau4",
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "g1",
+      "g2",
+      "g3",
+      "g4"
+    ],
+    "problem_type": "regression",
+    "classes": null,
+    "family_id": "openml_361251",
+    "dataset_fingerprint": "8761e261e2cbce63c12070877c9cbd4a6544b7d9e4567da05255398cd0c43670",
+    "protocol_fingerprint": "17d802725776185d4d21daa6852562669c99696cbeae4edbb2018d14fadf06b6",
+    "rows": 10000,
+    "feature_count": 12,
+    "split_count": 10
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 10,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 4,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 5,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 6,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 7,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 8,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 9,
+      "train_rows": 9000,
+      "test_rows": 1000,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    }
+  ],
+  "rows": 10000,
+  "feature_count": 12,
+  "table_bytes": 1279036,
+  "types": {
+    "tau1": "double",
+    "tau2": "double",
+    "tau3": "double",
+    "tau4": "double",
+    "p1": "double",
+    "p2": "double",
+    "p3": "double",
+    "p4": "double",
+    "g1": "double",
+    "g2": "double",
+    "g3": "double",
+    "g4": "double",
+    "stab": "double",
+    "stabf": "string"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "tau1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.500793021360319,
+      "max": 9.99946946943287
+    },
+    "tau2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.500141360493773,
+      "max": 9.99983655621537
+    },
+    "tau3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.500788152733829,
+      "max": 9.99945000849598
+    },
+    "tau4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.500472961226082,
+      "max": 9.99944329731088
+    },
+    "p1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.58258966481528,
+      "max": 5.8644179596283
+    },
+    "p2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -1.99989095591106,
+      "max": -0.500108275885764
+    },
+    "p3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -1.99994466917731,
+      "max": -0.50007225154374
+    },
+    "p4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -1.99992633173043,
+      "max": -0.500024528740323
+    },
+    "g1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0500093036111293,
+      "max": 0.999937073063054
+    },
+    "g2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0500531010350864,
+      "max": 0.999944294487435
+    },
+    "g3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0500536923673214,
+      "max": 0.999981832400081
+    },
+    "g4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0500284939589759,
+      "max": 0.999930047985306
+    },
+    "stab": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -0.0807598924160244,
+      "max": 0.109403206284885
+    },
+    "stabf": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "fingerprint": "8761e261e2cbce63c12070877c9cbd4a6544b7d9e4567da05255398cd0c43670",
+  "protocol_fingerprint": "17d802725776185d4d21daa6852562669c99696cbeae4edbb2018d14fadf06b6",
+  "seconds": 0.31199999999989814
+}

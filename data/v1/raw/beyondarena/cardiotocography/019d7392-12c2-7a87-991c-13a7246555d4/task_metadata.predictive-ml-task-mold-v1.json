@@ -1,0 +1,11 @@
+{
+  "target_column_name": "NSP",
+  "problem_type": "multiclass_classification",
+  "objective_metric_name": "log_loss",
+  "stratify_on": "NSP",
+  "time_on": null,
+  "group_on": "patient_id",
+  "group_labels": "per_sample",
+  "group_time_on": null,
+  "type_adapter_id": "predictive-ml-task-mold-v1"
+}

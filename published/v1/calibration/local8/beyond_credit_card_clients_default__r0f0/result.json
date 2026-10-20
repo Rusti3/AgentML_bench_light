@@ -1,0 +1,66 @@
+{
+  "task_id": "beyond_credit_card_clients_default",
+  "case_id": "beyond_credit_card_clients_default__r0f0",
+  "profile": "local8",
+  "signature": "9fc9f5f4777a118a0768dc4955c1b2e35adebb263a4df474e39e80a4aaa9314e",
+  "status": "calibrated",
+  "family_id": "beyond_credit_card_clients_default",
+  "problem_type": "binary_classification",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-50616e2ff87fd64eb02a",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 18.561999999999898,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 10000,
+  "metrics": {
+    "macro_f1": 0.7038085010907318,
+    "accuracy": 0.8109,
+    "weighted_f1": 0.803117032259546,
+    "per_class": {
+      "No": {
+        "precision": 0.8584802431610942,
+        "recall": 0.9066512583461735,
+        "f1-score": 0.8819084493848748,
+        "support": 7788.0
+      },
+      "Yes": {
+        "precision": 0.5904225352112676,
+        "recall": 0.47377938517179025,
+        "f1-score": 0.5257085527965889,
+        "support": 2212.0
+      },
+      "accuracy": 0.8109,
+      "macro avg": {
+        "precision": 0.7244513891861809,
+        "recall": 0.6902153217589819,
+        "f1-score": 0.7038085010907318,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.7991858781625925,
+        "recall": 0.8109,
+        "f1-score": 0.803117032259546,
+        "support": 10000.0
+      }
+    }
+  },
+  "baseline_metric": 0.7038085010907318,
+  "prediction_sha256": "62ef42b8dffbdf913414132eebebb45932f899385bd8ab51960826ee938de3fb"
+}

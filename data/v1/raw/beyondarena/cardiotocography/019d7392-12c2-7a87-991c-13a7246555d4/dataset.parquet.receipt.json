@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dataset.parquet",
+  "sha256": "c80bf1f66b940dd5a8c509552a52aadd5e6b2ccd5655a0c942690eeb415dc379",
+  "bytes": 55881,
+  "upstream_sha256": "c80bf1f66b940dd5a8c509552a52aadd5e6b2ccd5655a0c942690eeb415dc379",
+  "upstream_md5": null,
+  "etag": "\"c510683362dc3982da4082d4cf9c0ba24088afbe0896c8557f7bde19d7ae41aa\""
+}

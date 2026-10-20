@@ -1,0 +1,878 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_eryhemato_squamous_disease",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "erythema",
+      "scaling",
+      "definite borders",
+      "itching",
+      "koebner phenomenon",
+      "polygonal papules",
+      "follicular papules",
+      "oral mucosal involvement",
+      "knee and elbow involvement",
+      "scalp involvement",
+      "family history",
+      "melanin incontinence",
+      "eosinophils in the infiltrate",
+      "PNL infiltrate",
+      "fibrosis of the papillary dermis",
+      "exocytosis",
+      "acanthosis",
+      "hyperkeratosis",
+      "parakeratosis",
+      "clubbing of the rete ridges",
+      "elongation of the rete ridges",
+      "thinning of the suprapapillary epidermis",
+      "spongiform pustule",
+      "munro microabcess",
+      "focal hypergranulosis",
+      "disappearance of the granular layer",
+      "vacuolisation and damage of basal layer",
+      "spongiosis",
+      "saw-tooth appearance of retes",
+      "follicular horn plug",
+      "perifollicular parakeratosis",
+      "inflammatory monoluclear inflitrate",
+      "band-like infiltrate",
+      "age"
+    ],
+    "problem_type": "multiclass",
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "family_id": "beyond_eryhemato_squamous_disease",
+    "dataset_fingerprint": "ce9bf09f2bab93dd7d20c5bed0ced04b9b06563bd739ab41748f6a1f70e61aca",
+    "protocol_fingerprint": "efd9658e1031612b4dbfbaf88ec46fa5ea81c7ea2f1ab175c41c114a7f92a95e",
+    "rows": 366,
+    "feature_count": 34,
+    "split_count": 60
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 60,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 10,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 10,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 10,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 11,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 11,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 11,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 12,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 12,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 12,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 13,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 13,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 13,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 14,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 14,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 14,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 15,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 15,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 15,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 16,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 16,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 16,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 17,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 17,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 17,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 18,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 18,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 18,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 19,
+      "fold": 0,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 19,
+      "fold": 1,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 19,
+      "fold": 2,
+      "train_rows": 244,
+      "test_rows": 122,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 366,
+  "feature_count": 34,
+  "table_bytes": 32537,
+  "types": {
+    "erythema": "int64",
+    "scaling": "int64",
+    "definite borders": "int64",
+    "itching": "int64",
+    "koebner phenomenon": "int64",
+    "polygonal papules": "int64",
+    "follicular papules": "int64",
+    "oral mucosal involvement": "int64",
+    "knee and elbow involvement": "int64",
+    "scalp involvement": "int64",
+    "family history": "int64",
+    "melanin incontinence": "int64",
+    "eosinophils in the infiltrate": "int64",
+    "PNL infiltrate": "int64",
+    "fibrosis of the papillary dermis": "int64",
+    "exocytosis": "int64",
+    "acanthosis": "int64",
+    "hyperkeratosis": "int64",
+    "parakeratosis": "int64",
+    "clubbing of the rete ridges": "int64",
+    "elongation of the rete ridges": "int64",
+    "thinning of the suprapapillary epidermis": "int64",
+    "spongiform pustule": "int64",
+    "munro microabcess": "int64",
+    "focal hypergranulosis": "int64",
+    "disappearance of the granular layer": "int64",
+    "vacuolisation and damage of basal layer": "int64",
+    "spongiosis": "int64",
+    "saw-tooth appearance of retes": "int64",
+    "follicular horn plug": "int64",
+    "perifollicular parakeratosis": "int64",
+    "inflammatory monoluclear inflitrate": "int64",
+    "band-like infiltrate": "int64",
+    "age": "double",
+    "class": "int64"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "erythema": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "scaling": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "definite borders": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "itching": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "koebner phenomenon": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "polygonal papules": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "follicular papules": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "oral mucosal involvement": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "knee and elbow involvement": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "scalp involvement": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "family history": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "melanin incontinence": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "eosinophils in the infiltrate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "PNL infiltrate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "fibrosis of the papillary dermis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "exocytosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "acanthosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "hyperkeratosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "parakeratosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "clubbing of the rete ridges": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "elongation of the rete ridges": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "thinning of the suprapapillary epidermis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "spongiform pustule": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "munro microabcess": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "focal hypergranulosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "disappearance of the granular layer": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "vacuolisation and damage of basal layer": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "spongiosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "saw-tooth appearance of retes": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "follicular horn plug": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "perifollicular parakeratosis": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "inflammatory monoluclear inflitrate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "band-like infiltrate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "age": {
+      "missing": 8,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 75.0
+    },
+    "class": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 6.0
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "class_counts": {
+    "1": 112,
+    "3": 72,
+    "2": 61,
+    "5": 52,
+    "4": 49,
+    "6": 20
+  },
+  "fingerprint": "ce9bf09f2bab93dd7d20c5bed0ced04b9b06563bd739ab41748f6a1f70e61aca",
+  "protocol_fingerprint": "efd9658e1031612b4dbfbaf88ec46fa5ea81c7ea2f1ab175c41c114a7f92a95e",
+  "seconds": 0.6720000000004802
+}

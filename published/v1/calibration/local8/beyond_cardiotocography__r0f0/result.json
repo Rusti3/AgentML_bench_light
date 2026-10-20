@@ -1,0 +1,72 @@
+{
+  "task_id": "beyond_cardiotocography",
+  "case_id": "beyond_cardiotocography__r0f0",
+  "profile": "local8",
+  "signature": "99e368ede5df3ea797dfec03561e1c9c022de71e636ad34f35936e2233d02705",
+  "status": "calibrated",
+  "family_id": "beyond_cardiotocography",
+  "problem_type": "multiclass",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-0e8e25a2f8202c22bafb",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 12.843999999999141,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 872,
+  "metrics": {
+    "macro_f1": 0.8108745462802326,
+    "accuracy": 0.8818807339449541,
+    "weighted_f1": 0.8803840095405272,
+    "per_class": {
+      "1.0": {
+        "precision": 0.924031007751938,
+        "recall": 0.9430379746835443,
+        "f1-score": 0.9334377447141738,
+        "support": 632.0
+      },
+      "2.0": {
+        "precision": 0.7430555555555556,
+        "recall": 0.6948051948051948,
+        "f1-score": 0.7181208053691275,
+        "support": 154.0
+      },
+      "3.0": {
+        "precision": 0.7951807228915663,
+        "recall": 0.7674418604651163,
+        "f1-score": 0.7810650887573964,
+        "support": 86.0
+      },
+      "accuracy": 0.8818807339449541,
+      "macro avg": {
+        "precision": 0.8207557620663533,
+        "recall": 0.8017616766512852,
+        "f1-score": 0.8108745462802326,
+        "support": 872.0
+      },
+      "weighted avg": {
+        "precision": 0.8793620351186412,
+        "recall": 0.8818807339449541,
+        "f1-score": 0.8803840095405272,
+        "support": 872.0
+      }
+    }
+  },
+  "baseline_metric": 0.8108745462802326,
+  "prediction_sha256": "b36690fa30196b89bf86bc9f496bc4e8f8c2e2a9177ff5c4bf3fd80cbe28ca5d"
+}

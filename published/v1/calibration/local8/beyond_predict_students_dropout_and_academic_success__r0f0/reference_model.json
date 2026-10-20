@@ -1,0 +1,42 @@
+{
+  "baseline": "catboost_v1",
+  "parameters": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "random_seed": 42,
+    "thread_count": 8,
+    "l2_leaf_reg": 3,
+    "verbose": false,
+    "allow_writing_files": false,
+    "loss_function": "MultiClass",
+    "auto_class_weights": "SqrtBalanced"
+  },
+  "category_columns": [
+    "Marital_status",
+    "Application_mode",
+    "Course",
+    "Daytimeevening_attendance",
+    "Previous_qualification",
+    "Nationality",
+    "Mothers_qualification",
+    "Fathers_qualification",
+    "Mothers_occupation",
+    "Fathers_occupation",
+    "Displaced",
+    "Educational_special_needs",
+    "Debtor",
+    "Tuition_fees_up_to_date",
+    "Gender",
+    "Scholarship_holder",
+    "International"
+  ],
+  "preprocessing": "Numeric coercion; +/-inf -> NaN; categorical null -> reserved missing token; no target transforms",
+  "fit_seconds": 4.01144525699965,
+  "versions": {
+    "catboost": "1.2.8",
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.5.2"
+  }
+}

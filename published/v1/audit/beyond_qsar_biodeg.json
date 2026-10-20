@@ -1,0 +1,656 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_qsar_biodeg",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "Laplace_Leading_Eigenvalue",
+      "Weighted_Balaban_Index_Barysz_Matrix",
+      "Num_Heavy_Atoms",
+      "Freq_NN_At_Dist1",
+      "Freq_CN_At_Dist4",
+      "Num_ssssC_Atoms",
+      "Num_Substituted_BenzeneC",
+      "Percentage_C_Atoms",
+      "Num_Terminal_PrimaryC",
+      "Num_Oxygen_Atoms",
+      "Freq_CN_At_Dist3",
+      "Sum_dssC_EStates",
+      "Weighted_HyperWiener_Index_Burden_Matrix",
+      "Lopping_Centric_Index",
+      "Laplace_Spectral_Moment6",
+      "Freq_CO_At_Dist3",
+      "Mean_Sanderson_Electronegativity",
+      "Mean_Ionization_Potential",
+      "Num_N_Hydrazine",
+      "Num_Aromatic_Nitro_Groups",
+      "Num_CRX3",
+      "Weighted_Normalized_SpectralPositiveSum_Burden_Matrix",
+      "Num_Circuits",
+      "Presence_CBr_At_Dist1",
+      "Presence_CCl_At_Dist3",
+      "N073_chemical_substructure",
+      "Adjacency_LeadingEigenvalue",
+      "Intrinsic_State_Pseudoconnectivity",
+      "Presence_CBr_At_Dist4",
+      "Sum_dO_EStates",
+      "Laplace_MoharIndex2",
+      "Num_RingTertiaryC",
+      "C026_chemical_substructure",
+      "Freq_CN_At_Dist2",
+      "Num_HBond_Donors_Atoms",
+      "Weighted_LeadingEigenvalue_Burden_Matrix",
+      "Intrinsic_State_Pseudoconnectivity_SAvg",
+      "Num_Nitrogen_Atoms",
+      "Weighted_SpectralMoment6_Burden_Matrix",
+      "Num_Esters",
+      "Num_Halogen_Atoms"
+    ],
+    "problem_type": "binary_classification",
+    "classes": [
+      "No",
+      "Yes"
+    ],
+    "family_id": "beyond_qsar_biodeg",
+    "dataset_fingerprint": "08137baf94a1c5d54dfca0373cce4a9f130ec5d00e89f910b1b2a267682ff876",
+    "protocol_fingerprint": "f76585277656529cc7eedcf6e5d2b981d34de6cc1005fb4a86b015a0f925848d",
+    "rows": 1054,
+    "feature_count": 41,
+    "split_count": 30
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 30,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 0,
+      "train_rows": 702,
+      "test_rows": 352,
+      "errors": [],
+      "matching_feature_rows_train_test": 2,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 1,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 2,
+      "train_rows": 703,
+      "test_rows": 351,
+      "errors": [],
+      "matching_feature_rows_train_test": 1,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 1054,
+  "feature_count": 41,
+  "table_bytes": 102798,
+  "types": {
+    "Laplace_Leading_Eigenvalue": "double",
+    "Weighted_Balaban_Index_Barysz_Matrix": "double",
+    "Num_Heavy_Atoms": "int64",
+    "Freq_NN_At_Dist1": "int64",
+    "Freq_CN_At_Dist4": "int64",
+    "Num_ssssC_Atoms": "int64",
+    "Num_Substituted_BenzeneC": "int64",
+    "Percentage_C_Atoms": "double",
+    "Num_Terminal_PrimaryC": "int64",
+    "Num_Oxygen_Atoms": "int64",
+    "Freq_CN_At_Dist3": "int64",
+    "Sum_dssC_EStates": "double",
+    "Weighted_HyperWiener_Index_Burden_Matrix": "double",
+    "Lopping_Centric_Index": "double",
+    "Laplace_Spectral_Moment6": "double",
+    "Freq_CO_At_Dist3": "int64",
+    "Mean_Sanderson_Electronegativity": "double",
+    "Mean_Ionization_Potential": "double",
+    "Num_N_Hydrazine": "int64",
+    "Num_Aromatic_Nitro_Groups": "int64",
+    "Num_CRX3": "int64",
+    "Weighted_Normalized_SpectralPositiveSum_Burden_Matrix": "double",
+    "Num_Circuits": "int64",
+    "Presence_CBr_At_Dist1": "int64",
+    "Presence_CCl_At_Dist3": "int64",
+    "N073_chemical_substructure": "int64",
+    "Adjacency_LeadingEigenvalue": "double",
+    "Intrinsic_State_Pseudoconnectivity": "double",
+    "Presence_CBr_At_Dist4": "int64",
+    "Sum_dO_EStates": "double",
+    "Laplace_MoharIndex2": "double",
+    "Num_RingTertiaryC": "int64",
+    "C026_chemical_substructure": "int64",
+    "Freq_CN_At_Dist2": "int64",
+    "Num_HBond_Donors_Atoms": "int64",
+    "Weighted_LeadingEigenvalue_Burden_Matrix": "double",
+    "Intrinsic_State_Pseudoconnectivity_SAvg": "double",
+    "Num_Nitrogen_Atoms": "int64",
+    "Weighted_SpectralMoment6_Burden_Matrix": "double",
+    "Num_Esters": "int64",
+    "Num_Halogen_Atoms": "int64",
+    "Biodegradable": "dictionary<values=string, indices=int32, ordered=0>"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "Laplace_Leading_Eigenvalue": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2.0,
+      "max": 6.496
+    },
+    "Weighted_Balaban_Index_Barysz_Matrix": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.8039,
+      "max": 9.1775
+    },
+    "Num_Heavy_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 12.0
+    },
+    "Freq_NN_At_Dist1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "Freq_CN_At_Dist4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 36.0
+    },
+    "Num_ssssC_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 13.0
+    },
+    "Num_Substituted_BenzeneC": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "Percentage_C_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 60.7
+    },
+    "Num_Terminal_PrimaryC": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 24.0
+    },
+    "Num_Oxygen_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 12.0
+    },
+    "Freq_CN_At_Dist3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 44.0
+    },
+    "Sum_dssC_EStates": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -5.256,
+      "max": 4.722
+    },
+    "Weighted_HyperWiener_Index_Burden_Matrix": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.544,
+      "max": 5.701
+    },
+    "Lopping_Centric_Index": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 4.491
+    },
+    "Laplace_Spectral_Moment6": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 4.174,
+      "max": 12.609
+    },
+    "Freq_CO_At_Dist3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 40.0
+    },
+    "Mean_Sanderson_Electronegativity": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.957,
+      "max": 1.311
+    },
+    "Mean_Ionization_Potential": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.022,
+      "max": 1.377
+    },
+    "Num_N_Hydrazine": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "Num_Aromatic_Nitro_Groups": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "Num_CRX3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "Weighted_Normalized_SpectralPositiveSum_Burden_Matrix": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.863,
+      "max": 1.641
+    },
+    "Num_Circuits": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 147.0
+    },
+    "Presence_CBr_At_Dist1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "Presence_CCl_At_Dist3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "N073_chemical_substructure": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "Adjacency_LeadingEigenvalue": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 2.859
+    },
+    "Intrinsic_State_Pseudoconnectivity": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -1.099,
+      "max": 1.073
+    },
+    "Presence_CBr_At_Dist4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "Sum_dO_EStates": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 71.167
+    },
+    "Laplace_MoharIndex2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.444,
+      "max": 17.537
+    },
+    "Num_RingTertiaryC": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 8.0
+    },
+    "C026_chemical_substructure": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 12.0
+    },
+    "Freq_CN_At_Dist2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "Num_HBond_Donors_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 7.0
+    },
+    "Weighted_LeadingEigenvalue_Burden_Matrix": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2.267,
+      "max": 10.695
+    },
+    "Intrinsic_State_Pseudoconnectivity_SAvg": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.467,
+      "max": 5.825
+    },
+    "Num_Nitrogen_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 8.0
+    },
+    "Weighted_SpectralMoment6_Burden_Matrix": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 4.917,
+      "max": 14.7
+    },
+    "Num_Esters": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "Num_Halogen_Atoms": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 27.0
+    },
+    "Biodegradable": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 3,
+  "duplicate_feature_rows": 3,
+  "target_copies": [],
+  "class_counts": {
+    "No": 699,
+    "Yes": 355
+  },
+  "fingerprint": "08137baf94a1c5d54dfca0373cce4a9f130ec5d00e89f910b1b2a267682ff876",
+  "protocol_fingerprint": "f76585277656529cc7eedcf6e5d2b981d34de6cc1005fb4a86b015a0f925848d",
+  "seconds": 0.2650000000012369
+}

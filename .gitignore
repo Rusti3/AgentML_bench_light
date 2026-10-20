@@ -1,0 +1,45 @@
+# Local environments and generated runtime
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+cache/
+tmp/
+runtime/linux/
+runtime/base_image.tar
+runtime/linux_manifest.json
+runtime/isolation_sanitization.json
+
+# Downloaded data, evaluator-only answers, and experiments
+# Light ships only its selected canonical tables and original split files.
+data/v*/private/
+data/v*/runs/
+data/v*/audit/
+data/v*/calibration/
+data/v*/reports/
+data/v*/catalog/effective_tasks.json
+data/v*/catalog/core_standard_local8.json
+data/v*/catalog/smoke.json
+data/v*/catalog/fetch_state.json
+data/v*/catalog/source_documents.json
+data/v*/compute.lock.json
+imports/
+release_manifest.json
+publication_manifest.json
+*.log
+!published/v1/calibration/**/*.log
+*.part
+*.tmp
+/light_*.xml
+
+# Credentials and personal editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

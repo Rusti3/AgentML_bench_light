@@ -1,0 +1,18 @@
+{
+  "unique_name": "eryhemato_squamous_disease",
+  "dataset_year": "1997",
+  "domain_str": "medical & healthcare",
+  "dataset_source": "UCI",
+  "original_dataset_source_download_link": "https://doi.org/10.24432/C5FK5P",
+  "download_description": "\nWe take the original data from UCI.\n\nwget https://archive.ics.uci.edu/static/public/33/dermatology.zip && unzip dermatology.zip && rm dermatology.zip dermatology.names\nmkdir -p local-data-warehouse/eryhemato_squamous_disease && mv dermatology.data local-data-warehouse/eryhemato_squamous_disease/\n",
+  "academic_reference_bibtex": "@article{guvenir1998learning,\n  title={Learning differential diagnosis of erythemato-squamous diseases using voting feature intervals},\n  author={G{\\\"u}venir, H Altay and Demir{\\\"o}z, G{\\\"u}l{\\c{s}}en and Ilter, Nilsel},\n  journal={Artificial intelligence in medicine},\n  volume={13},\n  number={3},\n  pages={147--165},\n  year={1998},\n  publisher={Elsevier}\n}\n",
+  "academic_reference_bibtex_key": "guvenir1998learning",
+  "license": "CC BY 4.0",
+  "data_tags": [
+    "IID"
+  ],
+  "curation_comments": "\nWe start with the data from UCI.\n\n- We encode all features but age as categorical, since they are ordinal features in nature.\n- We ensure missing values in age are encoded as NaN.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

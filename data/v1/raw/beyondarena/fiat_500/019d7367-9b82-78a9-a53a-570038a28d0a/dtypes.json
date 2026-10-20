@@ -1,0 +1,10 @@
+{
+  "model": "category",
+  "engine_power": "int64",
+  "age_in_days": "int64",
+  "km": "int64",
+  "previous_owners": "int64",
+  "lat": "float64",
+  "lon": "float64",
+  "price": "int64"
+}

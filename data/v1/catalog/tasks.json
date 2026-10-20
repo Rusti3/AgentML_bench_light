@@ -1,0 +1,1597 @@
+{
+  "benchmark_version": "v1",
+  "collection": "light",
+  "tasks": [
+    {
+      "id": "openml_363612",
+      "adapter": "openml",
+      "task_id": 363612,
+      "sources": [
+        "tabarena"
+      ],
+      "status": "downloaded",
+      "reasons": [],
+      "name": "airfoil_self_noise",
+      "dataset_id": 46904,
+      "dataset_version": "9",
+      "target": "scaled-sound-pressure",
+      "problem_type": "regression",
+      "split_regime": "iid",
+      "table_path": "data/v1/raw/openml_data/46904/dataset.parquet",
+      "table_sha256": "d98c8cf8b64d81cbd43aabd76222f4b54ae02f4cb2b67d4fb1c4ee9f309509d8",
+      "split_index": "data/v1/raw/openml_tasks/363612/splits.index.json",
+      "excluded_features": [],
+      "feature_metadata": [
+        {
+          "index": "0",
+          "name": "frequency",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "1",
+          "name": "attack-angle",
+          "data_type": "nominal",
+          "nominal_value": [
+            "0.0",
+            "1.5",
+            "11.2",
+            "12.3",
+            "12.6",
+            "12.7",
+            "15.4",
+            "15.6",
+            "17.4",
+            "19.7",
+            "2.0",
+            "2.7",
+            "22.2",
+            "3.0",
+            "3.3",
+            "4.0",
+            "4.2",
+            "4.8",
+            "5.3",
+            "5.4",
+            "6.7",
+            "7.2",
+            "7.3",
+            "8.4",
+            "8.9",
+            "9.5",
+            "9.9"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "2",
+          "name": "chord-length",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "3",
+          "name": "free-stream-velocity",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "4",
+          "name": "suction-side-displacement-thickness",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "5",
+          "name": "scaled-sound-pressure",
+          "data_type": "numeric",
+          "is_target": "true",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        }
+      ],
+      "license": "CC BY 4.0",
+      "description": "This dataset was curated for [TabArena](https://tabarena.ai/) by the TabArena team\nas part of the [TabArena Tabular ML IID Study](https://tabarena.ai/data-tabular-ml-iid-study).\nFor more details on the study, see our [paper](https://tabarena.ai/paper-tabular-ml-iid-study).\n\n**Dataset Focus**: This dataset shall be used for evaluating predictive machine\nlearning models for independent and identically distributed tabular data. The\nintended task is regression.\n\n---\n#### Dataset Metadata\n- **Licence:** CC BY 4.0\n- **Original Data Source:** https://doi.org/10.24432/C5VW2C\n- **Reference (please cite)**: Brooks, Thomas F., D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. No. L-16528. 1989. https://ntrs.nasa.gov/citations/19890016302\n- **Dataset Year:** 2014\n- **Dataset Description:** see the reference and the original data source for details.\n\n#### Curation comments by the TabArena team (for code see the [page of the study](https://tabarena.ai/data-tabular-ml-iid-study)):\n- N/A",
+      "original_source": "https://doi.org/10.24432/C5VW2C",
+      "citation": "Brooks, Thomas F., D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. No. L-16528. 1989. https://ntrs.nasa.gov/citations/19890016302",
+      "source_metadata": "data/v1/raw/openml_data/46904/data.json",
+      "native_metric": "rmse",
+      "domain": "physics & astronomy",
+      "dataset_year": "2014",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/TabArena-v0.1_tasks_metadata.csv",
+      "parent_family_id": "beyond_airfoil_self_noise",
+      "expected_table_sha256": "d98c8cf8b64d81cbd43aabd76222f4b54ae02f4cb2b67d4fb1c4ee9f309509d8",
+      "prediction_context": "Predict the supplied continuous sound-pressure target from measured airflow, geometry and frequency. Standard IID benchmark split; not an extrapolation test for new aircraft geometries."
+    },
+    {
+      "id": "openml_363625",
+      "adapter": "openml",
+      "task_id": 363625,
+      "sources": [
+        "tabarena"
+      ],
+      "status": "downloaded",
+      "reasons": [],
+      "name": "concrete_compressive_strength",
+      "dataset_id": 46917,
+      "dataset_version": "8",
+      "target": "ConcreteCompressiveStrength",
+      "problem_type": "regression",
+      "split_regime": "iid",
+      "table_path": "data/v1/raw/openml_data/46917/dataset.parquet",
+      "table_sha256": "c5853f3c8e7e10524d81878cd2b0d61d8129242467a814187f4d015b4895df21",
+      "split_index": "data/v1/raw/openml_tasks/363625/splits.index.json",
+      "excluded_features": [],
+      "feature_metadata": [
+        {
+          "index": "0",
+          "name": "Cement",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "1",
+          "name": "BlastFurnaceSlag",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "2",
+          "name": "FlyAsh",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "3",
+          "name": "Water",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "4",
+          "name": "Superplasticizer",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "5",
+          "name": "CoarseAggregate",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "6",
+          "name": "FineAggregate",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "7",
+          "name": "Age",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "8",
+          "name": "ConcreteCompressiveStrength",
+          "data_type": "numeric",
+          "is_target": "true",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        }
+      ],
+      "license": "CC BY 4.0",
+      "description": "This dataset was curated for [TabArena](https://tabarena.ai/) by the TabArena team\nas part of the [TabArena Tabular ML IID Study](https://tabarena.ai/data-tabular-ml-iid-study).\nFor more details on the study, see our [paper](https://tabarena.ai/paper-tabular-ml-iid-study).\n\n**Dataset Focus**: This dataset shall be used for evaluating predictive machine\nlearning models for independent and identically distributed tabular data. The\nintended task is regression.\n\n---\n#### Dataset Metadata\n- **Licence:** CC BY 4.0\n- **Original Data Source:** https://doi.org/10.24432/C5PK67\n- **Reference (please cite)**: Yeh, I-C. 'Modeling of strength of high-performance concrete using artificial neural networks.' Cement and Concrete research 28.12 (1998): 1797-1808. https://doi.org/10.1016/S0008-8846(98)00165-3\n- **Dataset Year:** 1998\n- **Dataset Description:** see the reference and the original data source for details.\n\n#### Curation comments by the TabArena team (for code see the [page of the study](https://tabarena.ai/data-tabular-ml-iid-study)):\n- We rename features to be shorter while similar to the original names.",
+      "original_source": "https://doi.org/10.24432/C5PK67",
+      "citation": "Yeh, I-C. 'Modeling of strength of high-performance concrete using artificial neural networks.' Cement and Concrete research 28.12 (1998): 1797-1808. https://doi.org/10.1016/S0008-8846(98)00165-3",
+      "source_metadata": "data/v1/raw/openml_data/46917/data.json",
+      "native_metric": "rmse",
+      "domain": "chemistry & material science",
+      "dataset_year": "1998",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/TabArena-v0.1_tasks_metadata.csv",
+      "parent_family_id": "beyond_concrete_compressive_strength",
+      "expected_table_sha256": "c5853f3c8e7e10524d81878cd2b0d61d8129242467a814187f4d015b4895df21",
+      "prediction_context": "Predict concrete compressive strength for a specified mix and curing age. Age is known for the requested prediction. Some identical feature settings occur in train and test; their measured share is reported in the suitability review."
+    },
+    {
+      "id": "openml_363626",
+      "adapter": "openml",
+      "task_id": 363626,
+      "sources": [
+        "tabarena"
+      ],
+      "status": "downloaded",
+      "reasons": [],
+      "name": "credit-g",
+      "dataset_id": 46918,
+      "dataset_version": "5",
+      "target": "good_or_bad_customer",
+      "problem_type": "classification",
+      "split_regime": "iid",
+      "table_path": "data/v1/raw/openml_data/46918/dataset.parquet",
+      "table_sha256": "bb071acb26470d6f7b6d0c8aa8fcfac7ced2d2172bee74f41fbbd82e4e84f31a",
+      "split_index": "data/v1/raw/openml_tasks/363626/splits.index.json",
+      "excluded_features": [],
+      "feature_metadata": [
+        {
+          "index": "0",
+          "name": "checking_status",
+          "data_type": "nominal",
+          "nominal_value": [
+            "0 <= ... < 200 DM",
+            "<0 DM",
+            ">= 200 DM / salary assignments for >= 1 year",
+            "no checking account"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "1",
+          "name": "duration_months",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "2",
+          "name": "credit_history",
+          "data_type": "nominal",
+          "nominal_value": [
+            "all credits at this bank paid duly",
+            "critical account / other credits existing",
+            "delay in paying off in past",
+            "existing credits paid duly till now",
+            "no credits taken / all paid duly"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "3",
+          "name": "credit_purpose",
+          "data_type": "nominal",
+          "nominal_value": [
+            "business",
+            "car (new)",
+            "car (used)",
+            "domestic appliances",
+            "education",
+            "furniture/equipment",
+            "others",
+            "radio/television",
+            "repairs",
+            "retraining"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "4",
+          "name": "credit_amount",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "5",
+          "name": "savings_status",
+          "data_type": "nominal",
+          "nominal_value": [
+            "100 <= ... < 500 DM",
+            "500 <= ... < 1000 DM",
+            "< 100 DM",
+            ">= 1000 DM",
+            "unknown / no savings"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "6",
+          "name": "employment_since",
+          "data_type": "nominal",
+          "nominal_value": [
+            "1 <= ... < 4 years",
+            "4 <= ... < 7 years",
+            "< 1 year",
+            ">= 7 years",
+            "unemployed"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "7",
+          "name": "installment_rate_percent",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "8",
+          "name": "personal_status_sex",
+          "data_type": "nominal",
+          "nominal_value": [
+            "female: divorced/separated/married",
+            "male: divorced/separated",
+            "male: married/widowed",
+            "male: single"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "9",
+          "name": "other_debtors",
+          "data_type": "nominal",
+          "nominal_value": [
+            "co-applicant",
+            "guarantor",
+            "none"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "10",
+          "name": "residence_since",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "11",
+          "name": "property",
+          "data_type": "nominal",
+          "nominal_value": [
+            "building society savings / life insurance",
+            "car or other (not savings)",
+            "real estate",
+            "unknown / no property"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "12",
+          "name": "age_years",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "13",
+          "name": "other_installment_plans",
+          "data_type": "nominal",
+          "nominal_value": [
+            "bank",
+            "none",
+            "stores"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "14",
+          "name": "housing",
+          "data_type": "nominal",
+          "nominal_value": [
+            "for free",
+            "own",
+            "rent"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "15",
+          "name": "existing_credits_count",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "16",
+          "name": "job",
+          "data_type": "nominal",
+          "nominal_value": [
+            "management / self-employed / highly qualified",
+            "skilled employee / official",
+            "unemployed / unskilled non-resident",
+            "unskilled resident"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "17",
+          "name": "people_liable",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "18",
+          "name": "telephone",
+          "data_type": "nominal",
+          "nominal_value": [
+            "none",
+            "yes, registered"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "19",
+          "name": "foreign_worker",
+          "data_type": "nominal",
+          "nominal_value": [
+            "no",
+            "yes"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "20",
+          "name": "good_or_bad_customer",
+          "data_type": "nominal",
+          "nominal_value": [
+            "bad",
+            "good"
+          ],
+          "is_target": "true",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        }
+      ],
+      "license": "CC BY 4.0",
+      "description": "This dataset was curated for [TabArena](https://tabarena.ai/) by the TabArena team\nas part of the [TabArena Tabular ML IID Study](https://tabarena.ai/data-tabular-ml-iid-study).\nFor more details on the study, see our [paper](https://tabarena.ai/paper-tabular-ml-iid-study).\n\n**Dataset Focus**: This dataset shall be used for evaluating predictive machine\nlearning models for independent and identically distributed tabular data. The\nintended task is classification.\n\n---\n#### Dataset Metadata\n- **Licence:** CC BY 4.0\n- **Original Data Source:** https://doi.org/10.24432/C5NC77\n- **Reference (please cite)**: Hofmann, H. (1994). Statlog (German Credit Data) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5NC77.\n- **Dataset Year:** 1994\n- **Dataset Description:** see the reference and the original data source for details.\n\n#### Curation comments by the TabArena team (for code see the [page of the study](https://tabarena.ai/data-tabular-ml-iid-study)):\n- We revered the original ordinal encoding. \n- Anomaly: the original task used a cost matrix for evaluation.",
+      "original_source": "https://doi.org/10.24432/C5NC77",
+      "citation": "Hofmann, H. (1994). Statlog (German Credit Data) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5NC77.",
+      "source_metadata": "data/v1/raw/openml_data/46918/data.json",
+      "native_metric": "roc_auc",
+      "domain": "finance",
+      "dataset_year": "1994",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/TabArena-v0.1_tasks_metadata.csv",
+      "parent_family_id": "beyond_credit_g",
+      "expected_table_sha256": "bb071acb26470d6f7b6d0c8aa8fcfac7ced2d2172bee74f41fbbd82e4e84f31a",
+      "prediction_context": "Predict the historical good/bad credit label from the supplied applicant attributes. IID benchmark classification; not a modern credit-approval policy or cost-sensitive official score."
+    },
+    {
+      "id": "beyond_eryhemato_squamous_disease",
+      "name": "eryhemato_squamous_disease",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dataset.parquet",
+          "bytes": 32537,
+          "sha256": "51df041520f24de95e1a81a5e5864786122056dfdf4ed719cae290ff30570d13"
+        },
+        "dtypes.json": {
+          "path": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dtypes.json",
+          "bytes": 1321,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1397,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 286,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 104172,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "class",
+      "problem_type": "multiclass_classification",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "log_loss",
+      "table_path": "data/v1/raw/beyondarena/eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dataset.parquet",
+      "table_sha256": "51df041520f24de95e1a81a5e5864786122056dfdf4ed719cae290ff30570d13",
+      "split_metadata": "data/v1/raw/beyondarena/eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C5FK5P",
+      "description": "\nWe start with the data from UCI.\n\n- We encode all features but age as categorical, since they are ordinal features in nature.\n- We ensure missing values in age are encoded as NaN.\n",
+      "citation": "@article{guvenir1998learning,\n  title={Learning differential diagnosis of erythemato-squamous diseases using voting feature intervals},\n  author={G{\\\"u}venir, H Altay and Demir{\\\"o}z, G{\\\"u}l{\\c{s}}en and Ilter, Nilsel},\n  journal={Artificial intelligence in medicine},\n  volume={13},\n  number={3},\n  pages={147--165},\n  year={1998},\n  publisher={Elsevier}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "medical & healthcare",
+      "dataset_year": "1997",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_eryhemato_squamous_disease",
+      "expected_table_sha256": "51df041520f24de95e1a81a5e5864786122056dfdf4ed719cae290ff30570d13",
+      "prediction_context": "Retrospective six-class diagnosis from observed clinical and histopathological measurements, including biopsy-derived features. Not a prediction before these measurements; the cohort is small and this is an ML benchmark, not a clinical validation."
+    },
+    {
+      "id": "beyond_student_portuguese_performance",
+      "name": "student_portuguese_performance",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dataset.parquet",
+          "bytes": 25166,
+          "sha256": "4edb13167646b87fbc089984b671de7dbca49213b4d71626f05fdc298436097c"
+        },
+        "dtypes.json": {
+          "path": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dtypes.json",
+          "bytes": 709,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1247,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 261,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 189072,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "G3",
+      "problem_type": "regression",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "rmse",
+      "table_path": "data/v1/raw/beyondarena/student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dataset.parquet",
+      "table_sha256": "4edb13167646b87fbc089984b671de7dbca49213b4d71626f05fdc298436097c",
+      "split_metadata": "data/v1/raw/beyondarena/student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C5TG7T",
+      "description": "\nWe use the data from UCI.\n\n- We drop G1 and G2 to simulate the task to predict the final grade from the base characteristic.\n",
+      "citation": "@article{silva2008using,\n  title={Using data mining to predict secondary school student performance},\n  author={Silva, Alice},\n  year={2008}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "education",
+      "dataset_year": "2008",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_student_portuguese_performance",
+      "expected_table_sha256": "4edb13167646b87fbc089984b671de7dbca49213b4d71626f05fdc298436097c",
+      "prediction_context": "Static prediction of final grade G3 with all supplied covariates, including observed absences. G1 and G2 are excluded by the curator. Do not describe this as an enrollment-time or causal prediction."
+    },
+    {
+      "id": "beyond_fiat_500",
+      "name": "fiat_500",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dataset.parquet",
+          "bytes": 26059,
+          "sha256": "472ec1a2c1793560f015de5100cd357b783608c80eda5558bf7d06a75d446e9b"
+        },
+        "dtypes.json": {
+          "path": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dtypes.json",
+          "bytes": 185,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1172,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 264,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 244102,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "price",
+      "problem_type": "regression",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "rmse",
+      "table_path": "data/v1/raw/beyondarena/fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dataset.parquet",
+      "table_sha256": "472ec1a2c1793560f015de5100cd357b783608c80eda5558bf7d06a75d446e9b",
+      "split_metadata": "data/v1/raw/beyondarena/fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dtypes.json",
+      "license": "CC0: Public Domain",
+      "original_source": "https://www.kaggle.com/datasets/paolocons/another-fiat-500-dataset-1538-rows",
+      "description": "N/A",
+      "citation": "@misc{paolocons2020fiat,\n  author       = {Kaggle User Paolocons},\n  title        = {Another Dataset on Used Fiat 500 (1538 Rows)},\n  year         = {2020},\n  howpublished = {\\url{https://www.kaggle.com/datasets/paolocons/another-fiat-500-dataset-1538-rows}},\n  note         = {Kaggle dataset},\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "technology & internet",
+      "dataset_year": "2020",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_fiat_500",
+      "expected_table_sha256": "472ec1a2c1793560f015de5100cd357b783608c80eda5558bf7d06a75d446e9b",
+      "prediction_context": "Estimate the supplied listing price from the vehicle model, age, engine power, mileage, ownership count and location. IID listing regression; a small share of identical feature profiles is reported in the suitability review."
+    },
+    {
+      "id": "beyond_qsar_biodeg",
+      "name": "qsar_biodeg",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dataset.parquet",
+          "bytes": 102798,
+          "sha256": "8faa53bf1c7548243e3587b5558dad173235aa96c39ade4508084ba304c687ef"
+        },
+        "dtypes.json": {
+          "path": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dtypes.json",
+          "bytes": 1629,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1430,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 297,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 156982,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "Biodegradable",
+      "problem_type": "binary_classification",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "roc_auc",
+      "table_path": "data/v1/raw/beyondarena/qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dataset.parquet",
+      "table_sha256": "8faa53bf1c7548243e3587b5558dad173235aa96c39ade4508084ba304c687ef",
+      "split_metadata": "data/v1/raw/beyondarena/qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C5H60M",
+      "description": "\n- We added semantic meaningful feature names.\n- Anomaly: several features are numeric-ordinal in nature but it is unclear if they are categorical features.\n",
+      "citation": "@article{mansouri2013quantitative,\n  title={Quantitative structure--activity relationship models for ready biodegradability of chemicals},\n  author={Mansouri, Kamel and Ringsted, Tine and Ballabio, Davide and Todeschini, Roberto and Consonni, Viviana},\n  journal={Journal of chemical information and modeling},\n  volume={53},\n  number={4},\n  pages={867--878},\n  year={2013},\n  publisher={ACS Publications}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "biology & life sciences",
+      "dataset_year": "2013",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_qsar_biodeg",
+      "expected_table_sha256": "8faa53bf1c7548243e3587b5558dad173235aa96c39ade4508084ba304c687ef",
+      "prediction_context": "Classify ready biodegradability from supplied molecular structural descriptors. IID chemical benchmark; not a test of generalization to disjoint chemical scaffolds."
+    },
+    {
+      "id": "beyond_predict_students_dropout_and_academic_success",
+      "name": "predict_students_dropout_and_academic_success",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/dataset.parquet",
+          "bytes": 125053,
+          "sha256": "369f78746734446be68e72f4f4400fbb19f248b35bac869052583ae960d212cd"
+        },
+        "dtypes.json": {
+          "path": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/dtypes.json",
+          "bytes": 1441,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1827,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 306,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 229175,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "AcademicOutcome",
+      "problem_type": "multiclass_classification",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "log_loss",
+      "table_path": "data/v1/raw/beyondarena/predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/dataset.parquet",
+      "table_sha256": "369f78746734446be68e72f4f4400fbb19f248b35bac869052583ae960d212cd",
+      "split_metadata": "data/v1/raw/beyondarena/predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C5MC89",
+      "description": "\n- We renamed the target variable and fixed some typos in the feature names.\n- We reversed the ordinal encoding of all categorical features.\n- We removed whitespaces and special characters from the feature names.\n",
+      "citation": "@inproceedings{martins2021early,\n  title={Early prediction of student’s performance in higher education: A case study},\n  author={Martins, M{\\'o}nica V and Tolledo, Daniel and Machado, Jorge and Baptista, Lu{\\'\\i}s MT and Realinho, Valentim},\n  booktitle={Trends and Applications in Information Systems and Technologies: Volume 1 9},\n  pages={166--175},\n  year={2021},\n  organization={Springer}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "education",
+      "dataset_year": "2021",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_predict_students_dropout_and_academic_success",
+      "expected_table_sha256": "369f78746734446be68e72f4f4400fbb19f248b35bac869052583ae960d212cd",
+      "prediction_context": "Retrospective classification of final academic outcome using the supplied covariates, including academic performance in semesters 1 and 2. Not an enrollment-time early-warning forecast; timestamp-specific prospective validity is not established."
+    },
+    {
+      "id": "beyond_video_game_fps_prediction",
+      "name": "video_game_fps_prediction",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/dataset.parquet",
+          "bytes": 313839,
+          "sha256": "2572c8df421a97198ed73f0429db1958c6ce9bd2dc78add9dc3f060ab57cfae0"
+        },
+        "dtypes.json": {
+          "path": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/dtypes.json",
+          "bytes": 1242,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 3435,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 294,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 674423,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "log_fps_ratio",
+      "problem_type": "regression",
+      "split_regime": "grouped",
+      "time_on": null,
+      "group_on": "HardwareConfigId",
+      "group_labels": "per_sample",
+      "group_time_on": null,
+      "native_metric": "rmse",
+      "table_path": "data/v1/raw/beyondarena/video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/dataset.parquet",
+      "table_sha256": "2572c8df421a97198ed73f0429db1958c6ce9bd2dc78add9dc3f060ab57cfae0",
+      "split_metadata": "data/v1/raw/beyondarena/video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/dtypes.json",
+      "license": "CC BY",
+      "original_source": "https://www.openml.org/d/44992",
+      "description": "\nWe start with the version from OpenML.\n\n- Following the original work, we do not use CPU and GPU name as features to learn to generalize across the features of CPUs and GPUs.\n- The OpenML version is only data from the FPS benchmark. Thus, we perform on a subset of data points from the original study.\n- We diverge in the way we split from the original work. The task could be split on games (predict FPS from past values of other games to a new game), but there are not features to allow generalization across games. Instead, we split on hardware configuration (CPU-GPU combination). That is, the task is to be given a set of hardware configurations, for which we have values for a set of games, and then we want to predict the performance of a new hardware configuration on the same set of games. The features in the dataset allow this kind of prediction task and it makes sense to use to save on benchmark costs and interpolate missing hardware combinations -- a surrogate model for hardware performance. Along these lines, it might also be a valid task when one assume we have samples of some hardware configurations for some games and want to interpolate the rest. But predicting for a new, unseen hardware configuration seems more realistic.\n- The data has measurement for two cases, the game on medium and the game on max settings. It is unclear if one would build one or two models for this case. In theory, this could also be seen as two labels. We drop the medium setting only keep one task, as this is a less ambiguous task definition.\n- We normalize the FPS to ensure that all target values are on the same scale. By default, FPS values can be in vastly different scales depending on the game, having different distributions. Since, we care about comparing hardware, we can simply predict performance relative to a baseline, as in, how much better is the hardware than some default hardware setting. We normalize and then drop this configuration. In other words, one assumes we always have benchmarked the FPS values for this configuration and all others could be potentially a target during one of the splits. We normalizes with respect to \"NVIDIA GeForce GTX 1060 5 GB\" and \"Intel Core i5-8400\". We compute the relative ratio to this baseline configuration. We then log scale this ratio.\n",
+      "citation": "@inproceedings{peeters2021performance,\n  title={Performance Prediction for Hardware-Software Configurations: A Case Study for Video Games},\n  author={Peeters, Sven and Melnikov, Vitalik and H{\"\"u}llermeier, Eyke},\n  booktitle={International Symposium on Intelligent Data Analysis},\n  pages={222--234},\n  year={2021},\n  organization={Springer}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/video_game_fps_prediction/019d7392-6ce5-72bc-b598-193597825a66/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "technology & internet",
+      "dataset_year": "2020",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_video_game_fps_prediction",
+      "expected_table_sha256": "2572c8df421a97198ed73f0429db1958c6ce9bd2dc78add9dc3f060ab57cfae0",
+      "prediction_context": "Predict log FPS ratio for unseen CPU/GPU configurations on known games, relative to the curator fixed reference hardware. Not raw-FPS prediction or generalization to unseen games."
+    },
+    {
+      "id": "openml_361234",
+      "adapter": "openml",
+      "task_id": 361234,
+      "sources": [
+        "ctr23"
+      ],
+      "status": "downloaded",
+      "reasons": [],
+      "name": "abalone",
+      "dataset_id": 44956,
+      "dataset_version": "15",
+      "target": "rings",
+      "problem_type": "regression",
+      "split_regime": "iid",
+      "table_path": "data/v1/raw/openml_data/44956/dataset.parquet",
+      "table_sha256": "fdc6dae726ca82b9e72c882886fc003e7de5d5dc595afc7ca8e7078d633a2fac",
+      "split_index": "data/v1/raw/openml_tasks/361234/splits.index.json",
+      "excluded_features": [],
+      "feature_metadata": [
+        {
+          "index": "0",
+          "name": "sex",
+          "data_type": "nominal",
+          "nominal_value": [
+            "F",
+            "I",
+            "M"
+          ],
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "1",
+          "name": "length",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "2",
+          "name": "diameter",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "3",
+          "name": "height",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "4",
+          "name": "whole_weight",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "5",
+          "name": "shucked_weight",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "6",
+          "name": "cisvera_weight",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "7",
+          "name": "shell_weight",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "8",
+          "name": "rings",
+          "data_type": "numeric",
+          "is_target": "true",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        }
+      ],
+      "license": "CC BY 4.0",
+      "description": "**Data Description**\n\nPredicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.\n\nFrom the original data examples with missing values were removed (the majority having the predicted value missing), and the ranges of the continuous values have been scaled for use with an ANN (by dividing by 200).\n\nAn instance of this dataset is an abalone that was cut to determine the age. Wiki entry on abalone, can be found [here][1].\n\n[1]: <https://en.wikipedia.org/wiki/Abalone>\n\n\n**Attribute Description**\n\n1. *sex* - sex of the abalone, possible values include M, F, and I (infant)\n2. *length* - longest shell measurement in mm\n3. *diameter* - perpendicular to length in mm\n4. *height* - height with meat in shell in mm\n5. *whole_weight* - whole abalone weight in grams\n6. *shucked_weight* - weight of meat in grams\n7. *viscera_weight* - gut weight (after bleeding) in grams\n8. *shell_weight* - weight after being dried in grams\n9. *rings* - the age in years of abalone, target feature",
+      "original_source": "https://archive.ics.uci.edu/ml/datasets/abalone",
+      "citation": "Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.",
+      "source_metadata": "data/v1/raw/openml_data/44956/data.json",
+      "native_metric": null,
+      "parent_family_id": "openml_361234",
+      "expected_table_sha256": "fdc6dae726ca82b9e72c882886fc003e7de5d5dc595afc7ca8e7078d633a2fac",
+      "prediction_context": "Predict the supplied rings count from physical measurements. Do not silently relabel rings as exact age in years."
+    },
+    {
+      "id": "beyond_polish_companies_bankruptcy",
+      "name": "polish_companies_bankruptcy",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dataset.parquet",
+          "bytes": 3111298,
+          "sha256": "900e15a61de45a7cd93412ab4706ae74bb0da1f0b5579647071da91832975bab"
+        },
+        "dtypes.json": {
+          "path": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dtypes.json",
+          "bytes": 3078,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1687,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 303,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 302952,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "company_bankrupt",
+      "problem_type": "binary_classification",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "roc_auc",
+      "table_path": "data/v1/raw/beyondarena/polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dataset.parquet",
+      "table_sha256": "900e15a61de45a7cd93412ab4706ae74bb0da1f0b5579647071da91832975bab",
+      "split_metadata": "data/v1/raw/beyondarena/polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C5F600",
+      "description": "\n- We only use data from year 5 (5year.arff), because it is the newest data and the target is bankruptcy status after only 1 year.\n- We created semantically meaningful feature names.\n- We removed duplicates.\n- Anomaly: the data contains a lot of features created by feature engineering.\n",
+      "citation": "@article{zikeba2016ensemble,\n  title={Ensemble boosted trees with synthetic features generation in application to bankruptcy prediction},\n  author={Zi{\\k{e}}ba, Maciej and Tomczak, Sebastian K and Tomczak, Jakub M},\n  journal={Expert systems with applications},\n  volume={58},\n  pages={93--101},\n  year={2016},\n  publisher={Elsevier}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "finance",
+      "dataset_year": "2010",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_polish_companies_bankruptcy",
+      "expected_table_sha256": "900e15a61de45a7cd93412ab4706ae74bb0da1f0b5579647071da91832975bab",
+      "prediction_context": "Predict one-year-ahead bankruptcy status from the supplied company financial ratios in the curated year-5 subset. The split is IID across records, not a chronological evaluation on a later calendar period. Missing values and extreme ratios are present."
+    },
+    {
+      "id": "beyond_cardiotocography",
+      "name": "cardiotocography",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dataset.parquet",
+          "bytes": 55881,
+          "sha256": "c80bf1f66b940dd5a8c509552a52aadd5e6b2ccd5655a0c942690eeb415dc379"
+        },
+        "dtypes.json": {
+          "path": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dtypes.json",
+          "bytes": 508,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1488,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 298,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 349929,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "NSP",
+      "problem_type": "multiclass_classification",
+      "split_regime": "grouped",
+      "time_on": null,
+      "group_on": "patient_id",
+      "group_labels": "per_sample",
+      "group_time_on": null,
+      "native_metric": "log_loss",
+      "table_path": "data/v1/raw/beyondarena/cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dataset.parquet",
+      "table_sha256": "c80bf1f66b940dd5a8c509552a52aadd5e6b2ccd5655a0c942690eeb415dc379",
+      "split_metadata": "data/v1/raw/beyondarena/cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "10.24432/C51S4N",
+      "description": "\nWe use the data from UCI and the 3 class problem of predicting NSP as it is more medical relevant.\n\n- We transform the file names into patient IDs to indicate the sub-group of samples recorded from the same patient.\n- The raw data has dates and the start and end index of the recording. We drop these as they are not relevant for the predictive task and would not be available for test samples.\n- We drop all other columns that represent the label.\n",
+      "citation": "@misc{campos2010cardiotocography,\n  author       = {Campos, D. and Bernardes, J.},\n  title        = {{Cardiotocography}},\n  year         = {2000},\n  howpublished = {UCI Machine Learning Repository},\n  note         = {{DOI}: https://doi.org/10.24432/C51S4N}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/cardiotocography/019d7392-12c2-7a87-991c-13a7246555d4/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "medical & healthcare",
+      "dataset_year": "2010",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_cardiotocography",
+      "expected_table_sha256": "c80bf1f66b940dd5a8c509552a52aadd5e6b2ccd5655a0c942690eeb415dc379",
+      "prediction_context": "Classify fetal-state categories from recording measurements for held-out patient groups; use supplied retrospective recorded measurements."
+    },
+    {
+      "id": "beyond_5g_energy_consumption",
+      "name": "5g_energy_consumption",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset.parquet",
+          "bytes": 1384420,
+          "sha256": "c4d4a20c8ff72fca12ffe83eda9e2324eadc7596ffa76471ec4ba6743cd5d83e"
+        },
+        "dtypes.json": {
+          "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dtypes.json",
+          "bytes": 542,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 2994,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 273,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 5735923,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "Energy",
+      "problem_type": "regression",
+      "split_regime": "grouped",
+      "time_on": null,
+      "group_on": "BS",
+      "group_labels": "per_sample",
+      "group_time_on": null,
+      "native_metric": "rmse",
+      "table_path": "data/v1/raw/beyondarena/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset.parquet",
+      "table_sha256": "c4d4a20c8ff72fca12ffe83eda9e2324eadc7596ffa76471ec4ba6743cd5d83e",
+      "split_metadata": "data/v1/raw/beyondarena/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dtypes.json",
+      "license": "MIT",
+      "original_source": "https://huggingface.co/datasets/netop/5G-Network-Energy-Consumption",
+      "description": "\n- Note: The dataset was used in a Zindi challenge, but also uploaded to Huggingface under a MIT license by the company (Huawei).\n- The corresponding ITU/Zindi challenge explicitly emphasizes generalization to unseen base station products/configurations. We therefore split by base_station (BS).\n- With this setup, the task is development of predictive models for network optimization where models need to generalize to new unseen base station configurations and estimate their energy consumption under similar conditions (during the same time period).\n- For preprocessing, we orient on a top solution from the Zindi challenge: https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/tree/main.\n- Note that the competition also used mostly samples from the known BS as the test set, but weighted unknown base stations higher in evaluation.\n- The data itself is time-series. However, because we predict entirely unseen base stations in a per-sample fashion, the row-wise dependencies resulting from the temporal components cannot be used to improve performance unless the task is treated as transductive learning.\n- Following the Zindi solution, we merge the three given tables and use the Cell0 information only from the cell level table. In addition, we merge the Cell1 information since it contains information as well which might be useful in a grouped split setting.\n- Following the Zindi solution, we derive calendar features (`day`, `hour`, `weekday`) and drop the absolute timestamp.\n- We drop constant columns.\n",
+      "citation": "@misc{huawei_netop_5g_energy_consumption,\n  author       = {{HUAWEI Netop Team}},\n  title        = {5G Network Energy Consumption Dataset},\n  year         = {n.d.},\n  howpublished = {\\url{https://huggingface.co/datasets/netop/5G-Network-Energy-Consumption}},\n  note         = {Dataset hosted on Hugging Face, accessed 2026-04-15}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "technology & internet",
+      "dataset_year": "2023",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_5g_energy_consumption",
+      "expected_table_sha256": "c4d4a20c8ff72fca12ffe83eda9e2324eadc7596ffa76471ec4ba6743cd5d83e",
+      "prediction_context": "Estimate energy under known load and configuration for held-out base stations in a similar period. This is not forecasting future load or evaluating a future time shift."
+    },
+    {
+      "id": "openml_361251",
+      "adapter": "openml",
+      "task_id": 361251,
+      "sources": [
+        "ctr23"
+      ],
+      "status": "downloaded",
+      "reasons": [],
+      "name": "grid_stability",
+      "dataset_id": 44973,
+      "dataset_version": "7",
+      "target": "stab",
+      "problem_type": "regression",
+      "split_regime": "iid",
+      "table_path": "data/v1/raw/openml_data/44973/dataset.parquet",
+      "table_sha256": "b2880dc35533465b4145c374806f90b5e3856de4faf473e43adb069a6e39ec6b",
+      "split_index": "data/v1/raw/openml_tasks/361251/splits.index.json",
+      "excluded_features": [
+        "stabf"
+      ],
+      "feature_metadata": [
+        {
+          "index": "0",
+          "name": "tau1",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "1",
+          "name": "tau2",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "2",
+          "name": "tau3",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "3",
+          "name": "tau4",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "4",
+          "name": "p1",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "5",
+          "name": "p2",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "6",
+          "name": "p3",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "7",
+          "name": "p4",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "8",
+          "name": "g1",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "9",
+          "name": "g2",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "10",
+          "name": "g3",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "11",
+          "name": "g4",
+          "data_type": "numeric",
+          "is_target": "false",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "12",
+          "name": "stab",
+          "data_type": "numeric",
+          "is_target": "true",
+          "is_ignore": "false",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        },
+        {
+          "index": "13",
+          "name": "stabf",
+          "data_type": "string",
+          "is_target": "false",
+          "is_ignore": "true",
+          "is_row_identifier": "false",
+          "number_of_missing_values": "0"
+        }
+      ],
+      "license": "CC BY 4.0",
+      "description": "**Data Description**\n\nThe local stability analysis of the 4-node star system (electricity producer is in the center) implementing Decentral Smart Grid Control concept was performed.\n\nThis dataset contains simulations regarding electrical grid stability. The model is composed of a generator model and an economic model.\n\nThe analysis is performed for different sets of input values. Several input values are kept the same: averaging time - 2s, coupling strength - 8s^-2, damping - 0.1s^-1.\n\nThe goal is to estimate the stability of the system.\n\n**Attribute Description**\n\n14 features describing the system:\n\n1. *tau[1-4]* - reaction time of participant (real from the range [0.5,10]s), tau1 - value for electricity producer\n2. *p[1-4]* - nominal power consumed(negative) / produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)\n3. *g[1-4]* - coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1), g1 - the value for electricity producer\n4. *stab* - the maximal real part of the characteristic equation root (if positive - the system is linearly unstable), target feature\n5. *stabf* - the stability label of the system (categorical: stable/unstable), alternate target feature for a classification task",
+      "original_source": "https://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data+",
+      "citation": "Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.",
+      "source_metadata": "data/v1/raw/openml_data/44973/data.json",
+      "native_metric": null,
+      "parent_family_id": "openml_361251",
+      "expected_table_sha256": "b2880dc35533465b4145c374806f90b5e3856de4faf473e43adb069a6e39ec6b",
+      "prediction_context": "Surrogate regression for a published simulated electrical-grid stability model; these are simulation samples, not independently measured real-grid incidents. Alternate target stabf is excluded."
+    },
+    {
+      "id": "beyond_credit_card_clients_default",
+      "name": "credit_card_clients_default",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dataset.parquet",
+          "bytes": 1586888,
+          "sha256": "292e309bcaff0d0a2ca22263fb59764d4db0347ccc35b60d09b48653016e8ed7"
+        },
+        "dtypes.json": {
+          "path": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dtypes.json",
+          "bytes": 563,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1576,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 321,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 1790292,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "DefaultOnPaymentNextMonth",
+      "problem_type": "binary_classification",
+      "split_regime": "iid",
+      "time_on": null,
+      "group_on": null,
+      "group_labels": null,
+      "group_time_on": null,
+      "native_metric": "roc_auc",
+      "table_path": "data/v1/raw/beyondarena/credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dataset.parquet",
+      "table_sha256": "292e309bcaff0d0a2ca22263fb59764d4db0347ccc35b60d09b48653016e8ed7",
+      "split_metadata": "data/v1/raw/beyondarena/credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C55S3H",
+      "description": "\n  - We rename the target variable and restore the original class names.\n  - We drop the \"ID\" column.\n  - Anomaly: the data has temporal features but the task is time-invariant.\n",
+      "citation": "@article{yeh2009comparisons,\n  title={The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients},\n  author={Yeh, I-Cheng and Lien, Che-hui},\n  journal={Expert systems with applications},\n  volume={36},\n  number={2},\n  pages={2473--2480},\n  year={2009},\n  publisher={Elsevier}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "finance",
+      "dataset_year": "2009",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_credit_card_clients_default",
+      "expected_table_sha256": "292e309bcaff0d0a2ca22263fb59764d4db0347ccc35b60d09b48653016e8ed7",
+      "prediction_context": "Predict next-month payment default from the supplied preceding billing and repayment history. Historical IID borrower split; not validation of a future calendar-period shift."
+    },
+    {
+      "id": "beyond_mice_protein_trisomy_discriminant",
+      "name": "mice_protein_trisomy_discriminant",
+      "adapter": "beyondarena",
+      "sources": [
+        "beyondarena"
+      ],
+      "source_folder": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485",
+      "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+      "assets": {
+        "dataset.parquet": {
+          "path": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dataset.parquet",
+          "bytes": 801534,
+          "sha256": "e74c67758f31a62e98beec0c6c4c07c94b176a5d2997d634af19e8057621a197"
+        },
+        "dtypes.json": {
+          "path": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dtypes.json",
+          "bytes": 1848,
+          "sha256": null
+        },
+        "container_metadata.json": {
+          "path": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/container_metadata.json",
+          "bytes": 162,
+          "sha256": null
+        },
+        "dataset_metadata.dataset-mold-v1.json": {
+          "path": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dataset_metadata.dataset-mold-v1.json",
+          "bytes": 1526,
+          "sha256": null
+        },
+        "task_metadata.predictive-ml-task-mold-v1.json": {
+          "path": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/task_metadata.predictive-ml-task-mold-v1.json",
+          "bytes": 298,
+          "sha256": null
+        },
+        "experiment_metadata.predictive-ml-splits-mold-v1.json": {
+          "path": "mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/experiment_metadata.predictive-ml-splits-mold-v1.json",
+          "bytes": 323256,
+          "sha256": null
+        }
+      },
+      "status": "downloaded",
+      "reasons": [],
+      "target": "class",
+      "problem_type": "multiclass_classification",
+      "split_regime": "grouped",
+      "time_on": null,
+      "group_on": "MouseID",
+      "group_labels": "per_group",
+      "group_time_on": null,
+      "native_metric": "log_loss",
+      "table_path": "data/v1/raw/beyondarena/mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dataset.parquet",
+      "table_sha256": "e74c67758f31a62e98beec0c6c4c07c94b176a5d2997d634af19e8057621a197",
+      "split_metadata": "data/v1/raw/beyondarena/mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/experiment_metadata.predictive-ml-splits-mold-v1.json",
+      "dtype_metadata": "data/v1/raw/beyondarena/mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dtypes.json",
+      "license": "CC BY 4.0",
+      "original_source": "https://doi.org/10.24432/C50S3Z",
+      "description": "\nWe start with the dataset from UCI.\n\n- We drop the three feature that make up the target to remove the leakage.\n- We reduce the mouse ID to represent the ID of the mouse instead of the experiment for the mouse.\n- We drop the duplicated feature pS6_N.\n",
+      "citation": "@article{higuera2015self,\n  title={Self-organizing feature maps identify proteins critical to learning in a mouse model of down syndrome},\n  author={Higuera, Clara and Gardiner, Katheleen J and Cios, Krzysztof J},\n  journal={PloS one},\n  volume={10},\n  number={6},\n  pages={e0129126},\n  year={2015},\n  publisher={Public Library of Science San Francisco, CA USA}\n}\n",
+      "source_metadata": "data/v1/raw/beyondarena/mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dataset_metadata.dataset-mold-v1.json",
+      "excluded_features": [],
+      "domain": "biology & life sciences",
+      "dataset_year": "2015",
+      "split_time_horizon": null,
+      "split_time_horizon_unit": null,
+      "upstream_task_metadata": "data/v1/raw/source_documents/tabarena/BeyondArena_tasks_metadata.csv",
+      "parent_family_id": "beyond_mice_protein_trisomy_discriminant",
+      "expected_table_sha256": "e74c67758f31a62e98beec0c6c4c07c94b176a5d2997d634af19e8057621a197",
+      "prediction_context": "Classify the eight genotype/treatment/behavior classes from measured proteins in unseen mice. Constituent target fields are excluded; use the original mouse-grouped split."
+    }
+  ]
+}

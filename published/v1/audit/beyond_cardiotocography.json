@@ -1,0 +1,514 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_cardiotocography",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "LB",
+      "AC",
+      "FM",
+      "UC",
+      "ASTV",
+      "MSTV",
+      "ALTV",
+      "MLTV",
+      "DL",
+      "DS",
+      "DP",
+      "DR",
+      "Width",
+      "Min",
+      "Max",
+      "Nmax",
+      "Nzeros",
+      "Mode",
+      "Mean",
+      "Median",
+      "Variance",
+      "Tendency",
+      "patient_id"
+    ],
+    "problem_type": "multiclass",
+    "classes": [
+      "1.0",
+      "2.0",
+      "3.0"
+    ],
+    "family_id": "beyond_cardiotocography",
+    "dataset_fingerprint": "25e4266133149b5df82a642749577743f5bf836a88db10ac1e7916feabe893a3",
+    "protocol_fingerprint": "d0e2149e90e78d6bdbbbc234d697aa1246599cd0cc9e380831276787c3649623",
+    "rows": 2126,
+    "feature_count": 23,
+    "split_count": 30
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 30,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 1254,
+      "test_rows": 872,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 1544,
+      "test_rows": 582,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 1454,
+      "test_rows": 672,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 1448,
+      "test_rows": 678,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 1398,
+      "test_rows": 728,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 1406,
+      "test_rows": 720,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 1479,
+      "test_rows": 647,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 1358,
+      "test_rows": 768,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 1415,
+      "test_rows": 711,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "train_rows": 1450,
+      "test_rows": 676,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "train_rows": 1507,
+      "test_rows": 619,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "train_rows": 1295,
+      "test_rows": 831,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "train_rows": 1285,
+      "test_rows": 841,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "train_rows": 1466,
+      "test_rows": 660,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "train_rows": 1501,
+      "test_rows": 625,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 0,
+      "train_rows": 1426,
+      "test_rows": 700,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 1,
+      "train_rows": 1318,
+      "test_rows": 808,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 2,
+      "train_rows": 1508,
+      "test_rows": 618,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 0,
+      "train_rows": 1568,
+      "test_rows": 558,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 1,
+      "train_rows": 1316,
+      "test_rows": 810,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 2,
+      "train_rows": 1368,
+      "test_rows": 758,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 0,
+      "train_rows": 1450,
+      "test_rows": 676,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 1,
+      "train_rows": 1456,
+      "test_rows": 670,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 2,
+      "train_rows": 1346,
+      "test_rows": 780,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 0,
+      "train_rows": 1434,
+      "test_rows": 692,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 1,
+      "train_rows": 1432,
+      "test_rows": 694,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 2,
+      "train_rows": 1386,
+      "test_rows": 740,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 0,
+      "train_rows": 1344,
+      "test_rows": 782,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 1,
+      "train_rows": 1502,
+      "test_rows": 624,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 2,
+      "train_rows": 1406,
+      "test_rows": 720,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 2126,
+  "feature_count": 23,
+  "table_bytes": 55881,
+  "types": {
+    "LB": "double",
+    "AC": "double",
+    "FM": "double",
+    "UC": "double",
+    "ASTV": "double",
+    "MSTV": "double",
+    "ALTV": "double",
+    "MLTV": "double",
+    "DL": "double",
+    "DS": "double",
+    "DP": "double",
+    "DR": "double",
+    "Width": "double",
+    "Min": "double",
+    "Max": "double",
+    "Nmax": "double",
+    "Nzeros": "double",
+    "Mode": "double",
+    "Mean": "double",
+    "Median": "double",
+    "Variance": "double",
+    "Tendency": "double",
+    "NSP": "double",
+    "patient_id": "dictionary<values=string, indices=int32, ordered=0>"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "LB": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 106.0,
+      "max": 160.0
+    },
+    "AC": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 26.0
+    },
+    "FM": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 564.0
+    },
+    "UC": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 23.0
+    },
+    "ASTV": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 12.0,
+      "max": 87.0
+    },
+    "MSTV": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.2,
+      "max": 7.0
+    },
+    "ALTV": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 91.0
+    },
+    "MLTV": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 50.7
+    },
+    "DL": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 16.0
+    },
+    "DS": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "DP": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "DR": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "Width": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 3.0,
+      "max": 180.0
+    },
+    "Min": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 50.0,
+      "max": 159.0
+    },
+    "Max": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 122.0,
+      "max": 238.0
+    },
+    "Nmax": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "Nzeros": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 10.0
+    },
+    "Mode": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 60.0,
+      "max": 187.0
+    },
+    "Mean": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 73.0,
+      "max": 182.0
+    },
+    "Median": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 77.0,
+      "max": 186.0
+    },
+    "Variance": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 269.0
+    },
+    "Tendency": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -1.0,
+      "max": 1.0
+    },
+    "NSP": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "patient_id": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 14,
+  "duplicate_feature_rows": 16,
+  "target_copies": [],
+  "class_counts": {
+    "1.0": 1655,
+    "2.0": 295,
+    "3.0": 176
+  },
+  "fingerprint": "25e4266133149b5df82a642749577743f5bf836a88db10ac1e7916feabe893a3",
+  "protocol_fingerprint": "d0e2149e90e78d6bdbbbc234d697aa1246599cd0cc9e380831276787c3649623",
+  "seconds": 0.25
+}

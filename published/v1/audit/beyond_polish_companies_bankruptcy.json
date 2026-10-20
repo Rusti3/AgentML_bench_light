@@ -1,0 +1,651 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_polish_companies_bankruptcy",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "net_profit_to_total_assets",
+      "total_liabilities_to_total_assets",
+      "working_capital_to_total_assets",
+      "current_assets_to_short_term_liabilities",
+      "liquidity_days_ratio",
+      "retained_earnings_to_total_assets",
+      "ebit_to_total_assets",
+      "book_value_equity_to_total_liabilities",
+      "sales_to_total_assets",
+      "equity_to_total_assets",
+      "extended_profit_to_total_assets",
+      "gross_profit_to_short_term_liabilities",
+      "gross_profit_plus_depreciation_to_sales",
+      "gross_profit_plus_interest_to_total_assets",
+      "liabilities_days_ratio",
+      "gross_profit_plus_depreciation_to_total_liabilities",
+      "total_assets_to_total_liabilities",
+      "gross_profit_to_total_assets",
+      "gross_profit_to_sales",
+      "inventory_days_ratio",
+      "sales_growth_ratio",
+      "operating_profit_to_total_assets",
+      "net_profit_to_sales",
+      "three_year_gross_profit_to_total_assets",
+      "equity_minus_share_capital_to_total_assets",
+      "net_profit_plus_depreciation_to_total_liabilities",
+      "operating_profit_to_financial_expenses",
+      "working_capital_to_fixed_assets",
+      "log_total_assets",
+      "net_liabilities_to_sales",
+      "gross_profit_plus_interest_to_sales",
+      "current_liabilities_days_ratio",
+      "operating_expenses_to_short_term_liabilities",
+      "operating_expenses_to_total_liabilities",
+      "sales_profit_to_total_assets",
+      "total_sales_to_total_assets",
+      "current_assets_minus_inventories_to_long_term_liabilities",
+      "constant_capital_to_total_assets",
+      "sales_profit_to_sales",
+      "liquid_assets_to_short_term_liabilities",
+      "liabilities_to_adjusted_operating_profit",
+      "operating_profit_to_sales",
+      "receivables_plus_inventory_turnover_days",
+      "receivables_days_ratio",
+      "net_profit_to_inventory",
+      "current_assets_minus_inventory_to_short_term_liabilities",
+      "inventory_days_cost_ratio",
+      "ebitda_to_total_assets",
+      "ebitda_to_sales",
+      "current_assets_to_total_liabilities",
+      "short_term_liabilities_to_total_assets",
+      "short_term_liabilities_days_cost_ratio",
+      "equity_to_fixed_assets",
+      "constant_capital_to_fixed_assets",
+      "working_capital_absolute",
+      "gross_margin",
+      "adjusted_liquidity_ratio",
+      "total_costs_to_total_sales",
+      "long_term_liabilities_to_equity",
+      "inventory_turnover_ratio",
+      "receivables_turnover_ratio",
+      "short_term_liabilities_days_ratio",
+      "sales_to_short_term_liabilities",
+      "sales_to_fixed_assets"
+    ],
+    "problem_type": "binary_classification",
+    "classes": [
+      "No",
+      "Yes"
+    ],
+    "family_id": "beyond_polish_companies_bankruptcy",
+    "dataset_fingerprint": "32df7919de715226de9ec34503cbc5c2111f6a8711bce4690f6cb284d7a39c9f",
+    "protocol_fingerprint": "9a3876c43c882f873f707453ca4e860ad6bcbb873eb0dd1c8db29016d110b645",
+    "rows": 5790,
+    "feature_count": 64,
+    "split_count": 9
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 9,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 3860,
+      "test_rows": 1930,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 5790,
+  "feature_count": 64,
+  "table_bytes": 3111298,
+  "types": {
+    "net_profit_to_total_assets": "double",
+    "total_liabilities_to_total_assets": "double",
+    "working_capital_to_total_assets": "double",
+    "current_assets_to_short_term_liabilities": "double",
+    "liquidity_days_ratio": "double",
+    "retained_earnings_to_total_assets": "double",
+    "ebit_to_total_assets": "double",
+    "book_value_equity_to_total_liabilities": "double",
+    "sales_to_total_assets": "double",
+    "equity_to_total_assets": "double",
+    "extended_profit_to_total_assets": "double",
+    "gross_profit_to_short_term_liabilities": "double",
+    "gross_profit_plus_depreciation_to_sales": "double",
+    "gross_profit_plus_interest_to_total_assets": "double",
+    "liabilities_days_ratio": "double",
+    "gross_profit_plus_depreciation_to_total_liabilities": "double",
+    "total_assets_to_total_liabilities": "double",
+    "gross_profit_to_total_assets": "double",
+    "gross_profit_to_sales": "double",
+    "inventory_days_ratio": "double",
+    "sales_growth_ratio": "double",
+    "operating_profit_to_total_assets": "double",
+    "net_profit_to_sales": "double",
+    "three_year_gross_profit_to_total_assets": "double",
+    "equity_minus_share_capital_to_total_assets": "double",
+    "net_profit_plus_depreciation_to_total_liabilities": "double",
+    "operating_profit_to_financial_expenses": "double",
+    "working_capital_to_fixed_assets": "double",
+    "log_total_assets": "double",
+    "net_liabilities_to_sales": "double",
+    "gross_profit_plus_interest_to_sales": "double",
+    "current_liabilities_days_ratio": "double",
+    "operating_expenses_to_short_term_liabilities": "double",
+    "operating_expenses_to_total_liabilities": "double",
+    "sales_profit_to_total_assets": "double",
+    "total_sales_to_total_assets": "double",
+    "current_assets_minus_inventories_to_long_term_liabilities": "double",
+    "constant_capital_to_total_assets": "double",
+    "sales_profit_to_sales": "double",
+    "liquid_assets_to_short_term_liabilities": "double",
+    "liabilities_to_adjusted_operating_profit": "double",
+    "operating_profit_to_sales": "double",
+    "receivables_plus_inventory_turnover_days": "double",
+    "receivables_days_ratio": "double",
+    "net_profit_to_inventory": "double",
+    "current_assets_minus_inventory_to_short_term_liabilities": "double",
+    "inventory_days_cost_ratio": "double",
+    "ebitda_to_total_assets": "double",
+    "ebitda_to_sales": "double",
+    "current_assets_to_total_liabilities": "double",
+    "short_term_liabilities_to_total_assets": "double",
+    "short_term_liabilities_days_cost_ratio": "double",
+    "equity_to_fixed_assets": "double",
+    "constant_capital_to_fixed_assets": "double",
+    "working_capital_absolute": "double",
+    "gross_margin": "double",
+    "adjusted_liquidity_ratio": "double",
+    "total_costs_to_total_sales": "double",
+    "long_term_liabilities_to_equity": "double",
+    "inventory_turnover_ratio": "double",
+    "receivables_turnover_ratio": "double",
+    "short_term_liabilities_days_ratio": "double",
+    "sales_to_short_term_liabilities": "double",
+    "sales_to_fixed_assets": "double",
+    "company_bankrupt": "dictionary<values=string, indices=int32, ordered=0>"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "net_profit_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -463.89,
+      "max": 87.459
+    },
+    "total_liabilities_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -430.87,
+      "max": 72.416
+    },
+    "working_capital_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -72.067,
+      "max": 28.336
+    },
+    "current_assets_to_short_term_liabilities": {
+      "missing": 21,
+      "infinite": 0,
+      "min": -0.40311,
+      "max": 6845.8
+    },
+    "liquidity_days_ratio": {
+      "missing": 11,
+      "infinite": 0,
+      "min": -1076400.0,
+      "max": 1250100.0
+    },
+    "retained_earnings_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -463.89,
+      "max": 543.25
+    },
+    "ebit_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -517.48,
+      "max": 5.53
+    },
+    "book_value_equity_to_total_liabilities": {
+      "missing": 18,
+      "infinite": 0,
+      "min": -3.7351,
+      "max": 6868.5
+    },
+    "sales_to_total_assets": {
+      "missing": 1,
+      "infinite": 0,
+      "min": -3.496,
+      "max": 65.607
+    },
+    "equity_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -71.444,
+      "max": 339.85
+    },
+    "extended_profit_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -463.89,
+      "max": 6.388
+    },
+    "gross_profit_to_short_term_liabilities": {
+      "missing": 21,
+      "infinite": 0,
+      "min": -231.85,
+      "max": 2470.3
+    },
+    "gross_profit_plus_depreciation_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -310.34,
+      "max": 2340.2
+    },
+    "gross_profit_plus_interest_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -517.48,
+      "max": 5.53
+    },
+    "liabilities_days_ratio": {
+      "missing": 6,
+      "infinite": 0,
+      "min": -9632400.0,
+      "max": 1341700.0
+    },
+    "gross_profit_plus_depreciation_to_total_liabilities": {
+      "missing": 18,
+      "infinite": 0,
+      "min": -221.33,
+      "max": 2837.4
+    },
+    "total_assets_to_total_liabilities": {
+      "missing": 18,
+      "infinite": 0,
+      "min": -0.002321,
+      "max": 6869.5
+    },
+    "gross_profit_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -517.48,
+      "max": 55.125
+    },
+    "gross_profit_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -310.8,
+      "max": 77.244
+    },
+    "inventory_days_ratio": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -29.34,
+      "max": 9928.5
+    },
+    "sales_growth_ratio": {
+      "missing": 103,
+      "infinite": 0,
+      "min": -135.15,
+      "max": 7661.5
+    },
+    "operating_profit_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -431.59,
+      "max": 15.541
+    },
+    "net_profit_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -310.89,
+      "max": 77.244
+    },
+    "three_year_gross_profit_to_total_assets": {
+      "missing": 135,
+      "infinite": 0,
+      "min": -463.89,
+      "max": 252.34
+    },
+    "equity_minus_share_capital_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -71.444,
+      "max": 266.86
+    },
+    "net_profit_plus_depreciation_to_total_liabilities": {
+      "missing": 18,
+      "infinite": 0,
+      "min": -221.33,
+      "max": 2689.1
+    },
+    "operating_profit_to_financial_expenses": {
+      "missing": 389,
+      "infinite": 0,
+      "min": -158130.0,
+      "max": 565940.0
+    },
+    "working_capital_to_fixed_assets": {
+      "missing": 105,
+      "infinite": 0,
+      "min": -1089.7,
+      "max": 21701.0
+    },
+    "log_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": 0.006359,
+      "max": 9.6983
+    },
+    "net_liabilities_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -23.06,
+      "max": 1236.7
+    },
+    "gross_profit_plus_interest_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -310.8,
+      "max": 77.244
+    },
+    "current_liabilities_days_ratio": {
+      "missing": 46,
+      "infinite": 0,
+      "min": -255.1,
+      "max": 2340500.0
+    },
+    "operating_expenses_to_short_term_liabilities": {
+      "missing": 21,
+      "infinite": 0,
+      "min": -1.4334,
+      "max": 7590.5
+    },
+    "operating_expenses_to_total_liabilities": {
+      "missing": 18,
+      "infinite": 0,
+      "min": -16.015,
+      "max": 7590.5
+    },
+    "sales_profit_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -431.59,
+      "max": 15.541
+    },
+    "total_sales_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": 0.000191,
+      "max": 965.66
+    },
+    "current_assets_minus_inventories_to_long_term_liabilities": {
+      "missing": 2502,
+      "infinite": 0,
+      "min": -4.3258,
+      "max": 67922.0
+    },
+    "constant_capital_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -71.444,
+      "max": 467.77
+    },
+    "sales_profit_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -47.047,
+      "max": 2.9011
+    },
+    "liquid_assets_to_short_term_liabilities": {
+      "missing": 21,
+      "infinite": 0,
+      "min": -9.0686,
+      "max": 4303.2
+    },
+    "liabilities_to_adjusted_operating_profit": {
+      "missing": 84,
+      "infinite": 0,
+      "min": -269.99,
+      "max": 5043.3
+    },
+    "operating_profit_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -143.52,
+      "max": 40.386
+    },
+    "receivables_plus_inventory_turnover_days": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -3975.6,
+      "max": 40515.0
+    },
+    "receivables_days_ratio": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -3946.2,
+      "max": 40515.0
+    },
+    "net_profit_to_inventory": {
+      "missing": 264,
+      "infinite": 0,
+      "min": -3037.3,
+      "max": 366030.0
+    },
+    "current_assets_minus_inventory_to_short_term_liabilities": {
+      "missing": 21,
+      "infinite": 0,
+      "min": -9.049,
+      "max": 6845.8
+    },
+    "inventory_days_cost_ratio": {
+      "missing": 35,
+      "infinite": 0,
+      "min": -18.658,
+      "max": 185610.0
+    },
+    "ebitda_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -542.56,
+      "max": 15.541
+    },
+    "ebitda_to_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -144.8,
+      "max": 16.866
+    },
+    "current_assets_to_total_liabilities": {
+      "missing": 18,
+      "infinite": 0,
+      "min": -0.012175,
+      "max": 6845.8
+    },
+    "short_term_liabilities_to_total_assets": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -0.18661,
+      "max": 72.416
+    },
+    "short_term_liabilities_days_cost_ratio": {
+      "missing": 36,
+      "infinite": 0,
+      "min": -0.69764,
+      "max": 666.11
+    },
+    "equity_to_fixed_assets": {
+      "missing": 105,
+      "infinite": 0,
+      "min": -1088.7,
+      "max": 21702.0
+    },
+    "constant_capital_to_fixed_assets": {
+      "missing": 105,
+      "infinite": 0,
+      "min": -1088.7,
+      "max": 21702.0
+    },
+    "working_capital_absolute": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -1118500.0,
+      "max": 4212200.0
+    },
+    "gross_margin": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -46.788,
+      "max": 1.651
+    },
+    "adjusted_liquidity_ratio": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -1236.3,
+      "max": 87.981
+    },
+    "total_costs_to_total_sales": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -0.16439,
+      "max": 47.788
+    },
+    "long_term_liabilities_to_equity": {
+      "missing": 3,
+      "infinite": 0,
+      "min": -184.98,
+      "max": 308.15
+    },
+    "inventory_turnover_ratio": {
+      "missing": 264,
+      "infinite": 0,
+      "min": -12.44,
+      "max": 4818700.0
+    },
+    "receivables_turnover_ratio": {
+      "missing": 15,
+      "infinite": 0,
+      "min": -0.092493,
+      "max": 1308.5
+    },
+    "short_term_liabilities_days_ratio": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -236.53,
+      "max": 451380.0
+    },
+    "sales_to_short_term_liabilities": {
+      "missing": 21,
+      "infinite": 0,
+      "min": -1.5432,
+      "max": 7641.3
+    },
+    "sales_to_fixed_assets": {
+      "missing": 105,
+      "infinite": 0,
+      "min": -3.7265,
+      "max": 158180.0
+    },
+    "company_bankrupt": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "class_counts": {
+    "No": 5384,
+    "Yes": 406
+  },
+  "fingerprint": "32df7919de715226de9ec34503cbc5c2111f6a8711bce4690f6cb284d7a39c9f",
+  "protocol_fingerprint": "9a3876c43c882f873f707453ca4e860ad6bcbb873eb0dd1c8db29016d110b645",
+  "seconds": 0.7029999999995198
+}

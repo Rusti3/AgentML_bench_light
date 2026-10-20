@@ -1,0 +1,18 @@
+{
+  "unique_name": "fiat_500",
+  "dataset_year": "2020",
+  "domain_str": "technology & internet",
+  "dataset_source": "Kaggle",
+  "original_dataset_source_download_link": "https://www.kaggle.com/datasets/paolocons/another-fiat-500-dataset-1538-rows",
+  "download_description": "\nkaggle datasets download paolocons/another-fiat-500-dataset-1538-rows -p local-data-warehouse/fiat_500/ && unzip local-data-warehouse/fiat_500/another-fiat-500-dataset-1538-rows.zip -d local-data-warehouse/fiat_500/ && rm local-data-warehouse/fiat_500/another-fiat-500-dataset-1538-rows.zip\n",
+  "academic_reference_bibtex": "@misc{paolocons2020fiat,\n  author       = {Kaggle User Paolocons},\n  title        = {Another Dataset on Used Fiat 500 (1538 Rows)},\n  year         = {2020},\n  howpublished = {\\url{https://www.kaggle.com/datasets/paolocons/another-fiat-500-dataset-1538-rows}},\n  note         = {Kaggle dataset},\n}\n",
+  "academic_reference_bibtex_key": "paolocons2020fiat",
+  "license": "CC0: Public Domain",
+  "data_tags": [
+    "IID"
+  ],
+  "curation_comments": "N/A",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

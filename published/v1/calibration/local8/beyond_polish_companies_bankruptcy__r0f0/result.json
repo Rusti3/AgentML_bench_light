@@ -1,0 +1,66 @@
+{
+  "task_id": "beyond_polish_companies_bankruptcy",
+  "case_id": "beyond_polish_companies_bankruptcy__r0f0",
+  "profile": "local8",
+  "signature": "fa37d127d7cb5e6395e2706fda33246956b37b2aef280f6908bfeee884329542",
+  "status": "calibrated",
+  "family_id": "beyond_polish_companies_bankruptcy",
+  "problem_type": "binary_classification",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-ba98e28585fb60c6d423",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 12.139999999999418,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 1930,
+  "metrics": {
+    "macro_f1": 0.8476298906359073,
+    "accuracy": 0.960621761658031,
+    "weighted_f1": 0.9604857906941056,
+    "per_class": {
+      "No": {
+        "precision": 0.9782971619365609,
+        "recall": 0.9793871866295265,
+        "f1-score": 0.9788418708240535,
+        "support": 1795.0
+      },
+      "Yes": {
+        "precision": 0.7218045112781954,
+        "recall": 0.7111111111111111,
+        "f1-score": 0.7164179104477612,
+        "support": 135.0
+      },
+      "accuracy": 0.960621761658031,
+      "macro avg": {
+        "precision": 0.8500508366073782,
+        "recall": 0.8452491488703189,
+        "f1-score": 0.8476298906359073,
+        "support": 1930.0
+      },
+      "weighted avg": {
+        "precision": 0.9603559661651209,
+        "recall": 0.960621761658031,
+        "f1-score": 0.9604857906941056,
+        "support": 1930.0
+      }
+    }
+  },
+  "baseline_metric": 0.8476298906359073,
+  "prediction_sha256": "0aca09d3c6d66dbf6ff54d3348dcb1329d8ccff20f260bbc7914607ab858aac3"
+}

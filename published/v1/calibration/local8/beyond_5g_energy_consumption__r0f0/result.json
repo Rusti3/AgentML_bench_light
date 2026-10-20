@@ -1,0 +1,39 @@
+{
+  "task_id": "beyond_5g_energy_consumption",
+  "case_id": "beyond_5g_energy_consumption__r0f0",
+  "profile": "local8",
+  "signature": "6dbaa161eb10a046d07ed2cc4ddba82afcb214891009d029314648c998c590b6",
+  "status": "calibrated",
+  "family_id": "beyond_5g_energy_consumption",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-96d2b449b09d59d2f619",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 29.10900000000038,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 31223,
+  "metrics": {
+    "rmse": 4.913857656295628,
+    "mae": 3.4012681556860085,
+    "r2": 0.8674378379098215
+  },
+  "baseline_metric": 4.913857656295628,
+  "prediction_sha256": "f6248dc364e69b682ab73c45a459921939b5cf96f59a0d4ccdd59c1ca0a18e53"
+}

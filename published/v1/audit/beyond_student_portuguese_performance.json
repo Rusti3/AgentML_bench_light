@@ -1,0 +1,771 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_student_portuguese_performance",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "school",
+      "sex",
+      "age",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences"
+    ],
+    "problem_type": "regression",
+    "classes": null,
+    "family_id": "beyond_student_portuguese_performance",
+    "dataset_fingerprint": "eb7cb89d83c99671598296f20a86a014c891edb8ece458b034e4e6e48c8007cb",
+    "protocol_fingerprint": "e38006687c30f84c9181bc2b48953eb30b4f9cff3c3e3a16aece7acf80b3a59a",
+    "rows": 649,
+    "feature_count": 30,
+    "split_count": 60
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 60,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 5,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 5,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 5,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 6,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 6,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 6,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 7,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 7,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 7,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 8,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 8,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 8,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 9,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 9,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 9,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 10,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 10,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 10,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 11,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 11,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 11,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 12,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 12,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 12,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 13,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 13,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 13,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 14,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 14,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 14,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 15,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 15,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 15,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 16,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 16,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 16,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 17,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 17,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 17,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 18,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 18,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 18,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 19,
+      "fold": 0,
+      "train_rows": 432,
+      "test_rows": 217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 19,
+      "fold": 1,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 19,
+      "fold": 2,
+      "train_rows": 433,
+      "test_rows": 216,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    }
+  ],
+  "rows": 649,
+  "feature_count": 30,
+  "table_bytes": 25166,
+  "types": {
+    "school": "dictionary<values=string, indices=int32, ordered=0>",
+    "sex": "dictionary<values=string, indices=int32, ordered=0>",
+    "age": "int64",
+    "address": "dictionary<values=string, indices=int32, ordered=0>",
+    "famsize": "dictionary<values=string, indices=int32, ordered=0>",
+    "Pstatus": "dictionary<values=string, indices=int32, ordered=0>",
+    "Medu": "int64",
+    "Fedu": "int64",
+    "Mjob": "dictionary<values=string, indices=int32, ordered=0>",
+    "Fjob": "dictionary<values=string, indices=int32, ordered=0>",
+    "reason": "dictionary<values=string, indices=int32, ordered=0>",
+    "guardian": "dictionary<values=string, indices=int32, ordered=0>",
+    "traveltime": "int64",
+    "studytime": "int64",
+    "failures": "int64",
+    "schoolsup": "dictionary<values=string, indices=int32, ordered=0>",
+    "famsup": "dictionary<values=string, indices=int32, ordered=0>",
+    "paid": "dictionary<values=string, indices=int32, ordered=0>",
+    "activities": "dictionary<values=string, indices=int32, ordered=0>",
+    "nursery": "dictionary<values=string, indices=int32, ordered=0>",
+    "higher": "dictionary<values=string, indices=int32, ordered=0>",
+    "internet": "dictionary<values=string, indices=int32, ordered=0>",
+    "romantic": "dictionary<values=string, indices=int32, ordered=0>",
+    "famrel": "int64",
+    "freetime": "int64",
+    "goout": "int64",
+    "Dalc": "int64",
+    "Walc": "int64",
+    "health": "int64",
+    "absences": "int64",
+    "G3": "int64"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "school": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "sex": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "age": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 15.0,
+      "max": 22.0
+    },
+    "address": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "famsize": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Pstatus": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Medu": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "Fedu": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "Mjob": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Fjob": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "reason": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "guardian": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "traveltime": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "studytime": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "failures": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "schoolsup": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "famsup": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "paid": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "activities": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "nursery": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "higher": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "internet": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "romantic": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "famrel": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "freetime": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "goout": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "Dalc": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "Walc": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "health": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "absences": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 32.0
+    },
+    "G3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 19.0
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "fingerprint": "eb7cb89d83c99671598296f20a86a014c891edb8ece458b034e4e6e48c8007cb",
+  "protocol_fingerprint": "e38006687c30f84c9181bc2b48953eb30b4f9cff3c3e3a16aece7acf80b3a59a",
+  "seconds": 0.18699999999989814
+}

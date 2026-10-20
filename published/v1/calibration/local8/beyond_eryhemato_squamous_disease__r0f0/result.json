@@ -1,0 +1,90 @@
+{
+  "task_id": "beyond_eryhemato_squamous_disease",
+  "case_id": "beyond_eryhemato_squamous_disease__r0f0",
+  "profile": "local8",
+  "signature": "71c398197d91aa0fec50890f9a8a04bad9dbe0b1f9cbf3ccbe4f23134d14d654",
+  "status": "calibrated",
+  "family_id": "beyond_eryhemato_squamous_disease",
+  "problem_type": "multiclass",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-7d3c995d07181196cdd2",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 11.51600000000144,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 122,
+  "metrics": {
+    "macro_f1": 0.9812500000000001,
+    "accuracy": 0.9836065573770492,
+    "weighted_f1": 0.9836065573770492,
+    "per_class": {
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "2": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1-score": 0.95,
+        "support": 20.0
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "4": {
+        "precision": 0.9375,
+        "recall": 0.9375,
+        "f1-score": 0.9375,
+        "support": 16.0
+      },
+      "5": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "6": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "accuracy": 0.9836065573770492,
+      "macro avg": {
+        "precision": 0.9812500000000001,
+        "recall": 0.9812500000000001,
+        "f1-score": 0.9812500000000001,
+        "support": 122.0
+      },
+      "weighted avg": {
+        "precision": 0.9836065573770492,
+        "recall": 0.9836065573770492,
+        "f1-score": 0.9836065573770492,
+        "support": 122.0
+      }
+    }
+  },
+  "baseline_metric": 0.9812500000000001,
+  "prediction_sha256": "3ab80f6ceb31956ed28db56c9d1dafbec6395a9a39449b101df22ae70f06496e"
+}

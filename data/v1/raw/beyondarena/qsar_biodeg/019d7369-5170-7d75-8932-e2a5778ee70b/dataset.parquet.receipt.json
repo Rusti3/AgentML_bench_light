@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/qsar_biodeg/019d7369-5170-7d75-8932-e2a5778ee70b/dataset.parquet",
+  "sha256": "8faa53bf1c7548243e3587b5558dad173235aa96c39ade4508084ba304c687ef",
+  "bytes": 102798,
+  "upstream_sha256": "8faa53bf1c7548243e3587b5558dad173235aa96c39ade4508084ba304c687ef",
+  "upstream_md5": null,
+  "etag": "\"5b2fe9b25c73a2533579932b25a2d0eb1becf7e99d3a2097bd4c2e8da94d67ae\""
+}

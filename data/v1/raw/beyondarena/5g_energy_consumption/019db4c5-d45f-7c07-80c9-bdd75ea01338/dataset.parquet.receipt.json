@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset.parquet",
+  "sha256": "c4d4a20c8ff72fca12ffe83eda9e2324eadc7596ffa76471ec4ba6743cd5d83e",
+  "bytes": 1384420,
+  "upstream_sha256": "c4d4a20c8ff72fca12ffe83eda9e2324eadc7596ffa76471ec4ba6743cd5d83e",
+  "upstream_md5": null,
+  "etag": "\"34b0a6008d2404338c9a9996a84cd37eb31afb7cfb488126777404fbaf66829a\""
+}

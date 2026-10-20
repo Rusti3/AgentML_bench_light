@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/eryhemato_squamous_disease/019d736b-020a-7fbc-9785-6438802781f2/dataset.parquet",
+  "sha256": "51df041520f24de95e1a81a5e5864786122056dfdf4ed719cae290ff30570d13",
+  "bytes": 32537,
+  "upstream_sha256": "51df041520f24de95e1a81a5e5864786122056dfdf4ed719cae290ff30570d13",
+  "upstream_md5": null,
+  "etag": "\"0e2717eefc98969ec6743c51116abab14799af854c2cd5217b39860fd8bac53e\""
+}

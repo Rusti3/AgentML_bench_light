@@ -1,0 +1,225 @@
+{
+  "benchmark": "AgentML Bench Light",
+  "version": "v1",
+  "parent_repository": "https://github.com/Rusti3/AgentML_bench",
+  "parent_commit": "b80892825a61aa8a7f4bd82211ad3ac17ab20bd4",
+  "parent_release_id": "5026c819b0b5a04de2ccb7a6dc76bae8934cf6bb386a4434fedf4fca92111ad4",
+  "groups": [
+    {
+      "id": "1",
+      "title": "Небольшие таблицы",
+      "tasks": [
+        {
+          "task_id": "openml_363612",
+          "name": "airfoil_self_noise",
+          "problem_type": "regression",
+          "family_id": "beyond_airfoil_self_noise",
+          "rows": 1503,
+          "features": 5,
+          "split_regime": "iid",
+          "target": "scaled-sound-pressure",
+          "license": "CC BY 4.0",
+          "prediction_context": "Predict the supplied continuous sound-pressure target from measured airflow, geometry and frequency. Standard IID benchmark split; not an extrapolation test for new aircraft geometries."
+        },
+        {
+          "task_id": "openml_363625",
+          "name": "concrete_compressive_strength",
+          "problem_type": "regression",
+          "family_id": "beyond_concrete_compressive_strength",
+          "rows": 1030,
+          "features": 8,
+          "split_regime": "iid",
+          "target": "ConcreteCompressiveStrength",
+          "license": "CC BY 4.0",
+          "prediction_context": "Predict concrete compressive strength for a specified mix and curing age. Age is known for the requested prediction. Some identical feature settings occur in train and test; their measured share is reported in the suitability review."
+        },
+        {
+          "task_id": "openml_363626",
+          "name": "credit-g",
+          "problem_type": "binary_classification",
+          "family_id": "beyond_credit_g",
+          "rows": 1000,
+          "features": 20,
+          "split_regime": "iid",
+          "target": "good_or_bad_customer",
+          "license": "CC BY 4.0",
+          "prediction_context": "Predict the historical good/bad credit label from the supplied applicant attributes. IID benchmark classification; not a modern credit-approval policy or cost-sensitive official score."
+        },
+        {
+          "task_id": "beyond_eryhemato_squamous_disease",
+          "name": "eryhemato_squamous_disease",
+          "problem_type": "multiclass",
+          "family_id": "beyond_eryhemato_squamous_disease",
+          "rows": 366,
+          "features": 34,
+          "split_regime": "iid",
+          "target": "class",
+          "license": "CC BY 4.0",
+          "prediction_context": "Retrospective six-class diagnosis from observed clinical and histopathological measurements, including biopsy-derived features. Not a prediction before these measurements; the cohort is small and this is an ML benchmark, not a clinical validation."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Смешанные признаки",
+      "tasks": [
+        {
+          "task_id": "beyond_student_portuguese_performance",
+          "name": "student_portuguese_performance",
+          "problem_type": "regression",
+          "family_id": "beyond_student_portuguese_performance",
+          "rows": 649,
+          "features": 30,
+          "split_regime": "iid",
+          "target": "G3",
+          "license": "CC BY 4.0",
+          "prediction_context": "Static prediction of final grade G3 with all supplied covariates, including observed absences. G1 and G2 are excluded by the curator. Do not describe this as an enrollment-time or causal prediction."
+        },
+        {
+          "task_id": "beyond_fiat_500",
+          "name": "fiat_500",
+          "problem_type": "regression",
+          "family_id": "beyond_fiat_500",
+          "rows": 1538,
+          "features": 7,
+          "split_regime": "iid",
+          "target": "price",
+          "license": "CC0: Public Domain",
+          "prediction_context": "Estimate the supplied listing price from the vehicle model, age, engine power, mileage, ownership count and location. IID listing regression; a small share of identical feature profiles is reported in the suitability review."
+        },
+        {
+          "task_id": "beyond_qsar_biodeg",
+          "name": "qsar_biodeg",
+          "problem_type": "binary_classification",
+          "family_id": "beyond_qsar_biodeg",
+          "rows": 1054,
+          "features": 41,
+          "split_regime": "iid",
+          "target": "Biodegradable",
+          "license": "CC BY 4.0",
+          "prediction_context": "Classify ready biodegradability from supplied molecular structural descriptors. IID chemical benchmark; not a test of generalization to disjoint chemical scaffolds."
+        },
+        {
+          "task_id": "beyond_predict_students_dropout_and_academic_success",
+          "name": "predict_students_dropout_and_academic_success",
+          "problem_type": "multiclass",
+          "family_id": "beyond_predict_students_dropout_and_academic_success",
+          "rows": 4424,
+          "features": 36,
+          "split_regime": "iid",
+          "target": "AcademicOutcome",
+          "license": "CC BY 4.0",
+          "prediction_context": "Retrospective classification of final academic outcome using the supplied covariates, including academic performance in semesters 1 and 2. Not an enrollment-time early-warning forecast; timestamp-specific prospective validity is not established."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Групповое обобщение",
+      "tasks": [
+        {
+          "task_id": "beyond_video_game_fps_prediction",
+          "name": "video_game_fps_prediction",
+          "problem_type": "regression",
+          "family_id": "beyond_video_game_fps_prediction",
+          "rows": 12288,
+          "features": 39,
+          "split_regime": "grouped",
+          "target": "log_fps_ratio",
+          "license": "CC BY",
+          "prediction_context": "Predict log FPS ratio for unseen CPU/GPU configurations on known games, relative to the curator fixed reference hardware. Not raw-FPS prediction or generalization to unseen games."
+        },
+        {
+          "task_id": "openml_361234",
+          "name": "abalone",
+          "problem_type": "regression",
+          "family_id": "openml_361234",
+          "rows": 4177,
+          "features": 8,
+          "split_regime": "iid",
+          "target": "rings",
+          "license": "CC BY 4.0",
+          "prediction_context": "Predict the supplied rings count from physical measurements. Do not silently relabel rings as exact age in years."
+        },
+        {
+          "task_id": "beyond_polish_companies_bankruptcy",
+          "name": "polish_companies_bankruptcy",
+          "problem_type": "binary_classification",
+          "family_id": "beyond_polish_companies_bankruptcy",
+          "rows": 5790,
+          "features": 64,
+          "split_regime": "iid",
+          "target": "company_bankrupt",
+          "license": "CC BY 4.0",
+          "prediction_context": "Predict one-year-ahead bankruptcy status from the supplied company financial ratios in the curated year-5 subset. The split is IID across records, not a chronological evaluation on a later calendar period. Missing values and extreme ratios are present."
+        },
+        {
+          "task_id": "beyond_cardiotocography",
+          "name": "cardiotocography",
+          "problem_type": "multiclass",
+          "family_id": "beyond_cardiotocography",
+          "rows": 2126,
+          "features": 23,
+          "split_regime": "grouped",
+          "target": "NSP",
+          "license": "CC BY 4.0",
+          "prediction_context": "Classify fetal-state categories from recording measurements for held-out patient groups; use supplied retrospective recorded measurements."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Больше данных и сложные признаки",
+      "tasks": [
+        {
+          "task_id": "beyond_5g_energy_consumption",
+          "name": "5g_energy_consumption",
+          "problem_type": "regression",
+          "family_id": "beyond_5g_energy_consumption",
+          "rows": 92629,
+          "features": 21,
+          "split_regime": "grouped",
+          "target": "Energy",
+          "license": "MIT",
+          "prediction_context": "Estimate energy under known load and configuration for held-out base stations in a similar period. This is not forecasting future load or evaluating a future time shift."
+        },
+        {
+          "task_id": "openml_361251",
+          "name": "grid_stability",
+          "problem_type": "regression",
+          "family_id": "openml_361251",
+          "rows": 10000,
+          "features": 12,
+          "split_regime": "iid",
+          "target": "stab",
+          "license": "CC BY 4.0",
+          "prediction_context": "Surrogate regression for a published simulated electrical-grid stability model; these are simulation samples, not independently measured real-grid incidents. Alternate target stabf is excluded."
+        },
+        {
+          "task_id": "beyond_credit_card_clients_default",
+          "name": "credit_card_clients_default",
+          "problem_type": "binary_classification",
+          "family_id": "beyond_credit_card_clients_default",
+          "rows": 30000,
+          "features": 23,
+          "split_regime": "iid",
+          "target": "DefaultOnPaymentNextMonth",
+          "license": "CC BY 4.0",
+          "prediction_context": "Predict next-month payment default from the supplied preceding billing and repayment history. Historical IID borrower split; not validation of a future calendar-period shift."
+        },
+        {
+          "task_id": "beyond_mice_protein_trisomy_discriminant",
+          "name": "mice_protein_trisomy_discriminant",
+          "problem_type": "multiclass",
+          "family_id": "beyond_mice_protein_trisomy_discriminant",
+          "rows": 1080,
+          "features": 77,
+          "split_regime": "grouped",
+          "target": "class",
+          "license": "CC BY 4.0",
+          "prediction_context": "Classify the eight genotype/treatment/behavior classes from measured proteins in unseen mice. Constituent target fields are excluded; use the original mouse-grouped split."
+        }
+      ]
+    }
+  ]
+}

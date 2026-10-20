@@ -1,0 +1,23 @@
+{
+  "baseline": "catboost_v1",
+  "parameters": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "random_seed": 42,
+    "thread_count": 8,
+    "l2_leaf_reg": 3,
+    "verbose": false,
+    "allow_writing_files": false,
+    "loss_function": "RMSE"
+  },
+  "category_columns": [],
+  "preprocessing": "Numeric coercion; +/-inf -> NaN; categorical null -> reserved missing token; no target transforms",
+  "fit_seconds": 0.2607684350005002,
+  "versions": {
+    "catboost": "1.2.8",
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.5.2"
+  }
+}

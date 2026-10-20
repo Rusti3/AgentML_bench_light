@@ -1,0 +1,11 @@
+{
+  "target_column_name": "G3",
+  "problem_type": "regression",
+  "objective_metric_name": "rmse",
+  "stratify_on": null,
+  "time_on": null,
+  "group_on": null,
+  "group_labels": null,
+  "group_time_on": null,
+  "type_adapter_id": "predictive-ml-task-mold-v1"
+}

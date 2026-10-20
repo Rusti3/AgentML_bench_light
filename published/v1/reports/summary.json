@@ -1,0 +1,118 @@
+{
+  "benchmark_version": "v1",
+  "tasks_total": 16,
+  "statuses": {
+    "verified": 16
+  },
+  "source_coverage": [
+    {
+      "source": "tabarena",
+      "total": 3,
+      "verified": 3
+    },
+    {
+      "source": "beyondarena",
+      "total": 11,
+      "verified": 11
+    },
+    {
+      "source": "cc18",
+      "total": 0
+    },
+    {
+      "source": "ctr23",
+      "total": 2,
+      "verified": 2
+    },
+    {
+      "source": "mlagentbench",
+      "total": 0
+    },
+    {
+      "source": "local",
+      "total": 0
+    }
+  ],
+  "verified_tasks": 16,
+  "families_total": 16,
+  "families_with_verified_tasks": 16,
+  "verified_distributions": {
+    "problem_type": {
+      "regression": 8,
+      "binary_classification": 4,
+      "multiclass": 4
+    },
+    "split_regime": {
+      "iid": 12,
+      "grouped": 4
+    },
+    "rows": {
+      "<10k": 12,
+      "10k–100k": 4
+    },
+    "features": {
+      "<=20": 6,
+      "21–200": 10
+    }
+  },
+  "unique_table_bytes": 8996668,
+  "published_splits_total": 425,
+  "raw_files_logical_bytes": 26913287,
+  "locally_calibrated_standard_tasks": 16,
+  "calibration_pending_or_failed": [],
+  "core_complete": true,
+  "profiles": {
+    "local8": {
+      "limits": {
+        "cpus": 8,
+        "memory_gib": 8
+      },
+      "runtime_import_verified": true
+    },
+    "contest32": {
+      "limits": {
+        "cpus": 8,
+        "memory_gib": 32
+      },
+      "certified": false,
+      "reason": "Profile not certified by this project; Docker resources are checked at launch"
+    }
+  },
+  "limitations": [
+    "Audit checks do not prove absence of every semantic leakage mechanism",
+    "Public datasets can be present in LLM pretraining; this is not an unpublished private benchmark",
+    "Own metrics/protocol; not official leaderboard scores of upstream benchmarks",
+    "No paid LLM-agent sweep was performed during assembly"
+  ],
+  "collection": "light",
+  "groups": [
+    {
+      "group_id": "1",
+      "title": "Небольшие таблицы",
+      "tasks": 4,
+      "verified": 4,
+      "calibrated_standard_local8": 4
+    },
+    {
+      "group_id": "2",
+      "title": "Смешанные признаки",
+      "tasks": 4,
+      "verified": 4,
+      "calibrated_standard_local8": 4
+    },
+    {
+      "group_id": "3",
+      "title": "Групповое обобщение",
+      "tasks": 4,
+      "verified": 4,
+      "calibrated_standard_local8": 4
+    },
+    {
+      "group_id": "4",
+      "title": "Больше данных и сложные признаки",
+      "tasks": 4,
+      "verified": 4,
+      "calibrated_standard_local8": 4
+    }
+  ]
+}

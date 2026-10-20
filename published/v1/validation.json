@@ -1,0 +1,46 @@
+{
+  "collection": "AgentML Bench Light v1",
+  "tests": {
+    "tests": 78,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "verified_tasks": 16,
+  "unique_families": 16,
+  "standard_local8_calibrations": 16,
+  "real_docker_group_runs": [
+    {
+      "groups": "1",
+      "cases": 4,
+      "complete": true,
+      "group_summaries_complete": true
+    },
+    {
+      "groups": "1,3",
+      "cases": 8,
+      "complete": true,
+      "group_summaries_complete": true
+    },
+    {
+      "groups": "all",
+      "cases": 16,
+      "complete": true,
+      "group_summaries_complete": true
+    }
+  ],
+  "resume_of_completed_group_verified": true,
+  "agent_input_layout": [
+    "task.md",
+    "train.csv",
+    "test.csv",
+    "data_dictionary.csv",
+    "sample_submission.csv",
+    "task.json"
+  ],
+  "suitability_review": "../../docs/SUITABILITY.md",
+  "profile": "8 CPU / 8 GiB",
+  "contest32_certified": false,
+  "paid_llm_calls": false,
+  "runtime_note": "Used the previously import-verified package runtime; no paid model APIs were called."
+}

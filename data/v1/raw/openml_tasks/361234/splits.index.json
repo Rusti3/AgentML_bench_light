@@ -1,0 +1,62 @@
+[
+  {
+    "repeat": 0,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f0.npz",
+    "sha256": "4a8f1d546314f4224e8438719a514c95a8b0158a665359358cd9ee303ec7b4a3"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f1.npz",
+    "sha256": "f9f62abed525f8e458a9cf53735f7b92494e170c995c0ecc7bf45ceabded38f1"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f2.npz",
+    "sha256": "e3f9ff9c792abb54becb5dab9eadb9186e93b242deab6688b070ebdabab357d4"
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f3.npz",
+    "sha256": "d7bb0f274bfa84567c187ec71ce8b453d32e6dd68833cab77fc636bcd88b77ed"
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f4.npz",
+    "sha256": "a84783521693dbb9b3cd7ba57fad94106d1ddb973d366be87b3dde74b99940fc"
+  },
+  {
+    "repeat": 0,
+    "fold": 5,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f5.npz",
+    "sha256": "34a5f1bab7594ee9d02eb544ba8deba759340c2833837f673705cfbeb9a2597b"
+  },
+  {
+    "repeat": 0,
+    "fold": 6,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f6.npz",
+    "sha256": "86f086943d3d46b43c6e97fb1cb7a636f07fd934942fc36e9205bf1ce17e2cfa"
+  },
+  {
+    "repeat": 0,
+    "fold": 7,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f7.npz",
+    "sha256": "812ee761b50c2aeaf03156582210d2b44e1ce5940811a91df14403b190206e7e"
+  },
+  {
+    "repeat": 0,
+    "fold": 8,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f8.npz",
+    "sha256": "80a908fbc39d97bc32e45ee9564154e77ea18862dfbb99a9dd7f1fd4413e5f9f"
+  },
+  {
+    "repeat": 0,
+    "fold": 9,
+    "path": "data/v1/raw/openml_tasks/361234/r0_f9.npz",
+    "sha256": "f2d22e561d56461457d1fc4b8c059bea82ef5434c36667d3c308f5a7736a9db5"
+  }
+]

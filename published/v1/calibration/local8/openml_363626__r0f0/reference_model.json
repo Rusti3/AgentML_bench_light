@@ -1,0 +1,38 @@
+{
+  "baseline": "catboost_v1",
+  "parameters": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "random_seed": 42,
+    "thread_count": 8,
+    "l2_leaf_reg": 3,
+    "verbose": false,
+    "allow_writing_files": false,
+    "loss_function": "MultiClass",
+    "auto_class_weights": "SqrtBalanced"
+  },
+  "category_columns": [
+    "checking_status",
+    "credit_history",
+    "credit_purpose",
+    "savings_status",
+    "employment_since",
+    "personal_status_sex",
+    "other_debtors",
+    "property",
+    "other_installment_plans",
+    "housing",
+    "job",
+    "telephone",
+    "foreign_worker"
+  ],
+  "preprocessing": "Numeric coercion; +/-inf -> NaN; categorical null -> reserved missing token; no target transforms",
+  "fit_seconds": 1.2877010570009588,
+  "versions": {
+    "catboost": "1.2.8",
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.5.2"
+  }
+}

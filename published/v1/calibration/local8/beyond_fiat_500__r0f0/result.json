@@ -1,0 +1,39 @@
+{
+  "task_id": "beyond_fiat_500",
+  "case_id": "beyond_fiat_500__r0f0",
+  "profile": "local8",
+  "signature": "fa81ffb3a81dcb2055294c3f6961aa29bcb6458a106eab401171368c0d5ad72f",
+  "status": "calibrated",
+  "family_id": "beyond_fiat_500",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-c5a5255dbefeb75e60d3",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 11.79700000000048,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 513,
+  "metrics": {
+    "rmse": 782.7243750666297,
+    "mae": 576.278551858969,
+    "r2": 0.8436081588583908
+  },
+  "baseline_metric": 782.7243750666297,
+  "prediction_sha256": "6a462f919a1d9f13f898d8644dbe962c5401ca3a3505faaedb1bd330e8bbc5b4"
+}

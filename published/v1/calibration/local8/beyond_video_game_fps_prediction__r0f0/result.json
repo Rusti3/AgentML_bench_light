@@ -1,0 +1,39 @@
+{
+  "task_id": "beyond_video_game_fps_prediction",
+  "case_id": "beyond_video_game_fps_prediction__r0f0",
+  "profile": "local8",
+  "signature": "d48147b49cc49963867764b3887874ded50fa0b1629ff294bda9b808c99c7d2a",
+  "status": "calibrated",
+  "family_id": "beyond_video_game_fps_prediction",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-0acf0d3a210867007b49",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 16.57799999999952,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 4104,
+  "metrics": {
+    "rmse": 0.008585642402445368,
+    "mae": 0.0051807684379120604,
+    "r2": 0.9988151304176495
+  },
+  "baseline_metric": 0.008585642402445368,
+  "prediction_sha256": "441ef382c928686cff49874570c24373db23c269b6bb77ef0c2d2c0303e2a1fc"
+}

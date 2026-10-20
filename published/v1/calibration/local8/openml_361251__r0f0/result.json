@@ -1,0 +1,39 @@
+{
+  "task_id": "openml_361251",
+  "case_id": "openml_361251__r0f0",
+  "profile": "local8",
+  "signature": "6726a0e3ce6c7f19846cebdd978694d787443b7510ba1eb3e473aeef9d06ca42",
+  "status": "calibrated",
+  "family_id": "openml_361251",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-6be001f6d82b397107d4",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 10.218999999999141,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 1000,
+  "metrics": {
+    "rmse": 0.008129190985881003,
+    "mae": 0.006081053901890609,
+    "r2": 0.9509434518826603
+  },
+  "baseline_metric": 0.008129190985881003,
+  "prediction_sha256": "c051bf0aa62ae19afbcf91ae478f74b5f1e97d9406e71fc1940c5dbdfaa3e366"
+}

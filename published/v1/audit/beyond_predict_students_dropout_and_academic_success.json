@@ -1,0 +1,429 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_predict_students_dropout_and_academic_success",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "Marital_status",
+      "Application_mode",
+      "Application_order",
+      "Course",
+      "Daytimeevening_attendance",
+      "Previous_qualification",
+      "Previous_qualification_grade",
+      "Nationality",
+      "Mothers_qualification",
+      "Fathers_qualification",
+      "Mothers_occupation",
+      "Fathers_occupation",
+      "Admission_grade",
+      "Displaced",
+      "Educational_special_needs",
+      "Debtor",
+      "Tuition_fees_up_to_date",
+      "Gender",
+      "Scholarship_holder",
+      "Age_at_enrollment",
+      "International",
+      "Curricular_units_1st_sem_credited",
+      "Curricular_units_1st_sem_enrolled",
+      "Curricular_units_1st_sem_evaluations",
+      "Curricular_units_1st_sem_approved",
+      "Curricular_units_1st_sem_grade",
+      "Curricular_units_1st_sem_without_evaluations",
+      "Curricular_units_2nd_sem_credited",
+      "Curricular_units_2nd_sem_enrolled",
+      "Curricular_units_2nd_sem_evaluations",
+      "Curricular_units_2nd_sem_approved",
+      "Curricular_units_2nd_sem_grade",
+      "Curricular_units_2nd_sem_without_evaluations",
+      "Unemployment_rate",
+      "Inflation_rate",
+      "GDP"
+    ],
+    "problem_type": "multiclass",
+    "classes": [
+      "Dropout",
+      "Enrolled",
+      "Graduate"
+    ],
+    "family_id": "beyond_predict_students_dropout_and_academic_success",
+    "dataset_fingerprint": "914f1e7d70cd56414d38f860ae1582d8408d4e21dc2311cf8efb9fe6602f7c83",
+    "protocol_fingerprint": "16476bb0e08926fd9338cf8b999ab35b0dfb358dc4826071a1d4f34e3f2153ec",
+    "rows": 4424,
+    "feature_count": 36,
+    "split_count": 9
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 9,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 2949,
+      "test_rows": 1475,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 2949,
+      "test_rows": 1475,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 2950,
+      "test_rows": 1474,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 2949,
+      "test_rows": 1475,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 2949,
+      "test_rows": 1475,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 2950,
+      "test_rows": 1474,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 2949,
+      "test_rows": 1475,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 2949,
+      "test_rows": 1475,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 2950,
+      "test_rows": 1474,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 4424,
+  "feature_count": 36,
+  "table_bytes": 125053,
+  "types": {
+    "Marital_status": "dictionary<values=string, indices=int32, ordered=0>",
+    "Application_mode": "dictionary<values=string, indices=int32, ordered=0>",
+    "Application_order": "int64",
+    "Course": "dictionary<values=string, indices=int32, ordered=0>",
+    "Daytimeevening_attendance": "dictionary<values=string, indices=int32, ordered=0>",
+    "Previous_qualification": "dictionary<values=string, indices=int32, ordered=0>",
+    "Previous_qualification_grade": "double",
+    "Nationality": "dictionary<values=string, indices=int32, ordered=0>",
+    "Mothers_qualification": "dictionary<values=string, indices=int32, ordered=0>",
+    "Fathers_qualification": "dictionary<values=string, indices=int32, ordered=0>",
+    "Mothers_occupation": "dictionary<values=string, indices=int32, ordered=0>",
+    "Fathers_occupation": "dictionary<values=string, indices=int32, ordered=0>",
+    "Admission_grade": "double",
+    "Displaced": "dictionary<values=string, indices=int32, ordered=0>",
+    "Educational_special_needs": "dictionary<values=string, indices=int32, ordered=0>",
+    "Debtor": "dictionary<values=string, indices=int32, ordered=0>",
+    "Tuition_fees_up_to_date": "dictionary<values=string, indices=int32, ordered=0>",
+    "Gender": "dictionary<values=string, indices=int32, ordered=0>",
+    "Scholarship_holder": "dictionary<values=string, indices=int32, ordered=0>",
+    "Age_at_enrollment": "int64",
+    "International": "dictionary<values=string, indices=int32, ordered=0>",
+    "Curricular_units_1st_sem_credited": "int64",
+    "Curricular_units_1st_sem_enrolled": "int64",
+    "Curricular_units_1st_sem_evaluations": "int64",
+    "Curricular_units_1st_sem_approved": "int64",
+    "Curricular_units_1st_sem_grade": "double",
+    "Curricular_units_1st_sem_without_evaluations": "int64",
+    "Curricular_units_2nd_sem_credited": "int64",
+    "Curricular_units_2nd_sem_enrolled": "int64",
+    "Curricular_units_2nd_sem_evaluations": "int64",
+    "Curricular_units_2nd_sem_approved": "int64",
+    "Curricular_units_2nd_sem_grade": "double",
+    "Curricular_units_2nd_sem_without_evaluations": "int64",
+    "Unemployment_rate": "double",
+    "Inflation_rate": "double",
+    "GDP": "double",
+    "AcademicOutcome": "dictionary<values=string, indices=int32, ordered=0>"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "Marital_status": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Application_mode": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Application_order": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 9.0
+    },
+    "Course": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Daytimeevening_attendance": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Previous_qualification": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Previous_qualification_grade": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 95.0,
+      "max": 190.0
+    },
+    "Nationality": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Mothers_qualification": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Fathers_qualification": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Mothers_occupation": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Fathers_occupation": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Admission_grade": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 95.0,
+      "max": 190.0
+    },
+    "Displaced": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Educational_special_needs": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Debtor": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Tuition_fees_up_to_date": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Gender": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Scholarship_holder": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Age_at_enrollment": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 17.0,
+      "max": 70.0
+    },
+    "International": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Curricular_units_1st_sem_credited": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 20.0
+    },
+    "Curricular_units_1st_sem_enrolled": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 26.0
+    },
+    "Curricular_units_1st_sem_evaluations": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 45.0
+    },
+    "Curricular_units_1st_sem_approved": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 26.0
+    },
+    "Curricular_units_1st_sem_grade": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 18.875
+    },
+    "Curricular_units_1st_sem_without_evaluations": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 12.0
+    },
+    "Curricular_units_2nd_sem_credited": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 19.0
+    },
+    "Curricular_units_2nd_sem_enrolled": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 23.0
+    },
+    "Curricular_units_2nd_sem_evaluations": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 33.0
+    },
+    "Curricular_units_2nd_sem_approved": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 20.0
+    },
+    "Curricular_units_2nd_sem_grade": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 18.571428571428573
+    },
+    "Curricular_units_2nd_sem_without_evaluations": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 12.0
+    },
+    "Unemployment_rate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 7.6,
+      "max": 16.2
+    },
+    "Inflation_rate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -0.8,
+      "max": 3.7
+    },
+    "GDP": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -4.06,
+      "max": 3.51
+    },
+    "AcademicOutcome": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "class_counts": {
+    "Graduate": 2209,
+    "Dropout": 1421,
+    "Enrolled": 794
+  },
+  "fingerprint": "914f1e7d70cd56414d38f860ae1582d8408d4e21dc2311cf8efb9fe6602f7c83",
+  "protocol_fingerprint": "16476bb0e08926fd9338cf8b999ab35b0dfb358dc4826071a1d4f34e3f2153ec",
+  "seconds": 0.2970000000004802
+}

@@ -1,0 +1,11 @@
+{
+  "target_column_name": "Energy",
+  "problem_type": "regression",
+  "objective_metric_name": "MAPE",
+  "stratify_on": null,
+  "time_on": null,
+  "group_on": "BS",
+  "group_labels": "per_sample",
+  "group_time_on": null,
+  "type_adapter_id": "predictive-ml-task-mold-v1"
+}

@@ -1,0 +1,323 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_credit_card_clients_default",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "LIMIT_BAL",
+      "SEX",
+      "EDUCATION",
+      "MARRIAGE",
+      "AGE",
+      "PAY_0",
+      "PAY_2",
+      "PAY_3",
+      "PAY_4",
+      "PAY_5",
+      "PAY_6",
+      "BILL_AMT1",
+      "BILL_AMT2",
+      "BILL_AMT3",
+      "BILL_AMT4",
+      "BILL_AMT5",
+      "BILL_AMT6",
+      "PAY_AMT1",
+      "PAY_AMT2",
+      "PAY_AMT3",
+      "PAY_AMT4",
+      "PAY_AMT5",
+      "PAY_AMT6"
+    ],
+    "problem_type": "binary_classification",
+    "classes": [
+      "No",
+      "Yes"
+    ],
+    "family_id": "beyond_credit_card_clients_default",
+    "dataset_fingerprint": "0313a87c47cbd3cb812e1db3e8e7d83ddb51ba2e1c7f04214990c68bc08b714c",
+    "protocol_fingerprint": "006ba50b270292d73104fa203746d39cfa5d5b25155e785974afc7f5c0971a0b",
+    "rows": 30000,
+    "feature_count": 23,
+    "split_count": 9
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 9,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 20,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 18,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 24,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 25,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 20,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 23,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 24,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 31,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 20000,
+      "test_rows": 10000,
+      "errors": [],
+      "matching_feature_rows_train_test": 27,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 30000,
+  "feature_count": 23,
+  "table_bytes": 1586888,
+  "types": {
+    "LIMIT_BAL": "int64",
+    "SEX": "int64",
+    "EDUCATION": "int64",
+    "MARRIAGE": "int64",
+    "AGE": "int64",
+    "PAY_0": "int64",
+    "PAY_2": "int64",
+    "PAY_3": "int64",
+    "PAY_4": "int64",
+    "PAY_5": "int64",
+    "PAY_6": "int64",
+    "BILL_AMT1": "int64",
+    "BILL_AMT2": "int64",
+    "BILL_AMT3": "int64",
+    "BILL_AMT4": "int64",
+    "BILL_AMT5": "int64",
+    "BILL_AMT6": "int64",
+    "PAY_AMT1": "int64",
+    "PAY_AMT2": "int64",
+    "PAY_AMT3": "int64",
+    "PAY_AMT4": "int64",
+    "PAY_AMT5": "int64",
+    "PAY_AMT6": "int64",
+    "DefaultOnPaymentNextMonth": "dictionary<values=string, indices=int32, ordered=0>"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "LIMIT_BAL": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 10000.0,
+      "max": 1000000.0
+    },
+    "SEX": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "EDUCATION": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 6.0
+    },
+    "MARRIAGE": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "AGE": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 21.0,
+      "max": 79.0
+    },
+    "PAY_0": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -2.0,
+      "max": 8.0
+    },
+    "PAY_2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -2.0,
+      "max": 8.0
+    },
+    "PAY_3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -2.0,
+      "max": 8.0
+    },
+    "PAY_4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -2.0,
+      "max": 8.0
+    },
+    "PAY_5": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -2.0,
+      "max": 8.0
+    },
+    "PAY_6": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -2.0,
+      "max": 8.0
+    },
+    "BILL_AMT1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -165580.0,
+      "max": 964511.0
+    },
+    "BILL_AMT2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -69777.0,
+      "max": 983931.0
+    },
+    "BILL_AMT3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -157264.0,
+      "max": 1664089.0
+    },
+    "BILL_AMT4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -170000.0,
+      "max": 891586.0
+    },
+    "BILL_AMT5": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -81334.0,
+      "max": 927171.0
+    },
+    "BILL_AMT6": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -339603.0,
+      "max": 961664.0
+    },
+    "PAY_AMT1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 873552.0
+    },
+    "PAY_AMT2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1684259.0
+    },
+    "PAY_AMT3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 896040.0
+    },
+    "PAY_AMT4": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 621000.0
+    },
+    "PAY_AMT5": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 426529.0
+    },
+    "PAY_AMT6": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 528666.0
+    },
+    "DefaultOnPaymentNextMonth": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 35,
+  "duplicate_feature_rows": 56,
+  "target_copies": [],
+  "class_counts": {
+    "No": 23364,
+    "Yes": 6636
+  },
+  "fingerprint": "0313a87c47cbd3cb812e1db3e8e7d83ddb51ba2e1c7f04214990c68bc08b714c",
+  "protocol_fingerprint": "006ba50b270292d73104fa203746d39cfa5d5b25155e785974afc7f5c0971a0b",
+  "seconds": 0.5939999999991414
+}

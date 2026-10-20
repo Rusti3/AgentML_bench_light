@@ -1,0 +1,39 @@
+{
+  "task_id": "openml_363625",
+  "case_id": "openml_363625__r0f0",
+  "profile": "local8",
+  "signature": "b9db13de46340628de0b2997d6288b9016b2d41a1f33bdf3aec19f61c68abe43",
+  "status": "calibrated",
+  "family_id": "beyond_concrete_compressive_strength",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-1d18c03a664587614093",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 9.10899999999856,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 344,
+  "metrics": {
+    "rmse": 4.968582924640502,
+    "mae": 3.442795563922199,
+    "r2": 0.9143654933817746
+  },
+  "baseline_metric": 4.968582924640502,
+  "prediction_sha256": "e39a7828b7a3dc7ec4dd6412ecd15c93c49608491443033ff63fe622e2dc78ef"
+}

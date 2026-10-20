@@ -1,0 +1,291 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_5g_energy_consumption",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "BS",
+      "load",
+      "ESMode1",
+      "ESMode2",
+      "ESMode3",
+      "ESMode5",
+      "ESMode6",
+      "RUType",
+      "Mode",
+      "Frequency",
+      "Bandwidth",
+      "Antennas",
+      "TXpower",
+      "load_Cell1",
+      "ESMode1_Cell1",
+      "ESMode2_Cell1",
+      "ESMode3_Cell1",
+      "ESMode6_Cell1",
+      "day",
+      "weekday_number",
+      "hour"
+    ],
+    "problem_type": "regression",
+    "classes": null,
+    "family_id": "beyond_5g_energy_consumption",
+    "dataset_fingerprint": "0187eed927433ad3f74e129c32e60594a1b6cb39b0697cbb4d65766e94fe7c1a",
+    "protocol_fingerprint": "94729cd3687e01ec0559b67fb15a2d70fac2ebf744d15389881c0a51cb064973",
+    "rows": 92629,
+    "feature_count": 21,
+    "split_count": 9
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 9,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 61406,
+      "test_rows": 31223,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 62075,
+      "test_rows": 30554,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 61777,
+      "test_rows": 30852,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 62529,
+      "test_rows": 30100,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 61317,
+      "test_rows": 31312,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 61412,
+      "test_rows": 31217,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 62063,
+      "test_rows": 30566,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 61988,
+      "test_rows": 30641,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 61207,
+      "test_rows": 31422,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    }
+  ],
+  "rows": 92629,
+  "feature_count": 21,
+  "table_bytes": 1384420,
+  "types": {
+    "BS": "dictionary<values=string, indices=int32, ordered=0>",
+    "Energy": "double",
+    "load": "double",
+    "ESMode1": "double",
+    "ESMode2": "double",
+    "ESMode3": "double",
+    "ESMode5": "double",
+    "ESMode6": "double",
+    "RUType": "dictionary<values=string, indices=int32, ordered=0>",
+    "Mode": "dictionary<values=string, indices=int32, ordered=0>",
+    "Frequency": "double",
+    "Bandwidth": "int64",
+    "Antennas": "int64",
+    "TXpower": "double",
+    "load_Cell1": "double",
+    "ESMode1_Cell1": "double",
+    "ESMode2_Cell1": "double",
+    "ESMode3_Cell1": "double",
+    "ESMode6_Cell1": "double",
+    "day": "int32",
+    "weekday_number": "int32",
+    "hour": "int32"
+  },
+  "license": "MIT",
+  "license_status": "recognized",
+  "column_statistics": {
+    "BS": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Energy": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.747384155,
+      "max": 100.0
+    },
+    "load": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.993957447
+    },
+    "ESMode1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ESMode2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ESMode3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.154562778
+    },
+    "ESMode5": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.768069722
+    },
+    "ESMode6": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.931032226
+    },
+    "RUType": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Mode": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "Frequency": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 155.6,
+      "max": 979.998
+    },
+    "Bandwidth": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2.0,
+      "max": 20.0
+    },
+    "Antennas": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 64.0
+    },
+    "TXpower": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 5.381165919,
+      "max": 8.375336323
+    },
+    "load_Cell1": {
+      "missing": 87254,
+      "infinite": 0,
+      "min": 0.00819,
+      "max": 0.89177
+    },
+    "ESMode1_Cell1": {
+      "missing": 87254,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ESMode2_Cell1": {
+      "missing": 87254,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ESMode3_Cell1": {
+      "missing": 87254,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.062805278
+    },
+    "ESMode6_Cell1": {
+      "missing": 87254,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 0.927923853
+    },
+    "day": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 8.0
+    },
+    "weekday_number": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 6.0
+    },
+    "hour": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 23.0
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "fingerprint": "0187eed927433ad3f74e129c32e60594a1b6cb39b0697cbb4d65766e94fe7c1a",
+  "protocol_fingerprint": "94729cd3687e01ec0559b67fb15a2d70fac2ebf744d15389881c0a51cb064973",
+  "seconds": 1.0619999999998981
+}

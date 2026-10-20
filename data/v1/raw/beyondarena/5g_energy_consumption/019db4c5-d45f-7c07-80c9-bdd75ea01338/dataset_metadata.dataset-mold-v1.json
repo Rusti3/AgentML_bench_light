@@ -1,0 +1,19 @@
+{
+  "unique_name": "5g_energy_consumption",
+  "dataset_year": "2023",
+  "domain_str": "technology & internet",
+  "dataset_source": "HuggingFace",
+  "original_dataset_source_download_link": "https://huggingface.co/datasets/netop/5G-Network-Energy-Consumption",
+  "download_description": "\nWe use the dataset version uploaded by a top solution from the Zindi challenge.\n\nmkdir -p local-data-warehouse/5g_energy_consumption/ \\\n&& wget https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/raw/refs/heads/main/ITU-5G-energy-Consumption-Dataset.zip \\\n&& unzip ITU-5G-energy-Consumption-Dataset.zip -d local-data-warehouse/5g_energy_consumption/ \\\n&& rm ITU-5G-energy-Consumption-Dataset.zip\n",
+  "academic_reference_bibtex": "@misc{huawei_netop_5g_energy_consumption,\n  author       = {{HUAWEI Netop Team}},\n  title        = {5G Network Energy Consumption Dataset},\n  year         = {n.d.},\n  howpublished = {\\url{https://huggingface.co/datasets/netop/5G-Network-Energy-Consumption}},\n  note         = {Dataset hosted on Hugging Face, accessed 2026-04-15}\n}\n",
+  "academic_reference_bibtex_key": "huawei_netop_5g_energy_consumption",
+  "license": "MIT",
+  "data_tags": [
+    "Non-IID",
+    "Grouped"
+  ],
+  "curation_comments": "\n- Note: The dataset was used in a Zindi challenge, but also uploaded to Huggingface under a MIT license by the company (Huawei).\n- The corresponding ITU/Zindi challenge explicitly emphasizes generalization to unseen base station products/configurations. We therefore split by base_station (BS).\n- With this setup, the task is development of predictive models for network optimization where models need to generalize to new unseen base station configurations and estimate their energy consumption under similar conditions (during the same time period).\n- For preprocessing, we orient on a top solution from the Zindi challenge: https://github.com/ITU-AI-ML-in-5G-Challenge/5G-Energy-Consumption-Modelling-Solution-Team-Farzi-Data-Scientists/tree/main.\n- Note that the competition also used mostly samples from the known BS as the test set, but weighted unknown base stations higher in evaluation.\n- The data itself is time-series. However, because we predict entirely unseen base stations in a per-sample fashion, the row-wise dependencies resulting from the temporal components cannot be used to improve performance unless the task is treated as transductive learning.\n- Following the Zindi solution, we merge the three given tables and use the Cell0 information only from the cell level table. In addition, we merge the Cell1 information since it contains information as well which might be useful in a grouped split setting.\n- Following the Zindi solution, we derive calendar features (`day`, `hour`, `weekday`) and drop the absolute timestamp.\n- We drop constant columns.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

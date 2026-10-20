@@ -1,0 +1,19 @@
+{
+  "unique_name": "mice_protein_trisomy_discriminant",
+  "dataset_year": "2015",
+  "domain_str": "biology & life sciences",
+  "dataset_source": "UCI",
+  "original_dataset_source_download_link": "https://doi.org/10.24432/C50S3Z",
+  "download_description": "\nWe get the data from UCI.\n\nwget https://archive.ics.uci.edu/static/public/342/mice+protein+expression.zip && unzip mice+protein+expression.zip && rm -rf mice+protein+expression.zip\nmkdir -p local-data-warehouse/mice_protein_trisomy_discriminant && mv Data_Cortex_Nuclear.xls local-data-warehouse/mice_protein_trisomy_discriminant/\n",
+  "academic_reference_bibtex": "@article{higuera2015self,\n  title={Self-organizing feature maps identify proteins critical to learning in a mouse model of down syndrome},\n  author={Higuera, Clara and Gardiner, Katheleen J and Cios, Krzysztof J},\n  journal={PloS one},\n  volume={10},\n  number={6},\n  pages={e0129126},\n  year={2015},\n  publisher={Public Library of Science San Francisco, CA USA}\n}\n",
+  "academic_reference_bibtex_key": "higuera2015self",
+  "license": "CC BY 4.0",
+  "data_tags": [
+    "Non-IID",
+    "Grouped"
+  ],
+  "curation_comments": "\nWe start with the dataset from UCI.\n\n- We drop the three feature that make up the target to remove the leakage.\n- We reduce the mouse ID to represent the ID of the mouse instead of the experiment for the mouse.\n- We drop the duplicated feature pS6_N.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

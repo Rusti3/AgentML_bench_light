@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/autogluon/tabarena/860337d4c4dfdd1287889561dc8868d0e733508f/packages/tabarena/src/tabarena/benchmark/task/metadata/sources/data/TabArena-v0.1_tasks_metadata.csv",
+  "sha256": "856b1b73ee64d11567b965c85adb5faeadd4ad4bec346f3fe6fb8a428ee968e7",
+  "bytes": 229612,
+  "upstream_sha256": null,
+  "upstream_md5": null,
+  "etag": "\"a8be1d121cfdefcf4715dff78abdc8e217167ebfab2683e97fc1280e935217db\""
+}

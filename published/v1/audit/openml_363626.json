@@ -1,0 +1,488 @@
+{
+  "audit_version": 1,
+  "task_id": "openml_363626",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "checking_status",
+      "duration_months",
+      "credit_history",
+      "credit_purpose",
+      "credit_amount",
+      "savings_status",
+      "employment_since",
+      "installment_rate_percent",
+      "personal_status_sex",
+      "other_debtors",
+      "residence_since",
+      "property",
+      "age_years",
+      "other_installment_plans",
+      "housing",
+      "existing_credits_count",
+      "job",
+      "people_liable",
+      "telephone",
+      "foreign_worker"
+    ],
+    "problem_type": "binary_classification",
+    "classes": [
+      "bad",
+      "good"
+    ],
+    "family_id": "beyond_credit_g",
+    "dataset_fingerprint": "1d2465d5396dfde7d45c07161752d56437d5a345387f988ebd31ced7b5213228",
+    "protocol_fingerprint": "1331bba4fda1914b6d67686b5677df1cf8670c59eb2507286e59f3f72a03ccc6",
+    "rows": 1000,
+    "feature_count": 20,
+    "split_count": 30
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 30,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 5,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 6,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 7,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 8,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 0,
+      "train_rows": 666,
+      "test_rows": 334,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 1,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    },
+    {
+      "repeat": 9,
+      "fold": 2,
+      "train_rows": 667,
+      "test_rows": 333,
+      "errors": [],
+      "matching_feature_rows_train_test": 0,
+      "test_classes_absent_in_train": []
+    }
+  ],
+  "rows": 1000,
+  "feature_count": 20,
+  "table_bytes": 29802,
+  "types": {
+    "checking_status": "dictionary<values=string, indices=int32, ordered=0>",
+    "duration_months": "uint8",
+    "credit_history": "dictionary<values=string, indices=int32, ordered=0>",
+    "credit_purpose": "dictionary<values=string, indices=int32, ordered=0>",
+    "credit_amount": "int64",
+    "savings_status": "dictionary<values=string, indices=int32, ordered=0>",
+    "employment_since": "dictionary<values=string, indices=int32, ordered=0>",
+    "installment_rate_percent": "uint8",
+    "personal_status_sex": "dictionary<values=string, indices=int32, ordered=0>",
+    "other_debtors": "dictionary<values=string, indices=int32, ordered=0>",
+    "residence_since": "uint8",
+    "property": "dictionary<values=string, indices=int32, ordered=0>",
+    "age_years": "uint8",
+    "other_installment_plans": "dictionary<values=string, indices=int32, ordered=0>",
+    "housing": "dictionary<values=string, indices=int32, ordered=0>",
+    "existing_credits_count": "uint8",
+    "job": "dictionary<values=string, indices=int32, ordered=0>",
+    "people_liable": "uint8",
+    "telephone": "dictionary<values=string, indices=int32, ordered=0>",
+    "foreign_worker": "dictionary<values=string, indices=int32, ordered=0>",
+    "good_or_bad_customer": "dictionary<values=string, indices=int32, ordered=0>"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "checking_status": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "duration_months": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 4.0,
+      "max": 72.0
+    },
+    "credit_history": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "credit_purpose": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "credit_amount": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 250.0,
+      "max": 18424.0
+    },
+    "savings_status": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "employment_since": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "installment_rate_percent": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "personal_status_sex": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "other_debtors": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "residence_since": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "property": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "age_years": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 19.0,
+      "max": 75.0
+    },
+    "other_installment_plans": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "housing": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "existing_credits_count": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "job": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "people_liable": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "telephone": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "foreign_worker": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "good_or_bad_customer": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "class_counts": {
+    "good": 700,
+    "bad": 300
+  },
+  "fingerprint": "1d2465d5396dfde7d45c07161752d56437d5a345387f988ebd31ced7b5213228",
+  "protocol_fingerprint": "1331bba4fda1914b6d67686b5677df1cf8670c59eb2507286e59f3f72a03ccc6",
+  "seconds": 0.10900000000037835
+}

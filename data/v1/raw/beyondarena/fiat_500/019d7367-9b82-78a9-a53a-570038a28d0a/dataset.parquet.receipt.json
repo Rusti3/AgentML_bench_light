@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/fiat_500/019d7367-9b82-78a9-a53a-570038a28d0a/dataset.parquet",
+  "sha256": "472ec1a2c1793560f015de5100cd357b783608c80eda5558bf7d06a75d446e9b",
+  "bytes": 26059,
+  "upstream_sha256": "472ec1a2c1793560f015de5100cd357b783608c80eda5558bf7d06a75d446e9b",
+  "upstream_md5": null,
+  "etag": "\"a0e837a7eb2ddc9bd055637c521ee1c779290629e44d16375350cbe0fab63986\""
+}

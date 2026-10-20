@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/credit_card_clients_default/019d7367-23b0-7125-9a7b-9ad1a90dc75d/dataset.parquet",
+  "sha256": "292e309bcaff0d0a2ca22263fb59764d4db0347ccc35b60d09b48653016e8ed7",
+  "bytes": 1586888,
+  "upstream_sha256": "292e309bcaff0d0a2ca22263fb59764d4db0347ccc35b60d09b48653016e8ed7",
+  "upstream_md5": null,
+  "etag": "\"04f14459264b679a2422d6f67503f3005a92744d63d7518b333b609e63dcee56\""
+}

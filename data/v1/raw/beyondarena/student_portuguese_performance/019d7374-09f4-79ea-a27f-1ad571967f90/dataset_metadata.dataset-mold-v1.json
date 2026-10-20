@@ -1,0 +1,18 @@
+{
+  "unique_name": "student_portuguese_performance",
+  "dataset_year": "2008",
+  "domain_str": "education",
+  "dataset_source": "UCI",
+  "original_dataset_source_download_link": "https://doi.org/10.24432/C5TG7T",
+  "download_description": "\nWe get the portuguese data from the UCI repository. The math version is mostly duplicates from portuguese.\n\nwget https://archive.ics.uci.edu/static/public/320/student+performance.zip && unzip student+performance.zip student.zip && unzip student.zip student-por.csv && rm student+performance.zip student.zip\nmkdir -p local-data-warehouse/student_portuguese_performance && mv student-por.csv local-data-warehouse/student_portuguese_performance/\n",
+  "academic_reference_bibtex": "@article{silva2008using,\n  title={Using data mining to predict secondary school student performance},\n  author={Silva, Alice},\n  year={2008}\n}\n",
+  "academic_reference_bibtex_key": "silva2008using",
+  "license": "CC BY 4.0",
+  "data_tags": [
+    "IID"
+  ],
+  "curation_comments": "\nWe use the data from UCI.\n\n- We drop G1 and G2 to simulate the task to predict the final grade from the base characteristic.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

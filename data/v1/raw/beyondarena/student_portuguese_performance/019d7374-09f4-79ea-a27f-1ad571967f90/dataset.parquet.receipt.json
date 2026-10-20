@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/student_portuguese_performance/019d7374-09f4-79ea-a27f-1ad571967f90/dataset.parquet",
+  "sha256": "4edb13167646b87fbc089984b671de7dbca49213b4d71626f05fdc298436097c",
+  "bytes": 25166,
+  "upstream_sha256": "4edb13167646b87fbc089984b671de7dbca49213b4d71626f05fdc298436097c",
+  "upstream_md5": null,
+  "etag": "\"99a26791411752159dc55589bb9f4df779f5cb9ec0baf1712e30eac6cc32b453\""
+}

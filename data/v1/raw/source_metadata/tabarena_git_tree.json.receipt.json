@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/autogluon/tabarena/git/trees/860337d4c4dfdd1287889561dc8868d0e733508f?recursive=1",
+  "sha256": "1d483a10fa9b6e9c6e76564025066c761fd5ee6d629cf5fcd7852abc92bbc13a",
+  "bytes": 252852,
+  "upstream_sha256": null,
+  "upstream_md5": null,
+  "etag": "W/\"1b4d8cdc92c202f5a03c76078f30162208ebef40088709522bacbddd86a9bd3a\""
+}

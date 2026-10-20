@@ -1,0 +1,18 @@
+{
+  "unique_name": "predict_students_dropout_and_academic_success",
+  "dataset_year": "2021",
+  "domain_str": "education",
+  "dataset_source": "UCI",
+  "original_dataset_source_download_link": "https://doi.org/10.24432/C5MC89",
+  "download_description": "\nWe download the data from the UCI repository and uzip it to a predefined folder.\n\nmkdir -p local-data-warehouse/predict_students_dropout_and_academic_success/ && wget -P local-data-warehouse/predict_students_dropout_and_academic_success/ https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip && unzip local-data-warehouse/predict_students_dropout_and_academic_success/predict+students+dropout+and+academic+success.zip -d local-data-warehouse/predict_students_dropout_and_academic_success/  && rm local-data-warehouse/predict_students_dropout_and_academic_success/predict+students+dropout+and+academic+success.zip\n",
+  "academic_reference_bibtex": "@inproceedings{martins2021early,\n  title={Early prediction of student\u2019s performance in higher education: A case study},\n  author={Martins, M{\\'o}nica V and Tolledo, Daniel and Machado, Jorge and Baptista, Lu{\\'\\i}s MT and Realinho, Valentim},\n  booktitle={Trends and Applications in Information Systems and Technologies: Volume 1 9},\n  pages={166--175},\n  year={2021},\n  organization={Springer}\n}\n",
+  "academic_reference_bibtex_key": "martins2021early",
+  "license": "CC BY 4.0",
+  "data_tags": [
+    "IID"
+  ],
+  "curation_comments": "\n- We renamed the target variable and fixed some typos in the feature names.\n- We reversed the ordinal encoding of all categorical features.\n- We removed whitespaces and special characters from the feature names.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

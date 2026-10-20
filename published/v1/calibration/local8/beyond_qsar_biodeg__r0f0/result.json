@@ -1,0 +1,66 @@
+{
+  "task_id": "beyond_qsar_biodeg",
+  "case_id": "beyond_qsar_biodeg__r0f0",
+  "profile": "local8",
+  "signature": "05145e10a336e667ae2a988bbfc10593253779c9d2a9363a0f4238afbfbba708",
+  "status": "calibrated",
+  "family_id": "beyond_qsar_biodeg",
+  "problem_type": "binary_classification",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-8b7dff6fa9bc1e8e5bde",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 10.468999999999141,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 352,
+  "metrics": {
+    "macro_f1": 0.8568834196188979,
+    "accuracy": 0.8721590909090909,
+    "weighted_f1": 0.8720262589848283,
+    "per_class": {
+      "No": {
+        "precision": 0.9017094017094017,
+        "recall": 0.9055793991416309,
+        "f1-score": 0.9036402569593148,
+        "support": 233.0
+      },
+      "Yes": {
+        "precision": 0.8135593220338984,
+        "recall": 0.8067226890756303,
+        "f1-score": 0.810126582278481,
+        "support": 119.0
+      },
+      "accuracy": 0.8721590909090909,
+      "macro avg": {
+        "precision": 0.85763436187165,
+        "recall": 0.8561510441086306,
+        "f1-score": 0.8568834196188979,
+        "support": 352.0
+      },
+      "weighted avg": {
+        "precision": 0.8719086645463764,
+        "recall": 0.8721590909090909,
+        "f1-score": 0.8720262589848283,
+        "support": 352.0
+      }
+    }
+  },
+  "baseline_metric": 0.8568834196188979,
+  "prediction_sha256": "16a7efe24822bd89b117e519e843517b30fb97bd1e6609686f781367d4c7cf26"
+}

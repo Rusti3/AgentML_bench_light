@@ -1,0 +1,72 @@
+{
+  "task_id": "beyond_predict_students_dropout_and_academic_success",
+  "case_id": "beyond_predict_students_dropout_and_academic_success__r0f0",
+  "profile": "local8",
+  "signature": "2c9d935a831b71dccfe2f7c9e609a977f8e4dbfc8b5183c8ad4aa0527d337d78",
+  "status": "calibrated",
+  "family_id": "beyond_predict_students_dropout_and_academic_success",
+  "problem_type": "multiclass",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-467fc3e61417c0cedcf3",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 13.609000000000378,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 1475,
+  "metrics": {
+    "macro_f1": 0.7054133425240282,
+    "accuracy": 0.7694915254237288,
+    "weighted_f1": 0.7646122798205769,
+    "per_class": {
+      "Dropout": {
+        "precision": 0.8349282296650717,
+        "recall": 0.7362869198312236,
+        "f1-score": 0.7825112107623319,
+        "support": 474.0
+      },
+      "Enrolled": {
+        "precision": 0.5042016806722689,
+        "recall": 0.4528301886792453,
+        "f1-score": 0.47713717693836977,
+        "support": 265.0
+      },
+      "Graduate": {
+        "precision": 0.8131868131868132,
+        "recall": 0.904891304347826,
+        "f1-score": 0.8565916398713826,
+        "support": 736.0
+      },
+      "accuracy": 0.7694915254237288,
+      "macro avg": {
+        "precision": 0.7174389078413846,
+        "recall": 0.6980028042860984,
+        "f1-score": 0.7054133425240282,
+        "support": 1475.0
+      },
+      "weighted avg": {
+        "precision": 0.7646609632168744,
+        "recall": 0.7694915254237288,
+        "f1-score": 0.7646122798205769,
+        "support": 1475.0
+      }
+    }
+  },
+  "baseline_metric": 0.7054133425240282,
+  "prediction_sha256": "f16685111e902bf454e8bb747f534f33c06d9ec64d09d1f29db600d1a689677e"
+}

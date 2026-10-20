@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/predict_students_dropout_and_academic_success/019d7369-3ffd-7889-91d3-46e5b502f4ec/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "sha256": "373ccd35b5613d918e093b422e9f8f1efc9ba8a045e2fd739d11697428611726",
+  "bytes": 229175,
+  "upstream_sha256": null,
+  "upstream_md5": null,
+  "etag": "\"130e6fdf9219148cd35e4a7053628012da8e7629\""
+}

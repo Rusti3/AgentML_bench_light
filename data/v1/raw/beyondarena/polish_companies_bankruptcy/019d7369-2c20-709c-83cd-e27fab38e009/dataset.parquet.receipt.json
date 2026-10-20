@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/polish_companies_bankruptcy/019d7369-2c20-709c-83cd-e27fab38e009/dataset.parquet",
+  "sha256": "900e15a61de45a7cd93412ab4706ae74bb0da1f0b5579647071da91832975bab",
+  "bytes": 3111298,
+  "upstream_sha256": "900e15a61de45a7cd93412ab4706ae74bb0da1f0b5579647071da91832975bab",
+  "upstream_md5": null,
+  "etag": "\"d7399be8e26cd794a624cee4aa5cb2816c1e3ed80dcaa9c9fe6601be8cb4ccc7\""
+}

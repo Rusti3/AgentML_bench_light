@@ -1,0 +1,66 @@
+{
+  "task_id": "openml_363626",
+  "case_id": "openml_363626__r0f0",
+  "profile": "local8",
+  "signature": "3cacb381ac608865b46e3afbe6883f8590c6397b0733519576041565ee7d71b6",
+  "status": "calibrated",
+  "family_id": "beyond_credit_g",
+  "problem_type": "binary_classification",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-3b3d50448541a14c903d",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 10.140999999999622,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 334,
+  "metrics": {
+    "macro_f1": 0.7128734150010745,
+    "accuracy": 0.7604790419161677,
+    "weighted_f1": 0.7597789591674162,
+    "per_class": {
+      "bad": {
+        "precision": 0.6020408163265306,
+        "recall": 0.59,
+        "f1-score": 0.5959595959595959,
+        "support": 100.0
+      },
+      "good": {
+        "precision": 0.826271186440678,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8297872340425532,
+        "support": 234.0
+      },
+      "accuracy": 0.7604790419161677,
+      "macro avg": {
+        "precision": 0.7141560013836044,
+        "recall": 0.7116666666666667,
+        "f1-score": 0.7128734150010745,
+        "support": 334.0
+      },
+      "weighted avg": {
+        "precision": 0.7591363450891369,
+        "recall": 0.7604790419161677,
+        "f1-score": 0.7597789591674162,
+        "support": 334.0
+      }
+    }
+  },
+  "baseline_metric": 0.7128734150010745,
+  "prediction_sha256": "b5bb83cfc8ecf5821ddd963ba7f540e434a1123bcb12a7c773943e45c8725267"
+}

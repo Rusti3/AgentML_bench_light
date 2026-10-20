@@ -1,0 +1,39 @@
+{
+  "task_id": "beyond_student_portuguese_performance",
+  "case_id": "beyond_student_portuguese_performance__r0f0",
+  "profile": "local8",
+  "signature": "d4fc6c8b0750cf00e05d4488778dc0e06d816979c2fe65d066993e489ee19916",
+  "status": "calibrated",
+  "family_id": "beyond_student_portuguese_performance",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-f4ae85ba13e57800d9ae",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 14.156000000000859,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 217,
+  "metrics": {
+    "rmse": 2.8178142211094217,
+    "mae": 2.0328239991310326,
+    "r2": 0.335684081710134
+  },
+  "baseline_metric": 2.8178142211094217,
+  "prediction_sha256": "46500c5b1ab10db62f66c0192372ed21ddf29c2dc7118783beeab1038663bd9b"
+}

@@ -1,0 +1,435 @@
+{
+  "audit_version": 1,
+  "task_id": "beyond_video_game_fps_prediction",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "CpuNumberOfCores",
+      "CpuNumberOfThreads",
+      "CpuCacheL1",
+      "CpuCacheL2",
+      "CpuCacheL3",
+      "CpuDieSize",
+      "CpuFrequency",
+      "CpuMultiplier",
+      "CpuMultiplierUnlocked",
+      "CpuProcessSize",
+      "CpuTDP",
+      "CpuNumberOfTransistors",
+      "CpuTurboClock",
+      "GpuArchitecture",
+      "GpuBandwidth",
+      "GpuBaseClock",
+      "GpuBoostClock",
+      "GpuBus.interface",
+      "GpuNumberOfComputeUnits",
+      "GpuDieSize",
+      "GpuDirectX",
+      "GpuFP32Performance",
+      "GpuMemoryBus",
+      "GpuMemorySize",
+      "GpuMemoryType",
+      "GpuOpenCL",
+      "GpuOpenGL",
+      "GpuPixelRate",
+      "GpuProcessSize",
+      "GpuNumberOfROPs",
+      "GpuShaderModel",
+      "GpuNumberOfShadingUnits",
+      "GpuNumberOfTMUs",
+      "GpuTextureRate",
+      "GpuNumberOfTransistors",
+      "GpuVulkan",
+      "GameName",
+      "GameResolution",
+      "HardwareConfigId"
+    ],
+    "problem_type": "regression",
+    "classes": null,
+    "family_id": "beyond_video_game_fps_prediction",
+    "dataset_fingerprint": "c704779a1e0efcc8909853e213e38891b6f63363b418e01ffb506c3ee2610251",
+    "protocol_fingerprint": "987bf5ffe717999ac075e34a0540bbf2542d13479355e75c6cd89aba49d79e8c",
+    "rows": 12288,
+    "feature_count": 39,
+    "split_count": 9
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 9,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 8184,
+      "test_rows": 4104,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 8184,
+      "test_rows": 4104,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 8208,
+      "test_rows": 4080,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 8184,
+      "test_rows": 4104,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 8184,
+      "test_rows": 4104,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 8208,
+      "test_rows": 4080,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 8184,
+      "test_rows": 4104,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 8184,
+      "test_rows": 4104,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 8208,
+      "test_rows": 4080,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    }
+  ],
+  "rows": 12288,
+  "feature_count": 39,
+  "table_bytes": 313839,
+  "types": {
+    "CpuNumberOfCores": "double",
+    "CpuNumberOfThreads": "double",
+    "CpuCacheL1": "double",
+    "CpuCacheL2": "double",
+    "CpuCacheL3": "double",
+    "CpuDieSize": "double",
+    "CpuFrequency": "double",
+    "CpuMultiplier": "double",
+    "CpuMultiplierUnlocked": "dictionary<values=string, indices=int32, ordered=0>",
+    "CpuProcessSize": "double",
+    "CpuTDP": "double",
+    "CpuNumberOfTransistors": "double",
+    "CpuTurboClock": "double",
+    "GpuArchitecture": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuBandwidth": "double",
+    "GpuBaseClock": "double",
+    "GpuBoostClock": "double",
+    "GpuBus.interface": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuNumberOfComputeUnits": "double",
+    "GpuDieSize": "double",
+    "GpuDirectX": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuFP32Performance": "double",
+    "GpuMemoryBus": "double",
+    "GpuMemorySize": "double",
+    "GpuMemoryType": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuOpenCL": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuOpenGL": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuPixelRate": "double",
+    "GpuProcessSize": "double",
+    "GpuNumberOfROPs": "double",
+    "GpuShaderModel": "dictionary<values=string, indices=int32, ordered=0>",
+    "GpuNumberOfShadingUnits": "double",
+    "GpuNumberOfTMUs": "double",
+    "GpuTextureRate": "double",
+    "GpuNumberOfTransistors": "double",
+    "GpuVulkan": "dictionary<values=string, indices=int32, ordered=0>",
+    "GameName": "dictionary<values=string, indices=int32, ordered=0>",
+    "GameResolution": "double",
+    "HardwareConfigId": "dictionary<values=string, indices=int32, ordered=0>",
+    "log_fps_ratio": "double"
+  },
+  "license": "CC BY",
+  "license_status": "recognized",
+  "column_statistics": {
+    "CpuNumberOfCores": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2.0,
+      "max": 12.0
+    },
+    "CpuNumberOfThreads": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 4.0,
+      "max": 24.0
+    },
+    "CpuCacheL1": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 128.0,
+      "max": 1152.0
+    },
+    "CpuCacheL2": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 512.0,
+      "max": 6144.0
+    },
+    "CpuCacheL3": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 3.0,
+      "max": 64.0
+    },
+    "CpuDieSize": {
+      "missing": 6456,
+      "infinite": 0,
+      "min": 7.4e-05,
+      "max": 0.000192
+    },
+    "CpuFrequency": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2800.0,
+      "max": 4200.0
+    },
+    "CpuMultiplier": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 28.0,
+      "max": 42.0
+    },
+    "CpuMultiplierUnlocked": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "CpuProcessSize": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 7.0,
+      "max": 14.0
+    },
+    "CpuTDP": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 51.0,
+      "max": 105.0
+    },
+    "CpuNumberOfTransistors": {
+      "missing": 6456,
+      "infinite": 0,
+      "min": 3800.0,
+      "max": 4800.0
+    },
+    "CpuTurboClock": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 3800.0,
+      "max": 5000.0
+    },
+    "GpuArchitecture": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuBandwidth": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 84100.0,
+      "max": 616000.0
+    },
+    "GpuBaseClock": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1000.0,
+      "max": 1607.0
+    },
+    "GpuBoostClock": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1076.0,
+      "max": 1905.0
+    },
+    "GpuBus.interface": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuNumberOfComputeUnits": {
+      "missing": 9552,
+      "infinite": 0,
+      "min": 32.0,
+      "max": 64.0
+    },
+    "GpuDieSize": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.000132,
+      "max": 0.000754
+    },
+    "GpuDirectX": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuFP32Performance": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2138000.0,
+      "max": 13450000.0
+    },
+    "GpuMemoryBus": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 96.0,
+      "max": 2048.0
+    },
+    "GpuMemorySize": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 3000.0,
+      "max": 16000.0
+    },
+    "GpuMemoryType": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuOpenCL": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuOpenGL": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuPixelRate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 36430.0,
+      "max": 139200.0
+    },
+    "GpuProcessSize": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 7.0,
+      "max": 28.0
+    },
+    "GpuNumberOfROPs": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 24.0,
+      "max": 96.0
+    },
+    "GpuShaderModel": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GpuNumberOfShadingUnits": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 768.0,
+      "max": 4352.0
+    },
+    "GpuNumberOfTMUs": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 48.0,
+      "max": 272.0
+    },
+    "GpuTextureRate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 66820.0,
+      "max": 420200.0
+    },
+    "GpuNumberOfTransistors": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 3300.0,
+      "max": 18600.0
+    },
+    "GpuVulkan": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GameName": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "GameResolution": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1080.0,
+      "max": 1080.0
+    },
+    "HardwareConfigId": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "log_fps_ratio": {
+      "missing": 0,
+      "infinite": 0,
+      "min": -0.6984635141871781,
+      "max": 0.8494409434639729
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "fingerprint": "c704779a1e0efcc8909853e213e38891b6f63363b418e01ffb506c3ee2610251",
+  "protocol_fingerprint": "987bf5ffe717999ac075e34a0540bbf2542d13479355e75c6cd89aba49d79e8c",
+  "seconds": 0.9529999999995198
+}

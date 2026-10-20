@@ -1,0 +1,39 @@
+{
+  "task_id": "openml_363612",
+  "case_id": "openml_363612__r0f0",
+  "profile": "local8",
+  "signature": "d469e7bd2c5ebc1e7e2c9576cb3f9af2b8a60627bdcf38b4bdc8a1b06a99e1c4",
+  "status": "calibrated",
+  "family_id": "beyond_airfoil_self_noise",
+  "problem_type": "regression",
+  "repeat": 0,
+  "fold": 0,
+  "execution": {
+    "container_name": "agentbench-ref-10a224dd20b9d9260ea2",
+    "exit_code": 0,
+    "timed_out": false,
+    "oom_killed": false,
+    "seconds": 9.688000000000102,
+    "profile": "local8",
+    "limits": {
+      "cpus": 8,
+      "memory_gib": 8
+    },
+    "network": "none",
+    "isolation": {
+      "answers_mounted": false,
+      "other_tasks_mounted": false,
+      "docker_socket_mounted": false,
+      "readonly_root": true
+    }
+  },
+  "valid": true,
+  "rows": 501,
+  "metrics": {
+    "rmse": 1.9329307362701644,
+    "mae": 1.4793471250699413,
+    "r2": 0.9225648293883343
+  },
+  "baseline_metric": 1.9329307362701644,
+  "prediction_sha256": "8d974e068169c70e2068cdc59d18dc44912a53044a7abc03fe2378bdf41e79ba"
+}

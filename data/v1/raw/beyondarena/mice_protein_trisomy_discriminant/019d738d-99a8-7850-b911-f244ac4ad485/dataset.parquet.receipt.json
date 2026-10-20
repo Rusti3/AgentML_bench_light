@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mice_protein_trisomy_discriminant/019d738d-99a8-7850-b911-f244ac4ad485/dataset.parquet",
+  "sha256": "e74c67758f31a62e98beec0c6c4c07c94b176a5d2997d634af19e8057621a197",
+  "bytes": 801534,
+  "upstream_sha256": "e74c67758f31a62e98beec0c6c4c07c94b176a5d2997d634af19e8057621a197",
+  "upstream_md5": null,
+  "etag": "\"ceb77c0e518be51465c55abf75efc183ccac8c160e10a47818072d09c1980a04\""
+}

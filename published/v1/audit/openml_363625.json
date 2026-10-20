@@ -1,0 +1,355 @@
+{
+  "audit_version": 1,
+  "task_id": "openml_363625",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "Cement",
+      "BlastFurnaceSlag",
+      "FlyAsh",
+      "Water",
+      "Superplasticizer",
+      "CoarseAggregate",
+      "FineAggregate",
+      "Age"
+    ],
+    "problem_type": "regression",
+    "classes": null,
+    "family_id": "beyond_concrete_compressive_strength",
+    "dataset_fingerprint": "1f567f63f0de9222720f1bf14541f067d886f6d555109a39e6dc4b28651aec98",
+    "protocol_fingerprint": "f9c896b8ec4df66879be9e452a9ef63418addf818ac5f263957c30396496405b",
+    "rows": 1030,
+    "feature_count": 8,
+    "split_count": 30
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 30,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 7
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 16
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 19
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 10
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 16
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 15
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 17
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 12
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 18
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 14
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 15
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 16
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 14
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 18
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 14
+    },
+    {
+      "repeat": 5,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 20
+    },
+    {
+      "repeat": 5,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 14
+    },
+    {
+      "repeat": 5,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 9
+    },
+    {
+      "repeat": 6,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 15
+    },
+    {
+      "repeat": 6,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 13
+    },
+    {
+      "repeat": 6,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 15
+    },
+    {
+      "repeat": 7,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 18
+    },
+    {
+      "repeat": 7,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 16
+    },
+    {
+      "repeat": 7,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 13
+    },
+    {
+      "repeat": 8,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 17
+    },
+    {
+      "repeat": 8,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 18
+    },
+    {
+      "repeat": 8,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 14
+    },
+    {
+      "repeat": 9,
+      "fold": 0,
+      "train_rows": 686,
+      "test_rows": 344,
+      "errors": [],
+      "matching_feature_rows_train_test": 15
+    },
+    {
+      "repeat": 9,
+      "fold": 1,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 21
+    },
+    {
+      "repeat": 9,
+      "fold": 2,
+      "train_rows": 687,
+      "test_rows": 343,
+      "errors": [],
+      "matching_feature_rows_train_test": 11
+    }
+  ],
+  "rows": 1030,
+  "feature_count": 8,
+  "table_bytes": 31354,
+  "types": {
+    "Cement": "double",
+    "BlastFurnaceSlag": "double",
+    "FlyAsh": "double",
+    "Water": "double",
+    "Superplasticizer": "double",
+    "CoarseAggregate": "double",
+    "FineAggregate": "double",
+    "Age": "int64",
+    "ConcreteCompressiveStrength": "double"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "Cement": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 102.0,
+      "max": 540.0
+    },
+    "BlastFurnaceSlag": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 359.4
+    },
+    "FlyAsh": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 200.1
+    },
+    "Water": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 121.75,
+      "max": 247.0
+    },
+    "Superplasticizer": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 32.2
+    },
+    "CoarseAggregate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 801.0,
+      "max": 1145.0
+    },
+    "FineAggregate": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 594.0,
+      "max": 992.6
+    },
+    "Age": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 365.0
+    },
+    "ConcreteCompressiveStrength": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 2.331807832,
+      "max": 82.5992248
+    }
+  },
+  "duplicate_rows": 25,
+  "duplicate_feature_rows": 34,
+  "target_copies": [],
+  "fingerprint": "1f567f63f0de9222720f1bf14541f067d886f6d555109a39e6dc4b28651aec98",
+  "protocol_fingerprint": "f9c896b8ec4df66879be9e452a9ef63418addf818ac5f263957c30396496405b",
+  "seconds": 0.07899999999972351
+}

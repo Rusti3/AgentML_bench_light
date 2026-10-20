@@ -1,0 +1,195 @@
+{
+  "audit_version": 1,
+  "task_id": "openml_361234",
+  "status": "verified",
+  "reasons": [],
+  "warnings": [],
+  "task_updates": {
+    "feature_columns": [
+      "sex",
+      "length",
+      "diameter",
+      "height",
+      "whole_weight",
+      "shucked_weight",
+      "cisvera_weight",
+      "shell_weight"
+    ],
+    "problem_type": "regression",
+    "classes": null,
+    "family_id": "openml_361234",
+    "dataset_fingerprint": "f81106c7f927e79e9880d439594fe816bf056dbd1daecaccc81a3be5ae62b948",
+    "protocol_fingerprint": "1c2bf236b89f0f13e6a7bc2eb96fb050c73da3336e71767c4cf9ef84c560b8a1",
+    "rows": 4177,
+    "feature_count": 8,
+    "split_count": 10
+  },
+  "checks": {
+    "table_checksum": true,
+    "schema": true,
+    "all_source_splits_checked": 10,
+    "target_copy_screen": true,
+    "known_leak_screen": true,
+    "semantic_limit": "Automated and provenance checks cannot prove absence of every possible leakage mechanism"
+  },
+  "split_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 4,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 5,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 6,
+      "train_rows": 3759,
+      "test_rows": 418,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 7,
+      "train_rows": 3760,
+      "test_rows": 417,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 8,
+      "train_rows": 3760,
+      "test_rows": 417,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    },
+    {
+      "repeat": 0,
+      "fold": 9,
+      "train_rows": 3760,
+      "test_rows": 417,
+      "errors": [],
+      "matching_feature_rows_train_test": 0
+    }
+  ],
+  "rows": 4177,
+  "feature_count": 8,
+  "table_bytes": 70654,
+  "types": {
+    "sex": "dictionary<values=string, indices=int32, ordered=1>",
+    "length": "double",
+    "diameter": "double",
+    "height": "double",
+    "whole_weight": "double",
+    "shucked_weight": "double",
+    "cisvera_weight": "double",
+    "shell_weight": "double",
+    "rings": "uint8"
+  },
+  "license": "CC BY 4.0",
+  "license_status": "recognized",
+  "column_statistics": {
+    "sex": {
+      "missing": 0,
+      "infinite": 0,
+      "min": null,
+      "max": null
+    },
+    "length": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.075,
+      "max": 0.815
+    },
+    "diameter": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.055,
+      "max": 0.65
+    },
+    "height": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0,
+      "max": 1.13
+    },
+    "whole_weight": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.002,
+      "max": 2.8255
+    },
+    "shucked_weight": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.001,
+      "max": 1.488
+    },
+    "cisvera_weight": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0005,
+      "max": 0.76
+    },
+    "shell_weight": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 0.0015,
+      "max": 1.005
+    },
+    "rings": {
+      "missing": 0,
+      "infinite": 0,
+      "min": 1.0,
+      "max": 29.0
+    }
+  },
+  "duplicate_rows": 0,
+  "duplicate_feature_rows": 0,
+  "target_copies": [],
+  "fingerprint": "f81106c7f927e79e9880d439594fe816bf056dbd1daecaccc81a3be5ae62b948",
+  "protocol_fingerprint": "1c2bf236b89f0f13e6a7bc2eb96fb050c73da3336e71767c4cf9ef84c560b8a1",
+  "seconds": 0.1720000000004802
+}

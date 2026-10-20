@@ -1,0 +1,19 @@
+{
+  "unique_name": "video_game_fps_prediction",
+  "dataset_year": "2020",
+  "domain_str": "technology & internet",
+  "dataset_source": "OpenML",
+  "original_dataset_source_download_link": "https://www.openml.org/d/44992",
+  "download_description": "\nwget https://api.openml.org/data/download/22111856/file22f1639d20997.arff && mkdir -p local-data-warehouse/video_game_fps_prediction && mv file22f1639d20997.arff local-data-warehouse/video_game_fps_prediction/\n",
+  "academic_reference_bibtex": "@inproceedings{peeters2021performance,\n  title={Performance Prediction for Hardware-Software Configurations: A Case Study for Video Games},\n  author={Peeters, Sven and Melnikov, Vitalik and H{\"\"u}llermeier, Eyke},\n  booktitle={International Symposium on Intelligent Data Analysis},\n  pages={222--234},\n  year={2021},\n  organization={Springer}\n}\n",
+  "academic_reference_bibtex_key": "peeters2021performance",
+  "license": "CC BY",
+  "data_tags": [
+    "Non-IID",
+    "Grouped"
+  ],
+  "curation_comments": "\nWe start with the version from OpenML.\n\n- Following the original work, we do not use CPU and GPU name as features to learn to generalize across the features of CPUs and GPUs.\n- The OpenML version is only data from the FPS benchmark. Thus, we perform on a subset of data points from the original study.\n- We diverge in the way we split from the original work. The task could be split on games (predict FPS from past values of other games to a new game), but there are not features to allow generalization across games. Instead, we split on hardware configuration (CPU-GPU combination). That is, the task is to be given a set of hardware configurations, for which we have values for a set of games, and then we want to predict the performance of a new hardware configuration on the same set of games. The features in the dataset allow this kind of prediction task and it makes sense to use to save on benchmark costs and interpolate missing hardware combinations -- a surrogate model for hardware performance. Along these lines, it might also be a valid task when one assume we have samples of some hardware configurations for some games and want to interpolate the rest. But predicting for a new, unseen hardware configuration seems more realistic.\n- The data has measurement for two cases, the game on medium and the game on max settings. It is unclear if one would build one or two models for this case. In theory, this could also be seen as two labels. We drop the medium setting only keep one task, as this is a less ambiguous task definition.\n- We normalize the FPS to ensure that all target values are on the same scale. By default, FPS values can be in vastly different scales depending on the game, having different distributions. Since, we care about comparing hardware, we can simply predict performance relative to a baseline, as in, how much better is the hardware than some default hardware setting. We normalize and then drop this configuration. In other words, one assumes we always have benchmarked the FPS values for this configuration and all others could be potentially a target during one of the splits. We normalizes with respect to \"NVIDIA GeForce GTX 1060 5 GB\" and \"Intel Core i5-8400\". We compute the relative ratio to this baseline configuration. We then log scale this ratio.\n",
+  "version_from_unique_name": null,
+  "version_comment": null,
+  "type_adapter_id": "dataset-mold-v1"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "repeat": 0,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r0_f0.npz",
+    "sha256": "e3280f23b34daece401cbe74a5578acdf83aacf77afe4cf3a21b8e12b884e2bf"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r0_f1.npz",
+    "sha256": "9626f020e317da7705e94a983000244627e1ba3546dca0ff135493afc36ff515"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r0_f2.npz",
+    "sha256": "6b15eb9ae70b2baeb8e6b029e0f8380d49a322871a2e51006445e97cac8978d9"
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r1_f0.npz",
+    "sha256": "51fe41a731eba01c684b6730d0b13e0ccdcd2d1cc47b2d53c4ce0ec214c661af"
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r1_f1.npz",
+    "sha256": "87ed50130517bc408373fc5c87c3ea35511cf4ee6c430aa1af70a638b9dbe168"
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r1_f2.npz",
+    "sha256": "ceb28da4ace3644cb261a196df07a555c478a3a462f22b35e2c6e3f0957b1c9a"
+  },
+  {
+    "repeat": 2,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r2_f0.npz",
+    "sha256": "cb1a8396430e3028f29019af5e288f3185fc3d93497bf3952ac03bb5e991cc1f"
+  },
+  {
+    "repeat": 2,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r2_f1.npz",
+    "sha256": "af896e9b6b4b64efb94cd8c2062bfa272f9de853a392f5e96c5c6f7014930d83"
+  },
+  {
+    "repeat": 2,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r2_f2.npz",
+    "sha256": "82ae210fa1130f8e0ee5f0f0abe148ad618247ac22cc85ecfbadba691fb41bca"
+  },
+  {
+    "repeat": 3,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r3_f0.npz",
+    "sha256": "a5f1f98bcdd20e7ea732a0241c96f3b1721bf4f3ca6744657e399d4915fb6bae"
+  },
+  {
+    "repeat": 3,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r3_f1.npz",
+    "sha256": "66de0725be9acb3410826df310d111056091451f76276b4a9458770c7b79d7d2"
+  },
+  {
+    "repeat": 3,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r3_f2.npz",
+    "sha256": "74d16f068a2f6bd32e6900397647eecd16562e7bacf11b300b1f660394356fce"
+  },
+  {
+    "repeat": 4,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r4_f0.npz",
+    "sha256": "7270de2b4783951efd6836e24a17e238959e087ab4b5647558912d2934aa45e7"
+  },
+  {
+    "repeat": 4,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r4_f1.npz",
+    "sha256": "acb24bb2daafdcdf6619e6375771904454e1c2e8993b5c5060bbfb246c326130"
+  },
+  {
+    "repeat": 4,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r4_f2.npz",
+    "sha256": "406fb0e2d8746d51355af2eafe5e17f9e4bcdb36db16b843417f7e7d7184dc6d"
+  },
+  {
+    "repeat": 5,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r5_f0.npz",
+    "sha256": "08017813f56ad2b030478d1c98367e6fca221114f987813d753a3c12dd61e8c2"
+  },
+  {
+    "repeat": 5,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r5_f1.npz",
+    "sha256": "47302f482c82d52183fdae0258534f23bf13cba93cb43320cca0e4a887f9a3d3"
+  },
+  {
+    "repeat": 5,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r5_f2.npz",
+    "sha256": "687ffd4284e87ad70f48735a816c2d1d51cfbea4c1fb70ab5de6907a6babc9fd"
+  },
+  {
+    "repeat": 6,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r6_f0.npz",
+    "sha256": "c4951acb7754c68a98d063d85710ba294ce908678ac5180b8b16a3ce287df446"
+  },
+  {
+    "repeat": 6,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r6_f1.npz",
+    "sha256": "8ebed67104c17007437a66fed4ab99ef83d30d5192ccd5de1bbdf3119200fcfb"
+  },
+  {
+    "repeat": 6,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r6_f2.npz",
+    "sha256": "d9f08d2450233bfd6a09de089aa8e92b3230242bec149798b68e114800ace2fc"
+  },
+  {
+    "repeat": 7,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r7_f0.npz",
+    "sha256": "f9b63be1165d7bb29f25d58825af7dce5a74af9e8165816448836a758afdbe35"
+  },
+  {
+    "repeat": 7,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r7_f1.npz",
+    "sha256": "521a1913344a85c0c0344dcf2082e57918502c089ca8896af073269eac8941bf"
+  },
+  {
+    "repeat": 7,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r7_f2.npz",
+    "sha256": "94b1cfce6786d3dd0eee8f60de5426b7399579c4b72efd4ce53daf92789e193b"
+  },
+  {
+    "repeat": 8,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r8_f0.npz",
+    "sha256": "679bb257eb6d7c59e4400ea32d4cb68ff3803f420f56ddb8e1b5442a0cbd3e1e"
+  },
+  {
+    "repeat": 8,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r8_f1.npz",
+    "sha256": "7a8c7b1ba57b22e7931f4c7c3f95bfdc6aefc8659d028df212778ce7495551dc"
+  },
+  {
+    "repeat": 8,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r8_f2.npz",
+    "sha256": "b8db96aa1cf87aa28ff5dd7f7ad2cde6f66237dd09eefc1ea9f7d932cb3aad9b"
+  },
+  {
+    "repeat": 9,
+    "fold": 0,
+    "path": "data/v1/raw/openml_tasks/363625/r9_f0.npz",
+    "sha256": "23e5304f92f8391071b4b5da48ee07797e4cf7094a778007dff861a546380036"
+  },
+  {
+    "repeat": 9,
+    "fold": 1,
+    "path": "data/v1/raw/openml_tasks/363625/r9_f1.npz",
+    "sha256": "c57342c7e4c3b85210d639df1070e3bdeb459bcee909f4bd908aabc5b6ceb29a"
+  },
+  {
+    "repeat": 9,
+    "fold": 2,
+    "path": "data/v1/raw/openml_tasks/363625/r9_f2.npz",
+    "sha256": "b82f7f549e0eb3af4645384fa137792d1411ce95d040e65e67dd471e383579a1"
+  }
+]
